@@ -16,6 +16,8 @@ A quadratic equation has degree two. Factorisation or the quadratic formula find
 
 **Objectives:** solve by prescribed methods; interpret the discriminant; model simple area or number situations.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–3 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 Standard form is $ax^2+bx+c=0$, $a\ne0$. Roots are values satisfying the equation. For discriminant $D=b^2-4ac$: $D>0$ gives two distinct real roots; $D=0$ gives equal real roots; $D<0$ gives no real roots.
 

@@ -16,6 +16,8 @@ Tangents touch a circle at one point. Their relation to radii gives useful perpe
 
 **Objectives:** state and prove the radius-tangent theorem; prove equal tangents from an external point; solve length problems.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit IV (Geometry) carries **15 marks** in the supplied, unverified blueprint. Allow roughly **5–8 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - A tangent meets a circle at exactly one point; that point is the point of contact.
 - **Theorem:** The tangent at any point of a circle is perpendicular to the radius through the point.

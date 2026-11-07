@@ -16,6 +16,8 @@ A pair of linear equations represents two lines. Their intersection, coincidence
 
 **Objectives:** classify pairs; solve graphically, by substitution, and by elimination; model simple situations.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–3 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 For $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$:
 - Unique solution if $\frac{a_1}{a_2}\ne\frac{b_1}{b_2}$ (intersecting lines).

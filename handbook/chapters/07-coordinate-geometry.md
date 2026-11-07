@@ -16,6 +16,8 @@ Coordinate formulas turn geometric questions into calculations with ordered pair
 
 **Objectives:** calculate distances; find an internally dividing point; use the midpoint as a special case.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit III (Coordinate Geometry) carries **6 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 The distance formula follows from Pythagoras: horizontal change is $x_2-x_1$, vertical change is $y_2-y_1$. Section formula uses a weighted average, with the nearer endpoint receiving the larger weight.
 

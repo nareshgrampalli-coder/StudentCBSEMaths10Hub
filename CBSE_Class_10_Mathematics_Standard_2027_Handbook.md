@@ -101,6 +101,8 @@ Prime factorisation reveals the structure of whole numbers. Use it to compare di
 
 **Objectives:** apply the Fundamental Theorem of Arithmetic; find HCF/LCM; construct a contradiction proof of irrationality.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit I carries **6 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - A prime has exactly two positive factors, 1 and itself. Every composite integer greater than 1 is a product of primes.
 - **Fundamental Theorem of Arithmetic:** this prime factorisation is unique apart from the order of factors.
@@ -213,6 +215,8 @@ Polynomial zeros are the inputs where its value is zero. For a quadratic, they a
 
 **Objectives:** identify zeros from graphs or algebra; use and verify the zero-coefficient relationships; construct a quadratic from given zeros.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - A zero of $p(x)$ is a value $r$ for which $p(r)=0$. Graphically it is an x-coordinate where the curve meets or touches the x-axis.
 - For $ax^2+bx+c$, with zeros $\alpha,\beta$, $\alpha+\beta=-b/a$ and $\alpha\beta=c/a$.
@@ -321,6 +325,8 @@ Zeros satisfy $p(r)=0$. For a quadratic, sum $=-b/a$, product $=c/a$. The monic 
 A pair of linear equations represents two lines. Their intersection, coincidence, or separation describes the number of solutions.
 
 **Objectives:** classify pairs; solve graphically, by substitution, and by elimination; model simple situations.
+
+**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–3 questions/subparts** for this chapter in an 80-mark paper.
 
 ### B. Important concepts and explanations
 For $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$:
@@ -442,6 +448,8 @@ A quadratic equation has degree two. Factorisation or the quadratic formula find
 
 **Objectives:** solve by prescribed methods; interpret the discriminant; model simple area or number situations.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–3 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 Standard form is $ax^2+bx+c=0$, $a\ne0$. Roots are values satisfying the equation. For discriminant $D=b^2-4ac$: $D>0$ gives two distinct real roots; $D=0$ gives equal real roots; $D<0$ gives no real roots.
 
@@ -555,6 +563,8 @@ An arithmetic progression (AP) adds the same common difference at each step. Its
 
 **Objectives:** identify an AP; find terms, number of terms, and sums; model repeated increases or decreases.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 An AP has terms $a,a+d,a+2d,\ldots$, where $a$ is first term and $d$ common difference. Subtract consecutive terms to test whether the difference is constant.
 
@@ -655,6 +665,8 @@ Constant consecutive difference defines an AP. Use $a+(n-1)d$ for one term and t
 Similar triangles have the same shape: corresponding angles are equal and corresponding sides are proportional. Proportionality links geometry to measurement.
 
 **Objectives:** apply similarity criteria; prove and use BPT and its converse; compare areas of similar triangles.
+
+**Exam planning estimate (not an official chapter-wise allocation):** Unit IV (Geometry) carries **15 marks** in the supplied, unverified blueprint. Allow roughly **7–10 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
 
 ### B. Important concepts and explanations
 - AA similarity: two corresponding angles equal. SSS: corresponding sides proportional. SAS: included angle equal and surrounding sides proportional.
@@ -773,6 +785,8 @@ Coordinate formulas turn geometric questions into calculations with ordered pair
 
 **Objectives:** calculate distances; find an internally dividing point; use the midpoint as a special case.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit III (Coordinate Geometry) carries **6 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 The distance formula follows from Pythagoras: horizontal change is $x_2-x_1$, vertical change is $y_2-y_1$. Section formula uses a weighted average, with the nearer endpoint receiving the larger weight.
 
@@ -873,6 +887,8 @@ Distance is the Pythagorean length. Internal section coordinates are weighted av
 Trigonometric ratios compare sides of a right triangle relative to an acute angle.
 
 **Objectives:** define six ratios; recall standard values; use reciprocal relationships and the fundamental identity.
+
+**Exam planning estimate (not an official chapter-wise allocation):** Unit V (Trigonometry) carries **12 marks** in the supplied, unverified blueprint. Allow roughly **6–9 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
 
 ### B. Important concepts and explanations
 Relative to angle $A$, opposite, adjacent, and hypotenuse identify sides. $\sin A=O/H$, $\cos A=A/H$, $\tan A=O/A$; cosec, sec, and cot are reciprocals. Ratios depend on the angle, not the triangle's size.
@@ -995,6 +1011,8 @@ Angles of elevation and depression connect a line of sight to a right-triangle m
 
 **Objectives:** draw a labelled diagram; choose a ratio; solve situations involving at most two right triangles.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit V (Trigonometry) carries **12 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - The line of sight joins the observer's eye to the object.
 - Elevation is measured upward from the horizontal; depression is measured downward.
@@ -1105,6 +1123,8 @@ Translate the wording into a right triangle. Elevation/depression is relative to
 Tangents touch a circle at one point. Their relation to radii gives useful perpendicularity and equal-length results.
 
 **Objectives:** state and prove the radius-tangent theorem; prove equal tangents from an external point; solve length problems.
+
+**Exam planning estimate (not an official chapter-wise allocation):** Unit IV (Geometry) carries **15 marks** in the supplied, unverified blueprint. Allow roughly **5–8 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
 
 ### B. Important concepts and explanations
 - A tangent meets a circle at exactly one point; that point is the point of contact.
@@ -1220,6 +1240,8 @@ Circle measures extend to sectors, arcs, segments, and composite shapes. A secto
 
 **Objectives:** calculate circumference, area, arc length, sector area, segment area, and composite perimeter.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit VI (Mensuration) carries **10 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 A sector is bounded by two radii and an arc. A segment is bounded by a chord and its corresponding arc. Segment area is sector area minus the triangle formed by the radii and chord.
 
@@ -1328,6 +1350,8 @@ Circle area is $\pi r^2$; circumference is $2\pi r$. Sector and arc are the corr
 Solid geometry measures exposed surfaces and capacity. For combined solids, count only the surfaces visible on the outside.
 
 **Objectives:** recall formulas; convert units; handle combinations of two prescribed solids and practical contexts.
+
+**Exam planning estimate (not an official chapter-wise allocation):** Unit VI (Mensuration) carries **10 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
 
 ### B. Important concepts and explanations
 - Curved/lateral surface area excludes circular or polygonal ends; total surface area includes exposed faces.
@@ -1445,6 +1469,8 @@ Grouped data summarises many observations in intervals. Mean, median, and mode d
 
 **Objectives:** find class marks; calculate mean by three methods; identify median/modal classes; calculate grouped median and mode; interpret results.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit VII (Statistics and Probability) carries **11 marks** in the supplied, unverified blueprint. Allow roughly **6–8 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - Class mark $x_i=(\text{lower limit}+\text{upper limit})/2$.
 - Direct mean uses $\sum f_ix_i/\sum f_i$.
@@ -1558,6 +1584,8 @@ Mean is frequency-weighted average. Median locates the middle via cumulative fre
 Classical probability compares favourable equally likely outcomes with all possible outcomes.
 
 **Objectives:** define experiments, outcomes, and events; calculate simple probabilities; use complements; check bounds.
+
+**Exam planning estimate (not an official chapter-wise allocation):** Unit VII (Statistics and Probability) carries **11 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
 
 ### B. Important concepts and explanations
 - A random experiment has an uncertain outcome from a known set of possibilities.

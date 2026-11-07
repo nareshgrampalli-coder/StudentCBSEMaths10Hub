@@ -16,6 +16,8 @@ Angles of elevation and depression connect a line of sight to a right-triangle m
 
 **Objectives:** draw a labelled diagram; choose a ratio; solve situations involving at most two right triangles.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit V (Trigonometry) carries **12 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - The line of sight joins the observer's eye to the object.
 - Elevation is measured upward from the horizontal; depression is measured downward.

@@ -16,6 +16,8 @@ Solid geometry measures exposed surfaces and capacity. For combined solids, coun
 
 **Objectives:** recall formulas; convert units; handle combinations of two prescribed solids and practical contexts.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit VI (Mensuration) carries **10 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - Curved/lateral surface area excludes circular or polygonal ends; total surface area includes exposed faces.
 - When two solids are joined along a face, that joined face is internal and is not included in the outside surface area.

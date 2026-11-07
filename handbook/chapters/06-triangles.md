@@ -16,6 +16,8 @@ Similar triangles have the same shape: corresponding angles are equal and corres
 
 **Objectives:** apply similarity criteria; prove and use BPT and its converse; compare areas of similar triangles.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit IV (Geometry) carries **15 marks** in the supplied, unverified blueprint. Allow roughly **7–10 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - AA similarity: two corresponding angles equal. SSS: corresponding sides proportional. SAS: included angle equal and surrounding sides proportional.
 - **BPT:** A line parallel to one side of a triangle divides the other two sides in the same ratio.

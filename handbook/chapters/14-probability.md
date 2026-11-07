@@ -16,6 +16,8 @@ Classical probability compares favourable equally likely outcomes with all possi
 
 **Objectives:** define experiments, outcomes, and events; calculate simple probabilities; use complements; check bounds.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit VII (Statistics and Probability) carries **11 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - A random experiment has an uncertain outcome from a known set of possibilities.
 - An event is a set of outcomes. In the classical model, outcomes must be equally likely.

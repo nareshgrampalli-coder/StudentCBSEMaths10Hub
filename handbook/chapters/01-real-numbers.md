@@ -16,6 +16,8 @@ Prime factorisation reveals the structure of whole numbers. Use it to compare di
 
 **Objectives:** apply the Fundamental Theorem of Arithmetic; find HCF/LCM; construct a contradiction proof of irrationality.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit I carries **6 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - A prime has exactly two positive factors, 1 and itself. Every composite integer greater than 1 is a product of primes.
 - **Fundamental Theorem of Arithmetic:** this prime factorisation is unique apart from the order of factors.

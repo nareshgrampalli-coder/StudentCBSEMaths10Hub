@@ -16,6 +16,8 @@ Circle measures extend to sectors, arcs, segments, and composite shapes. A secto
 
 **Objectives:** calculate circumference, area, arc length, sector area, segment area, and composite perimeter.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit VI (Mensuration) carries **10 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 A sector is bounded by two radii and an arc. A segment is bounded by a chord and its corresponding arc. Segment area is sector area minus the triangle formed by the radii and chord.
 

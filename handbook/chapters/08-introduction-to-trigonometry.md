@@ -16,6 +16,8 @@ Trigonometric ratios compare sides of a right triangle relative to an acute angl
 
 **Objectives:** define six ratios; recall standard values; use reciprocal relationships and the fundamental identity.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit V (Trigonometry) carries **12 marks** in the supplied, unverified blueprint. Allow roughly **6–9 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 Relative to angle $A$, opposite, adjacent, and hypotenuse identify sides. $\sin A=O/H$, $\cos A=A/H$, $\tan A=O/A$; cosec, sec, and cot are reciprocals. Ratios depend on the angle, not the triangle's size.
 

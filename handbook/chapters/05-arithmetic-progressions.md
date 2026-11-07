@@ -16,6 +16,8 @@ An arithmetic progression (AP) adds the same common difference at each step. Its
 
 **Objectives:** identify an AP; find terms, number of terms, and sums; model repeated increases or decreases.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 An AP has terms $a,a+d,a+2d,\ldots$, where $a$ is first term and $d$ common difference. Subtract consecutive terms to test whether the difference is constant.
 

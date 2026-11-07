@@ -16,6 +16,8 @@ Polynomial zeros are the inputs where its value is zero. For a quadratic, they a
 
 **Objectives:** identify zeros from graphs or algebra; use and verify the zero-coefficient relationships; construct a quadratic from given zeros.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - A zero of $p(x)$ is a value $r$ for which $p(r)=0$. Graphically it is an x-coordinate where the curve meets or touches the x-axis.
 - For $ax^2+bx+c$, with zeros $\alpha,\beta$, $\alpha+\beta=-b/a$ and $\alpha\beta=c/a$.

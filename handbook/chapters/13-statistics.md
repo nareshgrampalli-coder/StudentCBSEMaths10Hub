@@ -16,6 +16,8 @@ Grouped data summarises many observations in intervals. Mean, median, and mode d
 
 **Objectives:** find class marks; calculate mean by three methods; identify median/modal classes; calculate grouped median and mode; interpret results.
 
+**Exam planning estimate (not an official chapter-wise allocation):** Unit VII (Statistics and Probability) carries **11 marks** in the supplied, unverified blueprint. Allow roughly **6–8 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
+
 ### B. Important concepts and explanations
 - Class mark $x_i=(\text{lower limit}+\text{upper limit})/2$.
 - Direct mean uses $\sum f_ix_i/\sum f_i$.
