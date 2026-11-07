@@ -32,6 +32,7 @@ Every step adds the same common difference $d$; $d$ can also be negative.
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Name | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | $n$th term | $a_n=a+(n-1)d$ | $a$ first term; $d$ common difference; $n\ge1$ | Find a specified term or term number |

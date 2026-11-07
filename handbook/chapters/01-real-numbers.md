@@ -37,6 +37,7 @@ The leaves are prime, so $60=2^2\cdot3\cdot5$.
 ### C. Formula and theorem sheet
 
 #### Formulae and number facts
+
 | Name | Formula / fact | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Prime factorisation | $n=p_1^{a_1}\cdots p_k^{a_k}$ | Distinct primes $p_i$, positive integer exponents $a_i$, and $n>1$ | Express an integer as prime powers |

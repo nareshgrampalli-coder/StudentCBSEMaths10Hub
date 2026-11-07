@@ -32,6 +32,7 @@ The section formula weights the coordinates of $B$ by $m$ and those of $A$ by $n
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Name | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Distance | $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ | Points $(x_1,y_1)$ and $(x_2,y_2)$ | Find the straight-line distance |

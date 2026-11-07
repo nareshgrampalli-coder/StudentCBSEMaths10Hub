@@ -35,6 +35,7 @@ For a fair coin, the two outcomes are equally likely; an event may contain one o
 ### C. Formula and theorem sheet
 
 #### Formulae and properties
+
 | Name | Formula / property | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Classical probability | $P(E)=\frac{n(E)}{n(S)}$ | Finite sample space $S$ with equally likely outcomes; $n(E)$ counts favourable outcomes | Find an event's probability by counting |

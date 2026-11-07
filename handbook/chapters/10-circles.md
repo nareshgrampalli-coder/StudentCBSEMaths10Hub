@@ -39,12 +39,14 @@ The tangent touches the circle at $T$; radius $OT$ is perpendicular to the tange
 ### C. Formula and theorem sheet
 
 #### Theorems
+
 | Theorem | Statement | Proof / conditions |
 | --- | --- | --- |
 | Radius–tangent theorem | The tangent at any point of a circle is perpendicular to the radius through the point of contact | Proof required; if $PT$ is tangent at $T$, then $OT\perp PT$ |
 | Equal tangents theorem | Tangents drawn from an external point to a circle are equal in length | Proof required; if $PA$ and $PB$ are tangents from $P$, then $PA=PB$ |
 
 #### Useful relation
+
 | Situation | Relationship | When to use |
 | --- | --- | --- |
 | Radius and tangent length | $r^2+t^2=OP^2$ | Right triangle formed by centre $O$, contact point, and external point $P$ |

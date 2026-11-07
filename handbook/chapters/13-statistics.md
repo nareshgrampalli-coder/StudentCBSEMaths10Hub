@@ -40,6 +40,7 @@ The tallest bar identifies the modal class; cumulative frequencies are used to l
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Measure / method | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Class mark | $x_i=\frac{\text{lower limit}+\text{upper limit}}2$ | Midpoint of class $i$ | Represent a class by one value |

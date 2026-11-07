@@ -36,6 +36,7 @@ The right angle is at $B$; for angle $A$, the opposite side is $BC$ and the adja
 ### C. Formula and theorem sheet
 
 #### Trigonometric ratios
+
 | Ratio | Definition | Conditions |
 | --- | --- | --- |
 | $\sin A$ | $\frac{O}{H}$ | Acute angle in a right triangle |
@@ -52,6 +53,7 @@ The right angle is at $B$; for angle $A$, the opposite side is $BC$ and the adja
 | $\tan$ | 0 | $1/\sqrt3$ | 1 | $\sqrt3$ | undefined |
 
 #### Identity
+
 | Name | Identity | Use |
 | --- | --- | --- |
 | Fundamental identity | $\sin^2A+\cos^2A=1$ | Relate sine and cosine or verify a simple identity |

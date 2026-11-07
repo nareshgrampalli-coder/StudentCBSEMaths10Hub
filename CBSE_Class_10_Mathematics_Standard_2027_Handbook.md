@@ -122,6 +122,7 @@ The leaves are prime, so $60=2^2\cdot3\cdot5$.
 ### C. Formula and theorem sheet
 
 #### Formulae and number facts
+
 | Name | Formula / fact | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Prime factorisation | $n=p_1^{a_1}\cdots p_k^{a_k}$ | Distinct primes $p_i$, positive integer exponents $a_i$, and $n>1$ | Express an integer as prime powers |
@@ -232,6 +233,7 @@ The curve meets the x-axis at $\alpha$ and $\beta$; those x-coordinates are its 
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Name | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Sum of zeros | $\alpha+\beta=-b/a$ | For $ax^2+bx+c$, $a\ne0$ | Check or find the sum of the two zeros |
@@ -342,6 +344,7 @@ Two non-parallel lines meet at one point. Parallel distinct lines do not meet; c
 ### C. Formula and theorem sheet
 
 #### Consistency test
+
 | Pair of lines | Coefficient condition | Number of solutions |
 | --- | --- | --- |
 | Intersecting | $\frac{a_1}{a_2}\ne\frac{b_1}{b_2}$ | One |
@@ -351,6 +354,7 @@ Two non-parallel lines meet at one point. Parallel distinct lines do not meet; c
 These ratio forms assume the denominators are non-zero; when they are not, compare coefficients by cross-multiplication.
 
 #### Solution methods
+
 | Method | Main step | Best used when |
 | --- | --- | --- |
 | Substitution | Isolate one variable and substitute into the other equation | A variable is easy to isolate |
@@ -456,12 +460,14 @@ For this downward-opening sketch, the two x-intercepts represent two distinct re
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Name | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Quadratic formula | $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ | $ax^2+bx+c=0$, $a\ne0$ | Find roots when factorisation is inconvenient |
 | Discriminant | $D=b^2-4ac$ | $a,b,c$ are coefficients in standard form | Determine the nature of real roots |
 
 #### Root classification
+
 | Discriminant | Nature of roots |
 | --- | --- |
 | $D>0$ | Two distinct real roots |
@@ -565,6 +571,7 @@ Every step adds the same common difference $d$; $d$ can also be negative.
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Name | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | $n$th term | $a_n=a+(n-1)d$ | $a$ first term; $d$ common difference; $n\ge1$ | Find a specified term or term number |
@@ -671,12 +678,14 @@ With $D$ on $AB$ and $E$ on $AC$, the parallel segment creates corresponding sid
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Name | Relationship | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | BPT ratio | $\frac{AD}{DB}=\frac{AE}{EC}$ | In $\triangle ABC$, $D$ lies on $AB$, $E$ on $AC$, and $DE\parallel BC$ | Find a missing side segment |
 | Similar-triangle area ratio | $\frac{[\triangle_1]}{[\triangle_2]}=(\frac{\text{corresponding side}_1}{\text{corresponding side}_2})^2$ | Triangles are similar and sides are in matching order | Compare areas from a side ratio |
 
 #### Theorems and similarity criteria
+
 | Result | Statement | Proof / use |
 | --- | --- | --- |
 | Basic Proportionality Theorem | A line parallel to one side of a triangle divides the other two sides in the same ratio | Proof required; use when a parallel segment is given |
@@ -780,6 +789,7 @@ The section formula weights the coordinates of $B$ by $m$ and those of $A$ by $n
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Name | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Distance | $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ | Points $(x_1,y_1)$ and $(x_2,y_2)$ | Find the straight-line distance |
@@ -884,6 +894,7 @@ The right angle is at $B$; for angle $A$, the opposite side is $BC$ and the adja
 ### C. Formula and theorem sheet
 
 #### Trigonometric ratios
+
 | Ratio | Definition | Conditions |
 | --- | --- | --- |
 | $\sin A$ | $\frac{O}{H}$ | Acute angle in a right triangle |
@@ -900,6 +911,7 @@ The right angle is at $B$; for angle $A$, the opposite side is $BC$ and the adja
 | $\tan$ | 0 | $1/\sqrt3$ | 1 | $\sqrt3$ | undefined |
 
 #### Identity
+
 | Name | Identity | Use |
 | --- | --- | --- |
 | Fundamental identity | $\sin^2A+\cos^2A=1$ | Relate sine and cosine or verify a simple identity |
@@ -1006,6 +1018,7 @@ Here $O$ is the observer and $B$ the tower base. For level ground, $\tan\theta=h
 ### C. Formula and theorem sheet
 
 #### Ratios used in height-and-distance models
+
 | Name | Relationship | Conditions | Use |
 | --- | --- | --- | --- |
 | Tangent | $\tan\theta=\frac{\text{vertical height}}{\text{horizontal distance}}$ | Right triangle; $\theta$ measured from horizontal | Find height or horizontal distance |
@@ -1116,12 +1129,14 @@ The tangent touches the circle at $T$; radius $OT$ is perpendicular to the tange
 ### C. Formula and theorem sheet
 
 #### Theorems
+
 | Theorem | Statement | Proof / conditions |
 | --- | --- | --- |
 | Radius–tangent theorem | The tangent at any point of a circle is perpendicular to the radius through the point of contact | Proof required; if $PT$ is tangent at $T$, then $OT\perp PT$ |
 | Equal tangents theorem | Tangents drawn from an external point to a circle are equal in length | Proof required; if $PA$ and $PB$ are tangents from $P$, then $PA=PB$ |
 
 #### Useful relation
+
 | Situation | Relationship | When to use |
 | --- | --- | --- |
 | Radius and tangent length | $r^2+t^2=OP^2$ | Right triangle formed by centre $O$, contact point, and external point $P$ |
@@ -1226,6 +1241,7 @@ The sector is bounded by $OA$, $OB$, and the arc $AB$. The minor segment lies be
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Quantity | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Circumference | $2\pi r$ | $r$ is radius | Length around a full circle |
@@ -1453,6 +1469,7 @@ The tallest bar identifies the modal class; cumulative frequencies are used to l
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Measure / method | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Class mark | $x_i=\frac{\text{lower limit}+\text{upper limit}}2$ | Midpoint of class $i$ | Represent a class by one value |
@@ -1561,6 +1578,7 @@ For a fair coin, the two outcomes are equally likely; an event may contain one o
 ### C. Formula and theorem sheet
 
 #### Formulae and properties
+
 | Name | Formula / property | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Classical probability | $P(E)=\frac{n(E)}{n(S)}$ | Finite sample space $S$ with equally likely outcomes; $n(E)$ counts favourable outcomes | Find an event's probability by counting |

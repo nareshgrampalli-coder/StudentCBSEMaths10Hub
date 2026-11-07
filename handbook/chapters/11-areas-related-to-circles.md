@@ -37,6 +37,7 @@ The sector is bounded by $OA$, $OB$, and the arc $AB$. The minor segment lies be
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Quantity | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Circumference | $2\pi r$ | $r$ is radius | Length around a full circle |

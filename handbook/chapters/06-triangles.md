@@ -38,12 +38,14 @@ With $D$ on $AB$ and $E$ on $AC$, the parallel segment creates corresponding sid
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Name | Relationship | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | BPT ratio | $\frac{AD}{DB}=\frac{AE}{EC}$ | In $\triangle ABC$, $D$ lies on $AB$, $E$ on $AC$, and $DE\parallel BC$ | Find a missing side segment |
 | Similar-triangle area ratio | $\frac{[\triangle_1]}{[\triangle_2]}=(\frac{\text{corresponding side}_1}{\text{corresponding side}_2})^2$ | Triangles are similar and sides are in matching order | Compare areas from a side ratio |
 
 #### Theorems and similarity criteria
+
 | Result | Statement | Proof / use |
 | --- | --- | --- |
 | Basic Proportionality Theorem | A line parallel to one side of a triangle divides the other two sides in the same ratio | Proof required; use when a parallel segment is given |

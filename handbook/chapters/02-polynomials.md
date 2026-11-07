@@ -36,6 +36,7 @@ The curve meets the x-axis at $\alpha$ and $\beta$; those x-coordinates are its 
 ### C. Formula and theorem sheet
 
 #### Formulae
+
 | Name | Formula | Meaning and conditions | When to use |
 | --- | --- | --- | --- |
 | Sum of zeros | $\alpha+\beta=-b/a$ | For $ax^2+bx+c$, $a\ne0$ | Check or find the sum of the two zeros |

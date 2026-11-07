@@ -39,6 +39,7 @@ Here $O$ is the observer and $B$ the tower base. For level ground, $\tan\theta=h
 ### C. Formula and theorem sheet
 
 #### Ratios used in height-and-distance models
+
 | Name | Relationship | Conditions | Use |
 | --- | --- | --- | --- |
 | Tangent | $\tan\theta=\frac{\text{vertical height}}{\text{horizontal distance}}$ | Right triangle; $\theta$ measured from horizontal | Find height or horizontal distance |

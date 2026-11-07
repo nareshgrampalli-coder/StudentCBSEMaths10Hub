@@ -38,6 +38,7 @@ Two non-parallel lines meet at one point. Parallel distinct lines do not meet; c
 ### C. Formula and theorem sheet
 
 #### Consistency test
+
 | Pair of lines | Coefficient condition | Number of solutions |
 | --- | --- | --- |
 | Intersecting | $\frac{a_1}{a_2}\ne\frac{b_1}{b_2}$ | One |
@@ -47,6 +48,7 @@ Two non-parallel lines meet at one point. Parallel distinct lines do not meet; c
 These ratio forms assume the denominators are non-zero; when they are not, compare coefficients by cross-multiplication.
 
 #### Solution methods
+
 | Method | Main step | Best used when |
 | --- | --- | --- |
 | Substitution | Isolate one variable and substitute into the other equation | A variable is easy to isolate |
