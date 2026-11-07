@@ -44,7 +44,7 @@ for (let chapter = 1; chapter <= 14; chapter += 1) {
     failures.push(`Source chapter ${number} is missing.`);
     continue;
   }
-  const slug = chapterFile.slice(3, -3);
+  const slug = chapterFile.slice(0, -3);
   const file = `handbook/chapters/${slug}/index.html`;
   try {
     const html = await rendered(file);
