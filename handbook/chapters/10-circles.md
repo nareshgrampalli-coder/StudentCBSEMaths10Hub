@@ -1,0 +1,88 @@
+## Chapter 10: Circles
+
+### A. Chapter overview
+Tangents touch a circle at one point. Their relation to radii gives useful perpendicularity and equal-length results.
+
+**Objectives:** state and prove the radius-tangent theorem; prove equal tangents from an external point; solve length problems.
+
+### B. Important concepts and explanations
+- A tangent meets a circle at exactly one point; that point is the point of contact.
+- **Theorem:** The tangent at any point of a circle is perpendicular to the radius through the point.
+- Proof: if the tangent line were not perpendicular to radius $OP$, the perpendicular from centre $O$ to the line would have length less than $OP=r$. The foot would then be inside the circle, making the line intersect the circle at two points, contradicting tangency.
+- **Equal tangents theorem:** tangents from an external point have equal lengths. Join the centre to both contact points; the two right triangles have equal hypotenuse (radii) and common hypotenuse from centre to external point, hence are congruent by RHS.
+
+### C. Formula and theorem sheet
+| Result | Statement | Use |
+|---|---|---|
+| Radius and tangent | $OP\perp PT$ | $PT$ tangent at $P$ |
+| Equal tangents | $PA=PB$ | Tangents from external point $P$ |
+
+### D. Solved board-style examples
+**Example 1: Tangent length**
+
+**Question:** A circle has radius 5 cm. An external point is 13 cm from the centre. Find the tangent length.
+
+**Concept used:** Right triangle at point of contact.
+
+**Solution:**
+1. Radius is perpendicular to tangent, so $t^2+5^2=13^2$.
+2. $t^2=144$, so $t=12$ (length is positive).
+
+**Final answer:** **12 cm.**
+
+**Exam tip:** Join the centre to the contact point before using Pythagoras.
+
+**Example 2: Equal tangents**
+
+**Question:** From point $P$, two tangents touch a circle at $A$ and $B$. If $PA=3x+1$ and $PB=5x-7$, find $x$ and tangent length.
+
+**Concept used:** Equal tangents theorem.
+
+**Solution:**
+1. $3x+1=5x-7$.
+2. $8=2x$, so $x=4$.
+3. Each tangent is $3(4)+1=13$.
+
+**Final answer:** **$x=4$; each tangent is 13 units.**
+
+**Exam tip:** Equate lengths, then substitute back to report the length.
+
+**Example 3: Perpendicular angle**
+
+**Question:** A tangent touches a circle at $T$; $O$ is the centre. State $\angle OTP$ if $P$ lies on the tangent.
+
+**Concept used:** Radius-tangent theorem.
+
+**Solution:**
+1. The radius $OT$ is perpendicular to the tangent at $T$.
+2. Therefore the angle between $OT$ and $TP$ is a right angle.
+
+**Final answer:** **$90^\circ$.**
+
+**Exam tip:** The perpendicular relation is at the contact point.
+
+### E. Common examination mistakes
+- Drawing a radius to an arbitrary point rather than the contact point.
+- Applying equal tangents to segments that do not share an external endpoint.
+- Taking a negative square root for a length.
+- Claiming a tangent is perpendicular to a chord.
+- Omitting the congruence reason in the equal-tangents proof.
+
+### F. Exam tips and problem-solving strategy
+Mark the contact points and right angles first. State the theorem used, then use Pythagoras or equal lengths. In proofs, list the matching sides and angles and name RHS.
+
+### G. Quick revision summary
+Radius to contact point is perpendicular to tangent. Tangents from the same external point are equal.
+
+### H. Chapter-end revision checklist
+- [ ] I can state and prove radius-tangent perpendicularity.
+- [ ] I can prove equal tangent lengths using RHS.
+- [ ] I can find tangent lengths with Pythagoras.
+- [ ] I can identify the external point correctly.
+
+### I. Practice questions
+1. Radius 8 cm; centre-to-external-point distance 17 cm. Find tangent length.
+2. Two tangent lengths from $P$ are $2x+9$ and $5x$. Find $x$ and their common length.
+3. What angle does a radius make with the tangent at contact?
+
+**Answers / hints:** 1. 15 cm. 2. $x=3$, length 15. 3. $90^\circ$.

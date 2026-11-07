@@ -1,0 +1,85 @@
+## Chapter 7: Coordinate Geometry
+
+### A. Chapter overview
+Coordinate formulas turn geometric questions into calculations with ordered pairs.
+
+**Objectives:** calculate distances; find an internally dividing point; use the midpoint as a special case.
+
+### B. Important concepts and explanations
+The distance formula follows from Pythagoras: horizontal change is $x_2-x_1$, vertical change is $y_2-y_1$. Section formula uses a weighted average, with the nearer endpoint receiving the larger weight.
+
+### C. Formula and theorem sheet
+| Result | Formula | Use |
+|---|---|---|
+| Distance | $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ | Length between points |
+| Internal section | $(\frac{mx_2+nx_1}{m+n},\frac{my_2+ny_1}{m+n})$ | $P$ divides $A(x_1,y_1),B(x_2,y_2)$ in $m:n$ |
+| Midpoint | $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$ | Ratio $1:1$ |
+
+### D. Solved board-style examples
+**Example 1: Distance**
+
+**Question:** Find the distance between $(1,2)$ and $(4,6)$.
+
+**Concept used:** Distance formula.
+
+**Solution:**
+1. $d=\sqrt{(4-1)^2+(6-2)^2}$.
+2. $d=\sqrt{9+16}=5$.
+
+**Final answer:** **5 units.**
+
+**Exam tip:** Square the signed differences; their signs do not affect the result.
+
+**Example 2: Internal division**
+
+**Question:** Find the point dividing $A(1,2)$ and $B(7,8)$ in ratio $1:2$.
+
+**Concept used:** Section formula.
+
+**Solution:**
+1. $m=1,n=2$.
+2. Coordinates are $(\frac{1(7)+2(1)}3,\frac{1(8)+2(2)}3)$.
+3. The point is $(3,4)$.
+
+**Final answer:** **$(3,4)$.**
+
+**Exam tip:** State clearly which endpoint is associated with $m$.
+
+**Example 3: Midpoint**
+
+**Question:** Find the midpoint of $(-2,5)$ and $(6,1)$.
+
+**Concept used:** Midpoint formula.
+
+**Solution:**
+1. Average the x-coordinates: $(-2+6)/2=2$.
+2. Average the y-coordinates: $(5+1)/2=3$.
+
+**Final answer:** **$(2,3)$.**
+
+**Exam tip:** Average coordinates separately.
+
+### E. Common examination mistakes
+- Omitting a square before adding coordinate differences.
+- Mixing x- and y-coordinates.
+- Reversing the section-ratio weights.
+- Dividing only one coordinate by $m+n$.
+- Confusing distance with squared distance.
+
+### F. Exam tips and problem-solving strategy
+Write the formula before substituting. For a section point, test whether the result lies between the endpoints. Keep exact radicals unless a decimal is requested.
+
+### G. Quick revision summary
+Distance is the Pythagorean length. Internal section coordinates are weighted averages; midpoint is the equal-weight case.
+
+### H. Chapter-end revision checklist
+- [ ] I can calculate distance between any two points.
+- [ ] I can use the internal section formula with correct weights.
+- [ ] I can find and interpret a midpoint.
+
+### I. Practice questions
+1. Find the distance between $(0,-1)$ and $(6,7)$.
+2. Find the midpoint of $(3,4)$ and $(9,-2)$.
+3. Find the point dividing $(0,0)$ and $(8,4)$ in ratio $3:1$.
+
+**Answers / hints:** 1. 10. 2. $(6,1)$. 3. $(6,3)$.
