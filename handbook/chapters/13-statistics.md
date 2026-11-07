@@ -23,14 +23,31 @@ Grouped data summarises many observations in intervals. Mean, median, and mode d
 - Median class contains the $N/2$th observation in cumulative frequencies.
 - Modal class has the highest frequency.
 
+#### Visual guide: grouped frequencies
+
+```text
+Frequency
+  8 |       ████████
+  6 |       ████████  ██████
+  4 | ████  ████████  ██████
+  2 | ████  ████████  ██████  ████
+    +----------------------------→ Class interval
+       0–10  10–20    20–30   30–40
+```
+
+The tallest bar identifies the modal class; cumulative frequencies are used to locate the median class.
+
 ### C. Formula and theorem sheet
-| Measure | Formula | Symbols |
-|---|---|---|
-| Direct mean | $\bar{x}=\frac{\sum f_ix_i}{\sum f_i}$ | $x_i$ class mark |
-| Assumed mean | $\bar{x}=a+\frac{\sum f_id_i}{N}$ | $d_i=x_i-a$ |
-| Step deviation | $\bar{x}=a+h\frac{\sum f_iu_i}{N}$ | $u_i=(x_i-a)/h$ |
-| Median | $l+\frac{(N/2-cf)}{f}h$ | Median class lower boundary $l$ |
-| Mode | $l+\frac{f_1-f_0}{2f_1-f_0-f_2}h$ | Modal class frequency $f_1$ |
+
+#### Formulae
+| Measure / method | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| Class mark | $x_i=\frac{\text{lower limit}+\text{upper limit}}2$ | Midpoint of class $i$ | Represent a class by one value |
+| Direct mean | $\bar{x}=\frac{\sum f_ix_i}{N}$ | $N=\sum f_i$; $x_i$ class mark | Find the frequency-weighted average |
+| Assumed-mean mean | $\bar{x}=a+\frac{\sum f_id_i}{N}$ | $d_i=x_i-a$; $a$ is assumed mean | Simplify calculations using deviations |
+| Step-deviation mean | $\bar{x}=a+h\frac{\sum f_iu_i}{N}$ | $u_i=(x_i-a)/h$; $h$ is common class width | Simplify further when class widths are equal |
+| Grouped median | $l+\frac{(N/2-cf)}{f}h$ | $l$ lower boundary of median class; $cf$ cumulative frequency before it; $f$ its frequency; $h$ class width | Estimate the middle value of grouped observations |
+| Grouped mode | $l+\frac{f_1-f_0}{2f_1-f_0-f_2}h$ | $l$ lower boundary of modal class; $f_1$ modal frequency; $f_0,f_2$ adjacent frequencies; $h$ class width | Estimate the most frequent value |
 
 ### D. Solved board-style examples
 **Example 1: Direct mean**

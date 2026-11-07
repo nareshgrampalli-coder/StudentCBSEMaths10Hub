@@ -261,6 +261,21 @@ a:hover {
   border-top: 1px solid var(--line);
 }
 
+.book-content pre {
+  overflow-x: auto;
+  padding: 1rem 1.15rem;
+  border: 1px solid #dce8e3;
+  border-radius: .6rem;
+  background: #f4f8f6;
+  color: #233d4c;
+  font-size: .9rem;
+  line-height: 1.45;
+}
+
+.book-content code {
+  font-family: Consolas, "Courier New", monospace;
+}
+
 .chapter-pager {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);

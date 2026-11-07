@@ -21,17 +21,37 @@ Solid geometry measures exposed surfaces and capacity. For combined solids, coun
 - When two solids are joined along a face, that joined face is internal and is not included in the outside surface area.
 - Convert all lengths to one unit before calculating. Volume units are cubic.
 
+#### Visual guide: joined solids
+
+```text
+          _________
+        /           \
+       /  hemisphere \
+      (_______________)
+      |               |
+      |    cylinder   |  exposed curved surfaces
+      |               |
+      |_______________|
+       joined circular face is internal
+```
+
+Count only the outside boundary. The circular face where the hemisphere and cylinder meet is hidden inside the solid.
+
 ### C. Formula and theorem sheet
-| Solid | Curved/lateral area | Total area | Volume |
+
+#### Solid formulae
+Here, $r$ is radius, $h$ is perpendicular height, and $a$ is cube edge length. In the cuboid row, $l,b,h$ are its three edge lengths; for a cone, $l$ is slant height.
+
+| Solid | Curved / lateral surface area | Total surface area | Volume |
 |---|---|---|---|
 | Cube, side $a$ | — | $6a^2$ | $a^3$ |
-| Cuboid $l,b,h$ | — | $2(lb+bh+hl)$ | $lbh$ |
-| Cylinder | $2\pi rh$ | $2\pi r(h+r)$ | $\pi r^2h$ |
-| Cone, slant $l$ | $\pi rl$ | $\pi r(l+r)$ | $\frac13\pi r^2h$ |
+| Cuboid, $l,b,h$ | — | $2(lb+bh+hl)$ | $lbh$ |
+| Right circular cylinder | $2\pi rh$ | $2\pi r(h+r)$ | $\pi r^2h$ |
+| Right circular cone | $\pi rl$ | $\pi r(l+r)$ | $\frac13\pi r^2h$ |
 | Sphere | $4\pi r^2$ | $4\pi r^2$ | $\frac43\pi r^3$ |
 | Hemisphere | $2\pi r^2$ | $3\pi r^2$ | $\frac23\pi r^3$ |
 
-For a cone, $l=\sqrt{r^2+h^2}$.
+For a right circular cone, $l=\sqrt{r^2+h^2}$. For a combination, add only exposed surfaces; do not count joined faces.
 
 ### D. Solved board-style examples
 **Example 1: Cylinder volume**

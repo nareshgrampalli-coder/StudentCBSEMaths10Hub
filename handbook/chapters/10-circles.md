@@ -22,11 +22,32 @@ Tangents touch a circle at one point. Their relation to radii gives useful perpe
 - Proof: if the tangent line were not perpendicular to radius $OP$, the perpendicular from centre $O$ to the line would have length less than $OP=r$. The foot would then be inside the circle, making the line intersect the circle at two points, contradicting tangency.
 - **Equal tangents theorem:** tangents from an external point have equal lengths. Join the centre to both contact points; the two right triangles have equal hypotenuse (radii) and common hypotenuse from centre to external point, hence are congruent by RHS.
 
+#### Visual guide: radius meets tangent at a right angle
+
+```text
+             tangent
+        P────────T────────
+          \      ⟂
+           \     |
+            \    | radius
+             \   |
+              \  O
+```
+
+The tangent touches the circle at $T$; radius $OT$ is perpendicular to the tangent there.
+
 ### C. Formula and theorem sheet
-| Result | Statement | Use |
+
+#### Theorems
+| Theorem | Statement | Proof / conditions |
 |---|---|---|
-| Radius and tangent | $OP\perp PT$ | $PT$ tangent at $P$ |
-| Equal tangents | $PA=PB$ | Tangents from external point $P$ |
+| Radius–tangent theorem | The tangent at any point of a circle is perpendicular to the radius through the point of contact | Proof required; if $PT$ is tangent at $T$, then $OT\perp PT$ |
+| Equal tangents theorem | Tangents drawn from an external point to a circle are equal in length | Proof required; if $PA$ and $PB$ are tangents from $P$, then $PA=PB$ |
+
+#### Useful relation
+| Situation | Relationship | When to use |
+|---|---|---|
+| Radius and tangent length | $r^2+t^2=OP^2$ | Right triangle formed by centre $O$, contact point, and external point $P$ |
 
 ### D. Solved board-style examples
 **Example 1: Tangent length**

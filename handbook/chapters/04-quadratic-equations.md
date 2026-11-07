@@ -19,11 +19,32 @@ A quadratic equation has degree two. Factorisation or the quadratic formula find
 ### B. Important concepts and explanations
 Standard form is $ax^2+bx+c=0$, $a\ne0$. Roots are values satisfying the equation. For discriminant $D=b^2-4ac$: $D>0$ gives two distinct real roots; $D=0$ gives equal real roots; $D<0$ gives no real roots.
 
+#### Visual guide: roots and the x-axis
+
+```text
+       y
+       ↑       \       /
+       |        \_____/
+───────●───────────────●──────→ x
+    root 1           root 2
+```
+
+For this downward-opening sketch, the two x-intercepts represent two distinct real roots. A graph may instead touch the axis once or miss it.
+
 ### C. Formula and theorem sheet
-| Result | Expression | Condition |
-|---|---|---|
-| Quadratic formula | $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ | Standard form, $a\ne0$ |
-| Discriminant | $D=b^2-4ac$ | Determines real-root nature |
+
+#### Formulae
+| Name | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| Quadratic formula | $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ | $ax^2+bx+c=0$, $a\ne0$ | Find roots when factorisation is inconvenient |
+| Discriminant | $D=b^2-4ac$ | $a,b,c$ are coefficients in standard form | Determine the nature of real roots |
+
+#### Root classification
+| Discriminant | Nature of roots |
+|---|---|
+| $D>0$ | Two distinct real roots |
+| $D=0$ | Two equal real roots |
+| $D<0$ | No real roots |
 
 ### D. Solved board-style examples
 **Example 1: Factorisation**

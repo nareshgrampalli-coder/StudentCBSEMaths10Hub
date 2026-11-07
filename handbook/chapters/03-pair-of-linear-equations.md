@@ -23,12 +23,35 @@ For $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$:
 - Infinitely many if all three ratios are equal (coincident lines).
 Substitution isolates one variable; elimination combines equations to remove a variable. Graphically, a solution is a common point.
 
+#### Visual guide: one solution is an intersection
+
+```text
+        y
+        ↑  \ /
+        |   X  (common point)
+        |  / \
+        +────────→ x
+```
+
+Two non-parallel lines meet at one point. Parallel distinct lines do not meet; coincident lines share every point.
+
 ### C. Formula and theorem sheet
-| Method/result | Rule | Use |
+
+#### Consistency test
+| Pair of lines | Coefficient condition | Number of solutions |
 |---|---|---|
-| Consistency test | Compare $a_1/a_2,b_1/b_2,c_1/c_2$ | Classify solution count |
-| Substitution | Substitute an expression for one variable | One equation has an easily isolated variable |
-| Elimination | Add/subtract suitable multiples | Coefficients can be made opposites/equal |
+| Intersecting | $\frac{a_1}{a_2}\ne\frac{b_1}{b_2}$ | One |
+| Parallel and distinct | $\frac{a_1}{a_2}=\frac{b_1}{b_2}\ne\frac{c_1}{c_2}$ | None |
+| Coincident | $\frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}$ | Infinitely many |
+
+These ratio forms assume the denominators are non-zero; when they are not, compare coefficients by cross-multiplication.
+
+#### Solution methods
+| Method | Main step | Best used when |
+|---|---|---|
+| Substitution | Isolate one variable and substitute into the other equation | A variable is easy to isolate |
+| Elimination | Add or subtract suitable multiples to remove a variable | Coefficients can be made equal or opposite |
+| Graphical | Plot both lines and locate their common point | The question asks for a visual interpretation |
 
 ### D. Solved board-style examples
 **Example 1: Elimination**

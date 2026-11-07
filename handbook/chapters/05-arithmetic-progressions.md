@@ -19,12 +19,24 @@ An arithmetic progression (AP) adds the same common difference at each step. Its
 ### B. Important concepts and explanations
 An AP has terms $a,a+d,a+2d,\ldots$, where $a$ is first term and $d$ common difference. Subtract consecutive terms to test whether the difference is constant.
 
+#### Visual guide: equal steps
+
+```text
+ a        a+d       a+2d      a+3d
+ ●─────────●─────────●─────────●────→
+      d         d         d
+```
+
+Every step adds the same common difference $d$; $d$ can also be negative.
+
 ### C. Formula and theorem sheet
-| Result | Formula | Symbols |
-|---|---|---|
-| $n$th term | $a_n=a+(n-1)d$ | $a$ first term, $d$ difference |
-| Sum | $S_n=\frac n2[2a+(n-1)d]$ | First $n$ terms |
-| Sum using last term | $S_n=\frac n2(a+l)$ | $l$ is the $n$th/last term |
+
+#### Formulae
+| Name | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| $n$th term | $a_n=a+(n-1)d$ | $a$ first term; $d$ common difference; $n\ge1$ | Find a specified term or term number |
+| Sum of first $n$ terms | $S_n=\frac n2[2a+(n-1)d]$ | $a$ first term; $d$ common difference; $n\ge1$ | Find a total without adding each term |
+| Sum using last term | $S_n=\frac n2(a+l)$ | $l$ is the last included term | Use when the first and last terms are known |
 
 ### D. Solved board-style examples
 **Example 1: Find a term**

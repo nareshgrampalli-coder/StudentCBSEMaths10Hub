@@ -107,11 +107,28 @@ Prime factorisation reveals the structure of whole numbers. Use it to compare di
 - For positive integers, HCF uses the smallest exponents common to both prime factorizations; LCM uses the largest exponents appearing.
 - To prove an irrationality statement, assume the number is a reduced fraction, then show its numerator and denominator share a prime factor, contradicting reduction.
 
+#### Visual guide: prime factor tree
+
+```text
+             60
+           /    \
+          6      10
+         / \     / \
+        2   3   2   5
+```
+
+The leaves are prime, so $60=2^2\cdot3\cdot5$.
+
 ### C. Formula and theorem sheet
-| Result | Expression | Use |
-|---|---|---|
-| Prime factorisation | $n=p_1^{a_1}\cdots p_k^{a_k}$ | Unique representation for integer $n>1$ |
-| HCF and LCM | $\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$ | Positive integers $a,b$ |
+
+#### Formulae and number facts
+| Name | Formula / fact | Meaning and conditions | When to use |
+|---|---|---|---|
+| Prime factorisation | $n=p_1^{a_1}\cdots p_k^{a_k}$ | Distinct primes $p_i$, positive integer exponents $a_i$, and $n>1$ | Express an integer as prime powers |
+| HCF–LCM relation | $\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$ | Positive integers $a,b$ | Check or find one of HCF and LCM when the other is known |
+
+#### Theorem
+**Fundamental Theorem of Arithmetic:** Every integer greater than 1 is either prime or can be expressed as a product of primes, and this factorisation is unique apart from the order of the factors.
 
 ### D. Solved board-style examples
 **Example 1: HCF and LCM**
@@ -185,7 +202,6 @@ Use unique prime factorisation; HCF takes common primes with minimum powers, LCM
 4. Explain why $3+2\sqrt5$ is irrational.
 
 **Answers / hints:** 1. 42 and 252. 2. 60 seconds. 3. Assume $\sqrt2=a/b$ reduced; $a^2=2b^2$ forces both even. 4. If the expression were rational, subtract 3 and divide by 2 to make $\sqrt5$ rational.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -201,12 +217,29 @@ Polynomial zeros are the inputs where its value is zero. For a quadratic, they a
 - For $ax^2+bx+c$, with zeros $\alpha,\beta$, $\alpha+\beta=-b/a$ and $\alpha\beta=c/a$.
 - The monic quadratic with roots $\alpha,\beta$ is $(x-\alpha)(x-\beta)$.
 
+#### Visual guide: zeros are x-intercepts
+
+```text
+       y
+       ↑       \       /
+       |        \_____/
+───────●───────────────●──────→ x
+       α               β
+```
+
+The curve meets the x-axis at $\alpha$ and $\beta$; those x-coordinates are its zeros.
+
 ### C. Formula and theorem sheet
-| Result | Expression | Condition |
-|---|---|---|
-| Sum of zeros | $\alpha+\beta=-b/a$ | $a\ne0$ |
-| Product of zeros | $\alpha\beta=c/a$ | $a\ne0$ |
-| Polynomial from roots | $x^2-(\alpha+\beta)x+\alpha\beta$ | Monic quadratic |
+
+#### Formulae
+| Name | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| Sum of zeros | $\alpha+\beta=-b/a$ | For $ax^2+bx+c$, $a\ne0$ | Check or find the sum of the two zeros |
+| Product of zeros | $\alpha\beta=c/a$ | For $ax^2+bx+c$, $a\ne0$ | Check or find the product of the two zeros |
+| Monic polynomial from zeros | $x^2-(\alpha+\beta)x+\alpha\beta$ | Zeros are $\alpha,\beta$ | Construct a monic quadratic |
+
+#### Geometrical property
+A real zero is the $x$-coordinate at which the graph of $y=p(x)$ intersects or touches the $x$-axis.
 
 ### D. Solved board-style examples
 **Example 1: Find zeros**
@@ -277,7 +310,6 @@ Zeros satisfy $p(r)=0$. For a quadratic, sum $=-b/a$, product $=c/a$. The monic 
 3. A graph meets the x-axis at 2 only, touching it. What is its zero and what may its multiplicity be?
 
 **Answers / hints:** 1. $3,\frac12$; sum $7/2$, product $3/2$. 2. $x^2-10x+21$. 3. Zero 2; it may be a repeated zero.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -295,12 +327,35 @@ For $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$:
 - Infinitely many if all three ratios are equal (coincident lines).
 Substitution isolates one variable; elimination combines equations to remove a variable. Graphically, a solution is a common point.
 
+#### Visual guide: one solution is an intersection
+
+```text
+        y
+        ↑  \ /
+        |   X  (common point)
+        |  / \
+        +────────→ x
+```
+
+Two non-parallel lines meet at one point. Parallel distinct lines do not meet; coincident lines share every point.
+
 ### C. Formula and theorem sheet
-| Method/result | Rule | Use |
+
+#### Consistency test
+| Pair of lines | Coefficient condition | Number of solutions |
 |---|---|---|
-| Consistency test | Compare $a_1/a_2,b_1/b_2,c_1/c_2$ | Classify solution count |
-| Substitution | Substitute an expression for one variable | One equation has an easily isolated variable |
-| Elimination | Add/subtract suitable multiples | Coefficients can be made opposites/equal |
+| Intersecting | $\frac{a_1}{a_2}\ne\frac{b_1}{b_2}$ | One |
+| Parallel and distinct | $\frac{a_1}{a_2}=\frac{b_1}{b_2}\ne\frac{c_1}{c_2}$ | None |
+| Coincident | $\frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}$ | Infinitely many |
+
+These ratio forms assume the denominators are non-zero; when they are not, compare coefficients by cross-multiplication.
+
+#### Solution methods
+| Method | Main step | Best used when |
+|---|---|---|
+| Substitution | Isolate one variable and substitute into the other equation | A variable is easy to isolate |
+| Elimination | Add or subtract suitable multiples to remove a variable | Coefficients can be made equal or opposite |
+| Graphical | Plot both lines and locate their common point | The question asks for a visual interpretation |
 
 ### D. Solved board-style examples
 **Example 1: Elimination**
@@ -373,7 +428,6 @@ Intersecting lines give one solution; coincident lines infinitely many; distinct
 3. The sum of two numbers is 31 and their difference is 7. Find them.
 
 **Answers / hints:** 1. $x=2,y=3$. 2. No solution. 3. 19 and 12.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -387,11 +441,32 @@ A quadratic equation has degree two. Factorisation or the quadratic formula find
 ### B. Important concepts and explanations
 Standard form is $ax^2+bx+c=0$, $a\ne0$. Roots are values satisfying the equation. For discriminant $D=b^2-4ac$: $D>0$ gives two distinct real roots; $D=0$ gives equal real roots; $D<0$ gives no real roots.
 
+#### Visual guide: roots and the x-axis
+
+```text
+       y
+       ↑       \       /
+       |        \_____/
+───────●───────────────●──────→ x
+    root 1           root 2
+```
+
+For this downward-opening sketch, the two x-intercepts represent two distinct real roots. A graph may instead touch the axis once or miss it.
+
 ### C. Formula and theorem sheet
-| Result | Expression | Condition |
-|---|---|---|
-| Quadratic formula | $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ | Standard form, $a\ne0$ |
-| Discriminant | $D=b^2-4ac$ | Determines real-root nature |
+
+#### Formulae
+| Name | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| Quadratic formula | $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ | $ax^2+bx+c=0$, $a\ne0$ | Find roots when factorisation is inconvenient |
+| Discriminant | $D=b^2-4ac$ | $a,b,c$ are coefficients in standard form | Determine the nature of real roots |
+
+#### Root classification
+| Discriminant | Nature of roots |
+|---|---|
+| $D>0$ | Two distinct real roots |
+| $D=0$ | Two equal real roots |
+| $D<0$ | No real roots |
 
 ### D. Solved board-style examples
 **Example 1: Factorisation**
@@ -464,7 +539,6 @@ Standard form requires $a\ne0$. Discriminant $D=b^2-4ac$ classifies real roots. 
 3. For what $p$ does $x^2+px+9=0$ have equal roots?
 
 **Answers / hints:** 1. 4, 5. 2. 1, $-1/3$. 3. $p=\pm6$.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -478,12 +552,24 @@ An arithmetic progression (AP) adds the same common difference at each step. Its
 ### B. Important concepts and explanations
 An AP has terms $a,a+d,a+2d,\ldots$, where $a$ is first term and $d$ common difference. Subtract consecutive terms to test whether the difference is constant.
 
+#### Visual guide: equal steps
+
+```text
+ a        a+d       a+2d      a+3d
+ ●─────────●─────────●─────────●────→
+      d         d         d
+```
+
+Every step adds the same common difference $d$; $d$ can also be negative.
+
 ### C. Formula and theorem sheet
-| Result | Formula | Symbols |
-|---|---|---|
-| $n$th term | $a_n=a+(n-1)d$ | $a$ first term, $d$ difference |
-| Sum | $S_n=\frac n2[2a+(n-1)d]$ | First $n$ terms |
-| Sum using last term | $S_n=\frac n2(a+l)$ | $l$ is the $n$th/last term |
+
+#### Formulae
+| Name | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| $n$th term | $a_n=a+(n-1)d$ | $a$ first term; $d$ common difference; $n\ge1$ | Find a specified term or term number |
+| Sum of first $n$ terms | $S_n=\frac n2[2a+(n-1)d]$ | $a$ first term; $d$ common difference; $n\ge1$ | Find a total without adding each term |
+| Sum using last term | $S_n=\frac n2(a+l)$ | $l$ is the last included term | Use when the first and last terms are known |
 
 ### D. Solved board-style examples
 **Example 1: Find a term**
@@ -553,7 +639,6 @@ Constant consecutive difference defines an AP. Use $a+(n-1)d$ for one term and t
 3. Which term of $2,6,10,\ldots$ is 50?
 
 **Answers / hints:** 1. $-89$. 2. 175. 3. 13th.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -571,11 +656,34 @@ Similar triangles have the same shape: corresponding angles are equal and corres
 - Converse: if $AD/DB=AE/EC$, then $DE\parallel BC$.
 - Similar triangles have area ratio equal to the square of the corresponding-side ratio.
 
+#### Visual guide: Basic Proportionality Theorem
+
+```text
+             A
+            / \
+           D---E       DE ∥ BC
+          /     \
+         B-------C
+```
+
+With $D$ on $AB$ and $E$ on $AC$, the parallel segment creates corresponding side ratios.
+
 ### C. Formula and theorem sheet
-| Result | Expression | Conditions |
+
+#### Formulae
+| Name | Relationship | Meaning and conditions | When to use |
+|---|---|---|---|
+| BPT ratio | $\frac{AD}{DB}=\frac{AE}{EC}$ | In $\triangle ABC$, $D$ lies on $AB$, $E$ on $AC$, and $DE\parallel BC$ | Find a missing side segment |
+| Similar-triangle area ratio | $\frac{[\triangle_1]}{[\triangle_2]}=(\frac{\text{corresponding side}_1}{\text{corresponding side}_2})^2$ | Triangles are similar and sides are in matching order | Compare areas from a side ratio |
+
+#### Theorems and similarity criteria
+| Result | Statement | Proof / use |
 |---|---|---|
-| BPT | $AD/DB=AE/EC$ | $DE\parallel BC$ |
-| Similarity area ratio | $\frac{[\triangle_1]}{[\triangle_2]}=(\frac{\text{corresponding side}_1}{\text{side}_2})^2$ | Triangles similar |
+| Basic Proportionality Theorem | A line parallel to one side of a triangle divides the other two sides in the same ratio | Proof required; use when a parallel segment is given |
+| Converse of BPT | If a line divides two sides of a triangle in the same ratio, it is parallel to the third side | Apply to establish parallelism |
+| AA similarity | Two corresponding angles are equal | State and apply as a similarity criterion |
+| SSS similarity | Corresponding sides are proportional | State and apply as a similarity criterion |
+| SAS similarity | Two pairs of corresponding sides are proportional and their included angles are equal | State and apply as a similarity criterion |
 
 ### D. Solved board-style examples
 **Example 1: BPT calculation**
@@ -646,7 +754,6 @@ AA, SSS, and SAS establish similarity. BPT applies when a line is parallel; its 
 3. Two sides of one triangle are proportional to two sides of another and their included angles are equal. Name the criterion.
 
 **Answers / hints:** 1. $7.5$. 2. $4:49$. 3. SAS.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -660,12 +767,24 @@ Coordinate formulas turn geometric questions into calculations with ordered pair
 ### B. Important concepts and explanations
 The distance formula follows from Pythagoras: horizontal change is $x_2-x_1$, vertical change is $y_2-y_1$. Section formula uses a weighted average, with the nearer endpoint receiving the larger weight.
 
+#### Visual guide: internal division
+
+```text
+             P divides AB in m:n
+      A────────────P────────────B
+             AP:PB = m:n
+```
+
+The section formula weights the coordinates of $B$ by $m$ and those of $A$ by $n$.
+
 ### C. Formula and theorem sheet
-| Result | Formula | Use |
-|---|---|---|
-| Distance | $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ | Length between points |
-| Internal section | $(\frac{mx_2+nx_1}{m+n},\frac{my_2+ny_1}{m+n})$ | $P$ divides $A(x_1,y_1),B(x_2,y_2)$ in $m:n$ |
-| Midpoint | $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$ | Ratio $1:1$ |
+
+#### Formulae
+| Name | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| Distance | $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ | Points $(x_1,y_1)$ and $(x_2,y_2)$ | Find the straight-line distance |
+| Internal section | $(\frac{mx_2+nx_1}{m+n},\frac{my_2+ny_1}{m+n})$ | $P$ divides $A(x_1,y_1)B(x_2,y_2)$ internally in ratio $m:n$, $m,n>0$ | Find a point between two endpoints |
+| Midpoint | $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$ | Special case of ratio $1:1$ | Find the halfway point |
 
 ### D. Solved board-style examples
 **Example 1: Distance**
@@ -735,7 +854,6 @@ Distance is the Pythagorean length. Internal section coordinates are weighted av
 3. Find the point dividing $(0,0)$ and $(8,4)$ in ratio $3:1$.
 
 **Answers / hints:** 1. 10. 2. $(6,1)$. 3. $(6,3)$.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -749,12 +867,31 @@ Trigonometric ratios compare sides of a right triangle relative to an acute angl
 ### B. Important concepts and explanations
 Relative to angle $A$, opposite, adjacent, and hypotenuse identify sides. $\sin A=O/H$, $\cos A=A/H$, $\tan A=O/A$; cosec, sec, and cot are reciprocals. Ratios depend on the angle, not the triangle's size.
 
+#### Visual guide: name sides from angle $A$
+
+```text
+                 C
+                 |\
+  opposite (O)   | \  hypotenuse (H)
+                 |  \
+                 |___\
+                 B   A
+                  adjacent (Adj)
+```
+
+The right angle is at $B$; for angle $A$, the opposite side is $BC$ and the adjacent side is $AB$.
+
 ### C. Formula and theorem sheet
-| Ratio/result | Expression |
-|---|---|
-| Sine, cosine, tangent | $\sin A=O/H,\ \cos A=Adj/H,\ \tan A=O/Adj$ |
-| Reciprocals | $\cosec A=1/\sin A,\ \sec A=1/\cos A,\ \cot A=1/\tan A$ |
-| Identity | $\sin^2A+\cos^2A=1$ |
+
+#### Trigonometric ratios
+| Ratio | Definition | Conditions |
+|---|---|---|
+| $\sin A$ | $\frac{O}{H}$ | Acute angle in a right triangle |
+| $\cos A$ | $\frac{Adj}{H}$ | Acute angle in a right triangle |
+| $\tan A$ | $\frac{O}{Adj}$ | Undefined when $Adj=0$ |
+| $\cosec A$ | $\frac{H}{O}=\frac1{\sin A}$ | Undefined when $\sin A=0$ |
+| $\sec A$ | $\frac{H}{Adj}=\frac1{\cos A}$ | Undefined when $\cos A=0$ |
+| $\cot A$ | $\frac{Adj}{O}=\frac1{\tan A}$ | Undefined when $\tan A=0$ |
 
 | Angle | $0^\circ$ | $30^\circ$ | $45^\circ$ | $60^\circ$ | $90^\circ$ |
 |---|---:|---:|---:|---:|---:|
@@ -762,7 +899,12 @@ Relative to angle $A$, opposite, adjacent, and hypotenuse identify sides. $\sin 
 | $\cos$ | 1 | $\sqrt3/2$ | $1/\sqrt2$ | $1/2$ | 0 |
 | $\tan$ | 0 | $1/\sqrt3$ | 1 | $\sqrt3$ | undefined |
 
-At $0^\circ$ and $90^\circ$, reciprocal ratios are defined only when their denominator is nonzero.
+#### Identity
+| Name | Identity | Use |
+|---|---|---|
+| Fundamental identity | $\sin^2A+\cos^2A=1$ | Relate sine and cosine or verify a simple identity |
+
+At $0^\circ$ and $90^\circ$, check the denominator before using any reciprocal ratio.
 
 ### D. Solved board-style examples
 **Example 1: Find all ratios**
@@ -831,7 +973,6 @@ SOH-CAH-TOA defines the three primary ratios. Their reciprocals are cosec, sec, 
 3. State $\cot90^\circ$.
 
 **Answers / hints:** 1. $5/13,12/13$. 2. 3. 3. 0.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -848,11 +989,31 @@ Angles of elevation and depression connect a line of sight to a right-triangle m
 - Horizontal lines are parallel, so the angle of depression equals the corresponding angle of elevation.
 - The angle is measured from the horizontal, not the vertical.
 
+#### Visual guide: angle of elevation
+
+```text
+        T
+       /|
+      / | h
+     /  |
+    / θ |
+   O────B
+     d
+```
+
+Here $O$ is the observer and $B$ the tower base. For level ground, $\tan\theta=h/d$. If eye height is included, measure $h$ from the observer's eye level.
+
 ### C. Formula and theorem sheet
-| Ratio | Expression | Use |
-|---|---|---|
-| Tangent | $\tan\theta=\text{vertical height}/\text{horizontal distance}$ | Height or horizontal distance |
-| Sine/cosine | $\sin\theta=O/H,\ \cos\theta=Adj/H$ | Slant distance or other side |
+
+#### Ratios used in height-and-distance models
+| Name | Relationship | Conditions | Use |
+|---|---|---|---|
+| Tangent | $\tan\theta=\frac{\text{vertical height}}{\text{horizontal distance}}$ | Right triangle; $\theta$ measured from horizontal | Find height or horizontal distance |
+| Sine | $\sin\theta=\frac{\text{vertical height}}{\text{line of sight}}$ | Right triangle | Find height or line-of-sight length |
+| Cosine | $\cos\theta=\frac{\text{horizontal distance}}{\text{line of sight}}$ | Right triangle | Find horizontal distance or line of sight |
+
+#### Angle property
+For parallel horizontal lines, the angle of depression from one line equals the corresponding angle of elevation from the other.
 
 ### D. Solved board-style examples
 **Example 1: Height from a distance**
@@ -922,7 +1083,6 @@ Translate the wording into a right triangle. Elevation/depression is relative to
 3. From 30 m away, a building's top is seen at $30^\circ$ elevation. Find its height above eye level.
 
 **Answers / hints:** 1. 12 m. 2. $5\sqrt3$ m. 3. $10\sqrt3$ m.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -939,11 +1099,32 @@ Tangents touch a circle at one point. Their relation to radii gives useful perpe
 - Proof: if the tangent line were not perpendicular to radius $OP$, the perpendicular from centre $O$ to the line would have length less than $OP=r$. The foot would then be inside the circle, making the line intersect the circle at two points, contradicting tangency.
 - **Equal tangents theorem:** tangents from an external point have equal lengths. Join the centre to both contact points; the two right triangles have equal hypotenuse (radii) and common hypotenuse from centre to external point, hence are congruent by RHS.
 
+#### Visual guide: radius meets tangent at a right angle
+
+```text
+             tangent
+        P────────T────────
+          \      ⟂
+           \     |
+            \    | radius
+             \   |
+              \  O
+```
+
+The tangent touches the circle at $T$; radius $OT$ is perpendicular to the tangent there.
+
 ### C. Formula and theorem sheet
-| Result | Statement | Use |
+
+#### Theorems
+| Theorem | Statement | Proof / conditions |
 |---|---|---|
-| Radius and tangent | $OP\perp PT$ | $PT$ tangent at $P$ |
-| Equal tangents | $PA=PB$ | Tangents from external point $P$ |
+| Radius–tangent theorem | The tangent at any point of a circle is perpendicular to the radius through the point of contact | Proof required; if $PT$ is tangent at $T$, then $OT\perp PT$ |
+| Equal tangents theorem | Tangents drawn from an external point to a circle are equal in length | Proof required; if $PA$ and $PB$ are tangents from $P$, then $PA=PB$ |
+
+#### Useful relation
+| Situation | Relationship | When to use |
+|---|---|---|
+| Radius and tangent length | $r^2+t^2=OP^2$ | Right triangle formed by centre $O$, contact point, and external point $P$ |
 
 ### D. Solved board-style examples
 **Example 1: Tangent length**
@@ -1014,7 +1195,6 @@ Radius to contact point is perpendicular to tangent. Tangents from the same exte
 3. What angle does a radius make with the tangent at contact?
 
 **Answers / hints:** 1. 15 cm. 2. $x=3$, length 15. 3. $90^\circ$.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -1028,14 +1208,32 @@ Circle measures extend to sectors, arcs, segments, and composite shapes. A secto
 ### B. Important concepts and explanations
 A sector is bounded by two radii and an arc. A segment is bounded by a chord and its corresponding arc. Segment area is sector area minus the triangle formed by the radii and chord.
 
+#### Visual guide: sector and segment
+
+```text
+              A
+           .-'|`-.
+         .'   |   `.
+        /     |     \
+       |      O──────B
+        \   sector  /
+         `-._____.-'
+          chord AB
+```
+
+The sector is bounded by $OA$, $OB$, and the arc $AB$. The minor segment lies between chord $AB$ and that arc.
+
 ### C. Formula and theorem sheet
-| Quantity | Formula |
-|---|---|
-| Circumference | $2\pi r$ |
-| Circle area | $\pi r^2$ |
-| Arc length | $\frac{\theta}{360^\circ}2\pi r$ |
-| Sector area | $\frac{\theta}{360^\circ}\pi r^2$ |
-| Segment area | Sector area minus triangle area |
+
+#### Formulae
+| Quantity | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| Circumference | $2\pi r$ | $r$ is radius | Length around a full circle |
+| Circle area | $\pi r^2$ | $r$ is radius | Region inside a full circle |
+| Arc length | $\frac{\theta}{360^\circ}2\pi r$ | Central angle $\theta$ in degrees | Curved boundary of a sector |
+| Sector area | $\frac{\theta}{360^\circ}\pi r^2$ | Central angle $\theta$ in degrees | Region bounded by two radii and an arc |
+| Segment area | Sector area $-$ triangle area | Use the matching chord and sector | Region between a chord and its arc |
+| Sector perimeter | $2r+$ arc length | Includes both radii | Total boundary length of a sector |
 
 ### D. Solved board-style examples
 **Example 1: Circumference and area**
@@ -1105,7 +1303,6 @@ Circle area is $\pi r^2$; circumference is $2\pi r$. Sector and arc are the corr
 3. Find the arc length for a $60^\circ$ angle in a circle of radius 12 cm.
 
 **Answers / hints:** 1. $20\pi$ cm. 2. $12\pi$ cm$^2$. 3. $4\pi$ cm.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -1121,17 +1318,37 @@ Solid geometry measures exposed surfaces and capacity. For combined solids, coun
 - When two solids are joined along a face, that joined face is internal and is not included in the outside surface area.
 - Convert all lengths to one unit before calculating. Volume units are cubic.
 
+#### Visual guide: joined solids
+
+```text
+          _________
+        /           \
+       /  hemisphere \
+      (_______________)
+      |               |
+      |    cylinder   |  exposed curved surfaces
+      |               |
+      |_______________|
+       joined circular face is internal
+```
+
+Count only the outside boundary. The circular face where the hemisphere and cylinder meet is hidden inside the solid.
+
 ### C. Formula and theorem sheet
-| Solid | Curved/lateral area | Total area | Volume |
+
+#### Solid formulae
+Here, $r$ is radius, $h$ is perpendicular height, and $a$ is cube edge length. In the cuboid row, $l,b,h$ are its three edge lengths; for a cone, $l$ is slant height.
+
+| Solid | Curved / lateral surface area | Total surface area | Volume |
 |---|---|---|---|
 | Cube, side $a$ | — | $6a^2$ | $a^3$ |
-| Cuboid $l,b,h$ | — | $2(lb+bh+hl)$ | $lbh$ |
-| Cylinder | $2\pi rh$ | $2\pi r(h+r)$ | $\pi r^2h$ |
-| Cone, slant $l$ | $\pi rl$ | $\pi r(l+r)$ | $\frac13\pi r^2h$ |
+| Cuboid, $l,b,h$ | — | $2(lb+bh+hl)$ | $lbh$ |
+| Right circular cylinder | $2\pi rh$ | $2\pi r(h+r)$ | $\pi r^2h$ |
+| Right circular cone | $\pi rl$ | $\pi r(l+r)$ | $\frac13\pi r^2h$ |
 | Sphere | $4\pi r^2$ | $4\pi r^2$ | $\frac43\pi r^3$ |
 | Hemisphere | $2\pi r^2$ | $3\pi r^2$ | $\frac23\pi r^3$ |
 
-For a cone, $l=\sqrt{r^2+h^2}$.
+For a right circular cone, $l=\sqrt{r^2+h^2}$. For a combination, add only exposed surfaces; do not count joined faces.
 
 ### D. Solved board-style examples
 **Example 1: Cylinder volume**
@@ -1202,7 +1419,6 @@ Use correct CSA/TSA/volume formula. Joined surfaces are not exposed. Check dimen
 3. A cuboid measures $4\times3\times2$ cm. Find its volume.
 
 **Answers / hints:** 1. $36\pi$ cm$^3$. 2. $462$ cm$^2$ using $\pi=22/7$. 3. 24 cm$^3$.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -1220,14 +1436,31 @@ Grouped data summarises many observations in intervals. Mean, median, and mode d
 - Median class contains the $N/2$th observation in cumulative frequencies.
 - Modal class has the highest frequency.
 
+#### Visual guide: grouped frequencies
+
+```text
+Frequency
+  8 |       ████████
+  6 |       ████████  ██████
+  4 | ████  ████████  ██████
+  2 | ████  ████████  ██████  ████
+    +----------------------------→ Class interval
+       0–10  10–20    20–30   30–40
+```
+
+The tallest bar identifies the modal class; cumulative frequencies are used to locate the median class.
+
 ### C. Formula and theorem sheet
-| Measure | Formula | Symbols |
-|---|---|---|
-| Direct mean | $\bar{x}=\frac{\sum f_ix_i}{\sum f_i}$ | $x_i$ class mark |
-| Assumed mean | $\bar{x}=a+\frac{\sum f_id_i}{N}$ | $d_i=x_i-a$ |
-| Step deviation | $\bar{x}=a+h\frac{\sum f_iu_i}{N}$ | $u_i=(x_i-a)/h$ |
-| Median | $l+\frac{(N/2-cf)}{f}h$ | Median class lower boundary $l$ |
-| Mode | $l+\frac{f_1-f_0}{2f_1-f_0-f_2}h$ | Modal class frequency $f_1$ |
+
+#### Formulae
+| Measure / method | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| Class mark | $x_i=\frac{\text{lower limit}+\text{upper limit}}2$ | Midpoint of class $i$ | Represent a class by one value |
+| Direct mean | $\bar{x}=\frac{\sum f_ix_i}{N}$ | $N=\sum f_i$; $x_i$ class mark | Find the frequency-weighted average |
+| Assumed-mean mean | $\bar{x}=a+\frac{\sum f_id_i}{N}$ | $d_i=x_i-a$; $a$ is assumed mean | Simplify calculations using deviations |
+| Step-deviation mean | $\bar{x}=a+h\frac{\sum f_iu_i}{N}$ | $u_i=(x_i-a)/h$; $h$ is common class width | Simplify further when class widths are equal |
+| Grouped median | $l+\frac{(N/2-cf)}{f}h$ | $l$ lower boundary of median class; $cf$ cumulative frequency before it; $f$ its frequency; $h$ class width | Estimate the middle value of grouped observations |
+| Grouped mode | $l+\frac{f_1-f_0}{2f_1-f_0-f_2}h$ | $l$ lower boundary of modal class; $f_1$ modal frequency; $f_0,f_2$ adjacent frequencies; $h$ class width | Estimate the most frequent value |
 
 ### D. Solved board-style examples
 **Example 1: Direct mean**
@@ -1299,7 +1532,6 @@ Mean is frequency-weighted average. Median locates the middle via cumulative fre
 3. For modal-class frequency 12, preceding 7, following 5, class width 10 and lower boundary 20, find mode.
 
 **Answers / hints:** 1. 10. 2. 10–20. 3. 25.
-
 ---
 
 <!-- PAGE BREAK -->
@@ -1315,12 +1547,25 @@ Classical probability compares favourable equally likely outcomes with all possi
 - An event is a set of outcomes. In the classical model, outcomes must be equally likely.
 - Probability is between 0 and 1 inclusive. An impossible event has probability 0; a certain event has probability 1.
 
+#### Visual guide: outcomes of a coin toss
+
+```text
+                 Start
+                /     \
+           Heads       Tails
+            1/2          1/2
+```
+
+For a fair coin, the two outcomes are equally likely; an event may contain one or both outcomes.
+
 ### C. Formula and theorem sheet
-| Result | Formula | Condition |
-|---|---|---|
-| Classical probability | $P(E)=\frac{\text{favourable outcomes}}{\text{total outcomes}}$ | Finite, equally likely outcomes |
-| Complement | $P(E')=1-P(E)$ | $E'$ means event does not occur |
-| Bounds | $0\le P(E)\le1$ | Every event |
+
+#### Formulae and properties
+| Name | Formula / property | Meaning and conditions | When to use |
+|---|---|---|---|
+| Classical probability | $P(E)=\frac{n(E)}{n(S)}$ | Finite sample space $S$ with equally likely outcomes; $n(E)$ counts favourable outcomes | Find an event's probability by counting |
+| Complement | $P(E')=1-P(E)$ | $E'$ means event $E$ does not occur | Find the probability of “not $E$” or simplify “at least one” |
+| Probability bounds | $0\le P(E)\le1$ | Applies to every event | Check whether a calculated probability is possible |
 
 ### D. Solved board-style examples
 **Example 1: Die**
@@ -1392,7 +1637,6 @@ For finite equally likely outcomes, probability is favourable over total. Comple
 3. A bag has 3 red and 5 blue balls. Find the probability of not drawing red.
 
 **Answers / hints:** 1. $1/3$. 2. $1/4$. 3. $5/8$.
-
 ---
 
 ## Final formula revision sheet

@@ -19,12 +19,24 @@ Coordinate formulas turn geometric questions into calculations with ordered pair
 ### B. Important concepts and explanations
 The distance formula follows from Pythagoras: horizontal change is $x_2-x_1$, vertical change is $y_2-y_1$. Section formula uses a weighted average, with the nearer endpoint receiving the larger weight.
 
+#### Visual guide: internal division
+
+```text
+             P divides AB in m:n
+      A────────────P────────────B
+             AP:PB = m:n
+```
+
+The section formula weights the coordinates of $B$ by $m$ and those of $A$ by $n$.
+
 ### C. Formula and theorem sheet
-| Result | Formula | Use |
-|---|---|---|
-| Distance | $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ | Length between points |
-| Internal section | $(\frac{mx_2+nx_1}{m+n},\frac{my_2+ny_1}{m+n})$ | $P$ divides $A(x_1,y_1),B(x_2,y_2)$ in $m:n$ |
-| Midpoint | $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$ | Ratio $1:1$ |
+
+#### Formulae
+| Name | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| Distance | $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ | Points $(x_1,y_1)$ and $(x_2,y_2)$ | Find the straight-line distance |
+| Internal section | $(\frac{mx_2+nx_1}{m+n},\frac{my_2+ny_1}{m+n})$ | $P$ divides $A(x_1,y_1)B(x_2,y_2)$ internally in ratio $m:n$, $m,n>0$ | Find a point between two endpoints |
+| Midpoint | $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$ | Special case of ratio $1:1$ | Find the halfway point |
 
 ### D. Solved board-style examples
 **Example 1: Distance**

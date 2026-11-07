@@ -21,12 +21,29 @@ Polynomial zeros are the inputs where its value is zero. For a quadratic, they a
 - For $ax^2+bx+c$, with zeros $\alpha,\beta$, $\alpha+\beta=-b/a$ and $\alpha\beta=c/a$.
 - The monic quadratic with roots $\alpha,\beta$ is $(x-\alpha)(x-\beta)$.
 
+#### Visual guide: zeros are x-intercepts
+
+```text
+       y
+       ↑       \       /
+       |        \_____/
+───────●───────────────●──────→ x
+       α               β
+```
+
+The curve meets the x-axis at $\alpha$ and $\beta$; those x-coordinates are its zeros.
+
 ### C. Formula and theorem sheet
-| Result | Expression | Condition |
-|---|---|---|
-| Sum of zeros | $\alpha+\beta=-b/a$ | $a\ne0$ |
-| Product of zeros | $\alpha\beta=c/a$ | $a\ne0$ |
-| Polynomial from roots | $x^2-(\alpha+\beta)x+\alpha\beta$ | Monic quadratic |
+
+#### Formulae
+| Name | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| Sum of zeros | $\alpha+\beta=-b/a$ | For $ax^2+bx+c$, $a\ne0$ | Check or find the sum of the two zeros |
+| Product of zeros | $\alpha\beta=c/a$ | For $ax^2+bx+c$, $a\ne0$ | Check or find the product of the two zeros |
+| Monic polynomial from zeros | $x^2-(\alpha+\beta)x+\alpha\beta$ | Zeros are $\alpha,\beta$ | Construct a monic quadratic |
+
+#### Geometrical property
+A real zero is the $x$-coordinate at which the graph of $y=p(x)$ intersects or touches the $x$-axis.
 
 ### D. Solved board-style examples
 **Example 1: Find zeros**

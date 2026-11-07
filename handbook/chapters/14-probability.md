@@ -21,12 +21,25 @@ Classical probability compares favourable equally likely outcomes with all possi
 - An event is a set of outcomes. In the classical model, outcomes must be equally likely.
 - Probability is between 0 and 1 inclusive. An impossible event has probability 0; a certain event has probability 1.
 
+#### Visual guide: outcomes of a coin toss
+
+```text
+                 Start
+                /     \
+           Heads       Tails
+            1/2          1/2
+```
+
+For a fair coin, the two outcomes are equally likely; an event may contain one or both outcomes.
+
 ### C. Formula and theorem sheet
-| Result | Formula | Condition |
-|---|---|---|
-| Classical probability | $P(E)=\frac{\text{favourable outcomes}}{\text{total outcomes}}$ | Finite, equally likely outcomes |
-| Complement | $P(E')=1-P(E)$ | $E'$ means event does not occur |
-| Bounds | $0\le P(E)\le1$ | Every event |
+
+#### Formulae and properties
+| Name | Formula / property | Meaning and conditions | When to use |
+|---|---|---|---|
+| Classical probability | $P(E)=\frac{n(E)}{n(S)}$ | Finite sample space $S$ with equally likely outcomes; $n(E)$ counts favourable outcomes | Find an event's probability by counting |
+| Complement | $P(E')=1-P(E)$ | $E'$ means event $E$ does not occur | Find the probability of “not $E$” or simplify “at least one” |
+| Probability bounds | $0\le P(E)\le1$ | Applies to every event | Check whether a calculated probability is possible |
 
 ### D. Solved board-style examples
 **Example 1: Die**

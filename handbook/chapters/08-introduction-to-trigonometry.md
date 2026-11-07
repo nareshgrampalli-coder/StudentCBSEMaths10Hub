@@ -19,12 +19,31 @@ Trigonometric ratios compare sides of a right triangle relative to an acute angl
 ### B. Important concepts and explanations
 Relative to angle $A$, opposite, adjacent, and hypotenuse identify sides. $\sin A=O/H$, $\cos A=A/H$, $\tan A=O/A$; cosec, sec, and cot are reciprocals. Ratios depend on the angle, not the triangle's size.
 
+#### Visual guide: name sides from angle $A$
+
+```text
+                 C
+                 |\
+  opposite (O)   | \  hypotenuse (H)
+                 |  \
+                 |___\
+                 B   A
+                  adjacent (Adj)
+```
+
+The right angle is at $B$; for angle $A$, the opposite side is $BC$ and the adjacent side is $AB$.
+
 ### C. Formula and theorem sheet
-| Ratio/result | Expression |
-|---|---|
-| Sine, cosine, tangent | $\sin A=O/H,\ \cos A=Adj/H,\ \tan A=O/Adj$ |
-| Reciprocals | $\cosec A=1/\sin A,\ \sec A=1/\cos A,\ \cot A=1/\tan A$ |
-| Identity | $\sin^2A+\cos^2A=1$ |
+
+#### Trigonometric ratios
+| Ratio | Definition | Conditions |
+|---|---|---|
+| $\sin A$ | $\frac{O}{H}$ | Acute angle in a right triangle |
+| $\cos A$ | $\frac{Adj}{H}$ | Acute angle in a right triangle |
+| $\tan A$ | $\frac{O}{Adj}$ | Undefined when $Adj=0$ |
+| $\cosec A$ | $\frac{H}{O}=\frac1{\sin A}$ | Undefined when $\sin A=0$ |
+| $\sec A$ | $\frac{H}{Adj}=\frac1{\cos A}$ | Undefined when $\cos A=0$ |
+| $\cot A$ | $\frac{Adj}{O}=\frac1{\tan A}$ | Undefined when $\tan A=0$ |
 
 | Angle | $0^\circ$ | $30^\circ$ | $45^\circ$ | $60^\circ$ | $90^\circ$ |
 |---|---:|---:|---:|---:|---:|
@@ -32,7 +51,12 @@ Relative to angle $A$, opposite, adjacent, and hypotenuse identify sides. $\sin 
 | $\cos$ | 1 | $\sqrt3/2$ | $1/\sqrt2$ | $1/2$ | 0 |
 | $\tan$ | 0 | $1/\sqrt3$ | 1 | $\sqrt3$ | undefined |
 
-At $0^\circ$ and $90^\circ$, reciprocal ratios are defined only when their denominator is nonzero.
+#### Identity
+| Name | Identity | Use |
+|---|---|---|
+| Fundamental identity | $\sin^2A+\cos^2A=1$ | Relate sine and cosine or verify a simple identity |
+
+At $0^\circ$ and $90^\circ$, check the denominator before using any reciprocal ratio.
 
 ### D. Solved board-style examples
 **Example 1: Find all ratios**

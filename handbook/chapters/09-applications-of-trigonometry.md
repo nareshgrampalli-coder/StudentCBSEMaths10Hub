@@ -22,11 +22,31 @@ Angles of elevation and depression connect a line of sight to a right-triangle m
 - Horizontal lines are parallel, so the angle of depression equals the corresponding angle of elevation.
 - The angle is measured from the horizontal, not the vertical.
 
+#### Visual guide: angle of elevation
+
+```text
+        T
+       /|
+      / | h
+     /  |
+    / θ |
+   O────B
+     d
+```
+
+Here $O$ is the observer and $B$ the tower base. For level ground, $\tan\theta=h/d$. If eye height is included, measure $h$ from the observer's eye level.
+
 ### C. Formula and theorem sheet
-| Ratio | Expression | Use |
-|---|---|---|
-| Tangent | $\tan\theta=\text{vertical height}/\text{horizontal distance}$ | Height or horizontal distance |
-| Sine/cosine | $\sin\theta=O/H,\ \cos\theta=Adj/H$ | Slant distance or other side |
+
+#### Ratios used in height-and-distance models
+| Name | Relationship | Conditions | Use |
+|---|---|---|---|
+| Tangent | $\tan\theta=\frac{\text{vertical height}}{\text{horizontal distance}}$ | Right triangle; $\theta$ measured from horizontal | Find height or horizontal distance |
+| Sine | $\sin\theta=\frac{\text{vertical height}}{\text{line of sight}}$ | Right triangle | Find height or line-of-sight length |
+| Cosine | $\cos\theta=\frac{\text{horizontal distance}}{\text{line of sight}}$ | Right triangle | Find horizontal distance or line of sight |
+
+#### Angle property
+For parallel horizontal lines, the angle of depression from one line equals the corresponding angle of elevation from the other.
 
 ### D. Solved board-style examples
 **Example 1: Height from a distance**

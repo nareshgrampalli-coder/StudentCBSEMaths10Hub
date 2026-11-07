@@ -23,11 +23,34 @@ Similar triangles have the same shape: corresponding angles are equal and corres
 - Converse: if $AD/DB=AE/EC$, then $DE\parallel BC$.
 - Similar triangles have area ratio equal to the square of the corresponding-side ratio.
 
+#### Visual guide: Basic Proportionality Theorem
+
+```text
+             A
+            / \
+           D---E       DE ∥ BC
+          /     \
+         B-------C
+```
+
+With $D$ on $AB$ and $E$ on $AC$, the parallel segment creates corresponding side ratios.
+
 ### C. Formula and theorem sheet
-| Result | Expression | Conditions |
+
+#### Formulae
+| Name | Relationship | Meaning and conditions | When to use |
+|---|---|---|---|
+| BPT ratio | $\frac{AD}{DB}=\frac{AE}{EC}$ | In $\triangle ABC$, $D$ lies on $AB$, $E$ on $AC$, and $DE\parallel BC$ | Find a missing side segment |
+| Similar-triangle area ratio | $\frac{[\triangle_1]}{[\triangle_2]}=(\frac{\text{corresponding side}_1}{\text{corresponding side}_2})^2$ | Triangles are similar and sides are in matching order | Compare areas from a side ratio |
+
+#### Theorems and similarity criteria
+| Result | Statement | Proof / use |
 |---|---|---|
-| BPT | $AD/DB=AE/EC$ | $DE\parallel BC$ |
-| Similarity area ratio | $\frac{[\triangle_1]}{[\triangle_2]}=(\frac{\text{corresponding side}_1}{\text{side}_2})^2$ | Triangles similar |
+| Basic Proportionality Theorem | A line parallel to one side of a triangle divides the other two sides in the same ratio | Proof required; use when a parallel segment is given |
+| Converse of BPT | If a line divides two sides of a triangle in the same ratio, it is parallel to the third side | Apply to establish parallelism |
+| AA similarity | Two corresponding angles are equal | State and apply as a similarity criterion |
+| SSS similarity | Corresponding sides are proportional | State and apply as a similarity criterion |
+| SAS similarity | Two pairs of corresponding sides are proportional and their included angles are equal | State and apply as a similarity criterion |
 
 ### D. Solved board-style examples
 **Example 1: BPT calculation**

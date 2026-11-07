@@ -19,14 +19,32 @@ Circle measures extend to sectors, arcs, segments, and composite shapes. A secto
 ### B. Important concepts and explanations
 A sector is bounded by two radii and an arc. A segment is bounded by a chord and its corresponding arc. Segment area is sector area minus the triangle formed by the radii and chord.
 
+#### Visual guide: sector and segment
+
+```text
+              A
+           .-'|`-.
+         .'   |   `.
+        /     |     \
+       |      O──────B
+        \   sector  /
+         `-._____.-'
+          chord AB
+```
+
+The sector is bounded by $OA$, $OB$, and the arc $AB$. The minor segment lies between chord $AB$ and that arc.
+
 ### C. Formula and theorem sheet
-| Quantity | Formula |
-|---|---|
-| Circumference | $2\pi r$ |
-| Circle area | $\pi r^2$ |
-| Arc length | $\frac{\theta}{360^\circ}2\pi r$ |
-| Sector area | $\frac{\theta}{360^\circ}\pi r^2$ |
-| Segment area | Sector area minus triangle area |
+
+#### Formulae
+| Quantity | Formula | Meaning and conditions | When to use |
+|---|---|---|---|
+| Circumference | $2\pi r$ | $r$ is radius | Length around a full circle |
+| Circle area | $\pi r^2$ | $r$ is radius | Region inside a full circle |
+| Arc length | $\frac{\theta}{360^\circ}2\pi r$ | Central angle $\theta$ in degrees | Curved boundary of a sector |
+| Sector area | $\frac{\theta}{360^\circ}\pi r^2$ | Central angle $\theta$ in degrees | Region bounded by two radii and an arc |
+| Segment area | Sector area $-$ triangle area | Use the matching chord and sector | Region between a chord and its arc |
+| Sector perimeter | $2r+$ arc length | Includes both radii | Total boundary length of a sector |
 
 ### D. Solved board-style examples
 **Example 1: Circumference and area**

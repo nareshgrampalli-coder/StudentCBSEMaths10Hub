@@ -22,11 +22,28 @@ Prime factorisation reveals the structure of whole numbers. Use it to compare di
 - For positive integers, HCF uses the smallest exponents common to both prime factorizations; LCM uses the largest exponents appearing.
 - To prove an irrationality statement, assume the number is a reduced fraction, then show its numerator and denominator share a prime factor, contradicting reduction.
 
+#### Visual guide: prime factor tree
+
+```text
+             60
+           /    \
+          6      10
+         / \     / \
+        2   3   2   5
+```
+
+The leaves are prime, so $60=2^2\cdot3\cdot5$.
+
 ### C. Formula and theorem sheet
-| Result | Expression | Use |
-|---|---|---|
-| Prime factorisation | $n=p_1^{a_1}\cdots p_k^{a_k}$ | Unique representation for integer $n>1$ |
-| HCF and LCM | $\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$ | Positive integers $a,b$ |
+
+#### Formulae and number facts
+| Name | Formula / fact | Meaning and conditions | When to use |
+|---|---|---|---|
+| Prime factorisation | $n=p_1^{a_1}\cdots p_k^{a_k}$ | Distinct primes $p_i$, positive integer exponents $a_i$, and $n>1$ | Express an integer as prime powers |
+| HCF–LCM relation | $\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$ | Positive integers $a,b$ | Check or find one of HCF and LCM when the other is known |
+
+#### Theorem
+**Fundamental Theorem of Arithmetic:** Every integer greater than 1 is either prime or can be expressed as a product of primes, and this factorisation is unique apart from the order of the factors.
 
 ### D. Solved board-style examples
 **Example 1: HCF and LCM**
