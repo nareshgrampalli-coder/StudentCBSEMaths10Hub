@@ -37,7 +37,7 @@ The curve meets the x-axis at $\alpha$ and $\beta$; those x-coordinates are its 
 
 #### Formulae
 | Name | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Sum of zeros | $\alpha+\beta=-b/a$ | For $ax^2+bx+c$, $a\ne0$ | Check or find the sum of the two zeros |
 | Product of zeros | $\alpha\beta=c/a$ | For $ax^2+bx+c$, $a\ne0$ | Check or find the product of the two zeros |
 | Monic polynomial from zeros | $x^2-(\alpha+\beta)x+\alpha\beta$ | Zeros are $\alpha,\beta$ | Construct a monic quadratic |

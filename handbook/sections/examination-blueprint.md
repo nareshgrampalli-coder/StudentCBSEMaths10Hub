@@ -12,13 +12,13 @@ next_url: /handbook/sections/unit-i-number-systems/
 The requested blueprint is shown here as a planning aid. Verify the current official circular and curriculum before treating any entries as official.
 
 | Component | Marks | Duration |
-|---|---:|---|
+| --- | ---: | --- |
 | Written theory examination | 80 | 3 hours |
 | Internal assessment | 20 | — |
 | Total | 100 | — |
 
 | Unit | Unit name | Marks in supplied blueprint |
-|---|---|---:|
+| --- | --- | ---: |
 | I | Number Systems | 6 |
 | II | Algebra | 20 |
 | III | Coordinate Geometry | 6 |
@@ -29,7 +29,7 @@ The requested blueprint is shown here as a planning aid. Verify the current offi
 | **Total** |  | **80** |
 
 | Internal assessment component | Marks in supplied blueprint |
-|---|---:|
+| --- | ---: |
 | Pen-paper test and multiple assessment | 10 |
 | Portfolio | 5 |
 | Mathematics laboratory practicals | 5 |

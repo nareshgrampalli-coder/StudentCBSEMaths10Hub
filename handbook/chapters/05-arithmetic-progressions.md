@@ -33,7 +33,7 @@ Every step adds the same common difference $d$; $d$ can also be negative.
 
 #### Formulae
 | Name | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | $n$th term | $a_n=a+(n-1)d$ | $a$ first term; $d$ common difference; $n\ge1$ | Find a specified term or term number |
 | Sum of first $n$ terms | $S_n=\frac n2[2a+(n-1)d]$ | $a$ first term; $d$ common difference; $n\ge1$ | Find a total without adding each term |
 | Sum using last term | $S_n=\frac n2(a+l)$ | $l$ is the last included term | Use when the first and last terms are known |

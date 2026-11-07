@@ -41,7 +41,7 @@ The tallest bar identifies the modal class; cumulative frequencies are used to l
 
 #### Formulae
 | Measure / method | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Class mark | $x_i=\frac{\text{lower limit}+\text{upper limit}}2$ | Midpoint of class $i$ | Represent a class by one value |
 | Direct mean | $\bar{x}=\frac{\sum f_ix_i}{N}$ | $N=\sum f_i$; $x_i$ class mark | Find the frequency-weighted average |
 | Assumed-mean mean | $\bar{x}=a+\frac{\sum f_id_i}{N}$ | $d_i=x_i-a$; $a$ is assumed mean | Simplify calculations using deviations |

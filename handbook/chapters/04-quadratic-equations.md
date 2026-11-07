@@ -35,13 +35,13 @@ For this downward-opening sketch, the two x-intercepts represent two distinct re
 
 #### Formulae
 | Name | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Quadratic formula | $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ | $ax^2+bx+c=0$, $a\ne0$ | Find roots when factorisation is inconvenient |
 | Discriminant | $D=b^2-4ac$ | $a,b,c$ are coefficients in standard form | Determine the nature of real roots |
 
 #### Root classification
 | Discriminant | Nature of roots |
-|---|---|
+| --- | --- |
 | $D>0$ | Two distinct real roots |
 | $D=0$ | Two equal real roots |
 | $D<0$ | No real roots |

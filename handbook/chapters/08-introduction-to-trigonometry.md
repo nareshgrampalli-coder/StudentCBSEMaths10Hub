@@ -37,7 +37,7 @@ The right angle is at $B$; for angle $A$, the opposite side is $BC$ and the adja
 
 #### Trigonometric ratios
 | Ratio | Definition | Conditions |
-|---|---|---|
+| --- | --- | --- |
 | $\sin A$ | $\frac{O}{H}$ | Acute angle in a right triangle |
 | $\cos A$ | $\frac{Adj}{H}$ | Acute angle in a right triangle |
 | $\tan A$ | $\frac{O}{Adj}$ | Undefined when $Adj=0$ |
@@ -46,14 +46,14 @@ The right angle is at $B$; for angle $A$, the opposite side is $BC$ and the adja
 | $\cot A$ | $\frac{Adj}{O}=\frac1{\tan A}$ | Undefined when $\tan A=0$ |
 
 | Angle | $0^\circ$ | $30^\circ$ | $45^\circ$ | $60^\circ$ | $90^\circ$ |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | $\sin$ | 0 | $1/2$ | $1/\sqrt2$ | $\sqrt3/2$ | 1 |
 | $\cos$ | 1 | $\sqrt3/2$ | $1/\sqrt2$ | $1/2$ | 0 |
 | $\tan$ | 0 | $1/\sqrt3$ | 1 | $\sqrt3$ | undefined |
 
 #### Identity
 | Name | Identity | Use |
-|---|---|---|
+| --- | --- | --- |
 | Fundamental identity | $\sin^2A+\cos^2A=1$ | Relate sine and cosine or verify a simple identity |
 
 At $0^\circ$ and $90^\circ$, check the denominator before using any reciprocal ratio.

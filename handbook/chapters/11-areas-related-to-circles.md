@@ -38,7 +38,7 @@ The sector is bounded by $OA$, $OB$, and the arc $AB$. The minor segment lies be
 
 #### Formulae
 | Quantity | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Circumference | $2\pi r$ | $r$ is radius | Length around a full circle |
 | Circle area | $\pi r^2$ | $r$ is radius | Region inside a full circle |
 | Arc length | $\frac{\theta}{360^\circ}2\pi r$ | Central angle $\theta$ in degrees | Curved boundary of a sector |

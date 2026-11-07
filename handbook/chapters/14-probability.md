@@ -36,7 +36,7 @@ For a fair coin, the two outcomes are equally likely; an event may contain one o
 
 #### Formulae and properties
 | Name | Formula / property | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Classical probability | $P(E)=\frac{n(E)}{n(S)}$ | Finite sample space $S$ with equally likely outcomes; $n(E)$ counts favourable outcomes | Find an event's probability by counting |
 | Complement | $P(E')=1-P(E)$ | $E'$ means event $E$ does not occur | Find the probability of “not $E$” or simplify “at least one” |
 | Probability bounds | $0\le P(E)\le1$ | Applies to every event | Check whether a calculated probability is possible |

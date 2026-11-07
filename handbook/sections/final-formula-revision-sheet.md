@@ -12,7 +12,7 @@ next_url: /handbook/sections/final-examination-checklist/
 ## Final formula revision sheet
 
 | Topic | Formula |
-|---|---|
+| --- | --- |
 | HCF–LCM | $\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$ |
 | Quadratic zeros | Sum $=-b/a$; product $=c/a$ |
 | Linear pair | Compare $a_1/a_2,b_1/b_2,c_1/c_2$ |

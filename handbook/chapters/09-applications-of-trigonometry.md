@@ -40,7 +40,7 @@ Here $O$ is the observer and $B$ the tower base. For level ground, $\tan\theta=h
 
 #### Ratios used in height-and-distance models
 | Name | Relationship | Conditions | Use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Tangent | $\tan\theta=\frac{\text{vertical height}}{\text{horizontal distance}}$ | Right triangle; $\theta$ measured from horizontal | Find height or horizontal distance |
 | Sine | $\sin\theta=\frac{\text{vertical height}}{\text{line of sight}}$ | Right triangle | Find height or line-of-sight length |
 | Cosine | $\cos\theta=\frac{\text{horizontal distance}}{\text{line of sight}}$ | Right triangle | Find horizontal distance or line of sight |

@@ -45,13 +45,13 @@ permalink: /complete-handbook/
 The requested blueprint is shown here as a planning aid. Verify the current official circular and curriculum before treating any entries as official.
 
 | Component | Marks | Duration |
-|---|---:|---|
+| --- | ---: | --- |
 | Written theory examination | 80 | 3 hours |
 | Internal assessment | 20 | — |
 | Total | 100 | — |
 
 | Unit | Unit name | Marks in supplied blueprint |
-|---|---|---:|
+| --- | --- | ---: |
 | I | Number Systems | 6 |
 | II | Algebra | 20 |
 | III | Coordinate Geometry | 6 |
@@ -62,7 +62,7 @@ The requested blueprint is shown here as a planning aid. Verify the current offi
 | **Total** |  | **80** |
 
 | Internal assessment component | Marks in supplied blueprint |
-|---|---:|
+| --- | ---: |
 | Pen-paper test and multiple assessment | 10 |
 | Portfolio | 5 |
 | Mathematics laboratory practicals | 5 |
@@ -123,7 +123,7 @@ The leaves are prime, so $60=2^2\cdot3\cdot5$.
 
 #### Formulae and number facts
 | Name | Formula / fact | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Prime factorisation | $n=p_1^{a_1}\cdots p_k^{a_k}$ | Distinct primes $p_i$, positive integer exponents $a_i$, and $n>1$ | Express an integer as prime powers |
 | HCF–LCM relation | $\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$ | Positive integers $a,b$ | Check or find one of HCF and LCM when the other is known |
 
@@ -233,7 +233,7 @@ The curve meets the x-axis at $\alpha$ and $\beta$; those x-coordinates are its 
 
 #### Formulae
 | Name | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Sum of zeros | $\alpha+\beta=-b/a$ | For $ax^2+bx+c$, $a\ne0$ | Check or find the sum of the two zeros |
 | Product of zeros | $\alpha\beta=c/a$ | For $ax^2+bx+c$, $a\ne0$ | Check or find the product of the two zeros |
 | Monic polynomial from zeros | $x^2-(\alpha+\beta)x+\alpha\beta$ | Zeros are $\alpha,\beta$ | Construct a monic quadratic |
@@ -343,7 +343,7 @@ Two non-parallel lines meet at one point. Parallel distinct lines do not meet; c
 
 #### Consistency test
 | Pair of lines | Coefficient condition | Number of solutions |
-|---|---|---|
+| --- | --- | --- |
 | Intersecting | $\frac{a_1}{a_2}\ne\frac{b_1}{b_2}$ | One |
 | Parallel and distinct | $\frac{a_1}{a_2}=\frac{b_1}{b_2}\ne\frac{c_1}{c_2}$ | None |
 | Coincident | $\frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}$ | Infinitely many |
@@ -352,7 +352,7 @@ These ratio forms assume the denominators are non-zero; when they are not, compa
 
 #### Solution methods
 | Method | Main step | Best used when |
-|---|---|---|
+| --- | --- | --- |
 | Substitution | Isolate one variable and substitute into the other equation | A variable is easy to isolate |
 | Elimination | Add or subtract suitable multiples to remove a variable | Coefficients can be made equal or opposite |
 | Graphical | Plot both lines and locate their common point | The question asks for a visual interpretation |
@@ -457,13 +457,13 @@ For this downward-opening sketch, the two x-intercepts represent two distinct re
 
 #### Formulae
 | Name | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Quadratic formula | $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ | $ax^2+bx+c=0$, $a\ne0$ | Find roots when factorisation is inconvenient |
 | Discriminant | $D=b^2-4ac$ | $a,b,c$ are coefficients in standard form | Determine the nature of real roots |
 
 #### Root classification
 | Discriminant | Nature of roots |
-|---|---|
+| --- | --- |
 | $D>0$ | Two distinct real roots |
 | $D=0$ | Two equal real roots |
 | $D<0$ | No real roots |
@@ -566,7 +566,7 @@ Every step adds the same common difference $d$; $d$ can also be negative.
 
 #### Formulae
 | Name | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | $n$th term | $a_n=a+(n-1)d$ | $a$ first term; $d$ common difference; $n\ge1$ | Find a specified term or term number |
 | Sum of first $n$ terms | $S_n=\frac n2[2a+(n-1)d]$ | $a$ first term; $d$ common difference; $n\ge1$ | Find a total without adding each term |
 | Sum using last term | $S_n=\frac n2(a+l)$ | $l$ is the last included term | Use when the first and last terms are known |
@@ -672,13 +672,13 @@ With $D$ on $AB$ and $E$ on $AC$, the parallel segment creates corresponding sid
 
 #### Formulae
 | Name | Relationship | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | BPT ratio | $\frac{AD}{DB}=\frac{AE}{EC}$ | In $\triangle ABC$, $D$ lies on $AB$, $E$ on $AC$, and $DE\parallel BC$ | Find a missing side segment |
 | Similar-triangle area ratio | $\frac{[\triangle_1]}{[\triangle_2]}=(\frac{\text{corresponding side}_1}{\text{corresponding side}_2})^2$ | Triangles are similar and sides are in matching order | Compare areas from a side ratio |
 
 #### Theorems and similarity criteria
 | Result | Statement | Proof / use |
-|---|---|---|
+| --- | --- | --- |
 | Basic Proportionality Theorem | A line parallel to one side of a triangle divides the other two sides in the same ratio | Proof required; use when a parallel segment is given |
 | Converse of BPT | If a line divides two sides of a triangle in the same ratio, it is parallel to the third side | Apply to establish parallelism |
 | AA similarity | Two corresponding angles are equal | State and apply as a similarity criterion |
@@ -781,7 +781,7 @@ The section formula weights the coordinates of $B$ by $m$ and those of $A$ by $n
 
 #### Formulae
 | Name | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Distance | $d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$ | Points $(x_1,y_1)$ and $(x_2,y_2)$ | Find the straight-line distance |
 | Internal section | $(\frac{mx_2+nx_1}{m+n},\frac{my_2+ny_1}{m+n})$ | $P$ divides $A(x_1,y_1)B(x_2,y_2)$ internally in ratio $m:n$, $m,n>0$ | Find a point between two endpoints |
 | Midpoint | $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$ | Special case of ratio $1:1$ | Find the halfway point |
@@ -885,7 +885,7 @@ The right angle is at $B$; for angle $A$, the opposite side is $BC$ and the adja
 
 #### Trigonometric ratios
 | Ratio | Definition | Conditions |
-|---|---|---|
+| --- | --- | --- |
 | $\sin A$ | $\frac{O}{H}$ | Acute angle in a right triangle |
 | $\cos A$ | $\frac{Adj}{H}$ | Acute angle in a right triangle |
 | $\tan A$ | $\frac{O}{Adj}$ | Undefined when $Adj=0$ |
@@ -894,14 +894,14 @@ The right angle is at $B$; for angle $A$, the opposite side is $BC$ and the adja
 | $\cot A$ | $\frac{Adj}{O}=\frac1{\tan A}$ | Undefined when $\tan A=0$ |
 
 | Angle | $0^\circ$ | $30^\circ$ | $45^\circ$ | $60^\circ$ | $90^\circ$ |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | $\sin$ | 0 | $1/2$ | $1/\sqrt2$ | $\sqrt3/2$ | 1 |
 | $\cos$ | 1 | $\sqrt3/2$ | $1/\sqrt2$ | $1/2$ | 0 |
 | $\tan$ | 0 | $1/\sqrt3$ | 1 | $\sqrt3$ | undefined |
 
 #### Identity
 | Name | Identity | Use |
-|---|---|---|
+| --- | --- | --- |
 | Fundamental identity | $\sin^2A+\cos^2A=1$ | Relate sine and cosine or verify a simple identity |
 
 At $0^\circ$ and $90^\circ$, check the denominator before using any reciprocal ratio.
@@ -1007,7 +1007,7 @@ Here $O$ is the observer and $B$ the tower base. For level ground, $\tan\theta=h
 
 #### Ratios used in height-and-distance models
 | Name | Relationship | Conditions | Use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Tangent | $\tan\theta=\frac{\text{vertical height}}{\text{horizontal distance}}$ | Right triangle; $\theta$ measured from horizontal | Find height or horizontal distance |
 | Sine | $\sin\theta=\frac{\text{vertical height}}{\text{line of sight}}$ | Right triangle | Find height or line-of-sight length |
 | Cosine | $\cos\theta=\frac{\text{horizontal distance}}{\text{line of sight}}$ | Right triangle | Find horizontal distance or line of sight |
@@ -1117,13 +1117,13 @@ The tangent touches the circle at $T$; radius $OT$ is perpendicular to the tange
 
 #### Theorems
 | Theorem | Statement | Proof / conditions |
-|---|---|---|
+| --- | --- | --- |
 | Radius–tangent theorem | The tangent at any point of a circle is perpendicular to the radius through the point of contact | Proof required; if $PT$ is tangent at $T$, then $OT\perp PT$ |
 | Equal tangents theorem | Tangents drawn from an external point to a circle are equal in length | Proof required; if $PA$ and $PB$ are tangents from $P$, then $PA=PB$ |
 
 #### Useful relation
 | Situation | Relationship | When to use |
-|---|---|---|
+| --- | --- | --- |
 | Radius and tangent length | $r^2+t^2=OP^2$ | Right triangle formed by centre $O$, contact point, and external point $P$ |
 
 ### D. Solved board-style examples
@@ -1227,7 +1227,7 @@ The sector is bounded by $OA$, $OB$, and the arc $AB$. The minor segment lies be
 
 #### Formulae
 | Quantity | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Circumference | $2\pi r$ | $r$ is radius | Length around a full circle |
 | Circle area | $\pi r^2$ | $r$ is radius | Region inside a full circle |
 | Arc length | $\frac{\theta}{360^\circ}2\pi r$ | Central angle $\theta$ in degrees | Curved boundary of a sector |
@@ -1340,7 +1340,7 @@ Count only the outside boundary. The circular face where the hemisphere and cyli
 Here, $r$ is radius, $h$ is perpendicular height, and $a$ is cube edge length. In the cuboid row, $l,b,h$ are its three edge lengths; for a cone, $l$ is slant height.
 
 | Solid | Curved / lateral surface area | Total surface area | Volume |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Cube, side $a$ | — | $6a^2$ | $a^3$ |
 | Cuboid, $l,b,h$ | — | $2(lb+bh+hl)$ | $lbh$ |
 | Right circular cylinder | $2\pi rh$ | $2\pi r(h+r)$ | $\pi r^2h$ |
@@ -1454,7 +1454,7 @@ The tallest bar identifies the modal class; cumulative frequencies are used to l
 
 #### Formulae
 | Measure / method | Formula | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Class mark | $x_i=\frac{\text{lower limit}+\text{upper limit}}2$ | Midpoint of class $i$ | Represent a class by one value |
 | Direct mean | $\bar{x}=\frac{\sum f_ix_i}{N}$ | $N=\sum f_i$; $x_i$ class mark | Find the frequency-weighted average |
 | Assumed-mean mean | $\bar{x}=a+\frac{\sum f_id_i}{N}$ | $d_i=x_i-a$; $a$ is assumed mean | Simplify calculations using deviations |
@@ -1562,7 +1562,7 @@ For a fair coin, the two outcomes are equally likely; an event may contain one o
 
 #### Formulae and properties
 | Name | Formula / property | Meaning and conditions | When to use |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Classical probability | $P(E)=\frac{n(E)}{n(S)}$ | Finite sample space $S$ with equally likely outcomes; $n(E)$ counts favourable outcomes | Find an event's probability by counting |
 | Complement | $P(E')=1-P(E)$ | $E'$ means event $E$ does not occur | Find the probability of “not $E$” or simplify “at least one” |
 | Probability bounds | $0\le P(E)\le1$ | Applies to every event | Check whether a calculated probability is possible |
@@ -1642,7 +1642,7 @@ For finite equally likely outcomes, probability is favourable over total. Comple
 ## Final formula revision sheet
 
 | Topic | Formula |
-|---|---|
+| --- | --- |
 | HCF–LCM | $\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$ |
 | Quadratic zeros | Sum $=-b/a$; product $=c/a$ |
 | Linear pair | Compare $a_1/a_2,b_1/b_2,c_1/c_2$ |

@@ -43,7 +43,7 @@ Count only the outside boundary. The circular face where the hemisphere and cyli
 Here, $r$ is radius, $h$ is perpendicular height, and $a$ is cube edge length. In the cuboid row, $l,b,h$ are its three edge lengths; for a cone, $l$ is slant height.
 
 | Solid | Curved / lateral surface area | Total surface area | Volume |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Cube, side $a$ | — | $6a^2$ | $a^3$ |
 | Cuboid, $l,b,h$ | — | $2(lb+bh+hl)$ | $lbh$ |
 | Right circular cylinder | $2\pi rh$ | $2\pi r(h+r)$ | $\pi r^2h$ |
