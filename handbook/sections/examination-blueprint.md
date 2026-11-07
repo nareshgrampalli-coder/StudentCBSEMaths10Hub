@@ -1,3 +1,12 @@
+---
+layout: book
+title: "Examination blueprint"
+permalink: /handbook/sections/examination-blueprint/
+book_section: "Exam overview"
+next_title: "Unit I: Number Systems"
+next_url: /handbook/sections/unit-i-number-systems/
+---
+
 ## Examination blueprint
 
 The requested blueprint is shown here as a planning aid. Verify the current official circular and curriculum before treating any entries as official.

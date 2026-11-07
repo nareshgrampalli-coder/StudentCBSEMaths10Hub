@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 6: Triangles"
+permalink: /handbook/chapters/06-triangles/
+book_section: "Chapters"
+previous_title: "Chapter 5: Arithmetic Progressions"
+previous_url: /handbook/chapters/05-arithmetic-progressions/
+next_title: "Chapter 7: Coordinate Geometry"
+next_url: /handbook/chapters/07-coordinate-geometry/
+---
+
 ## Chapter 6: Triangles
 
 ### A. Chapter overview

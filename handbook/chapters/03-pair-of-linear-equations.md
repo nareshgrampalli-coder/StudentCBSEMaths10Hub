@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 3: Pair of Linear Equations in Two Variables"
+permalink: /handbook/chapters/03-pair-of-linear-equations/
+book_section: "Chapters"
+previous_title: "Chapter 2: Polynomials"
+previous_url: /handbook/chapters/02-polynomials/
+next_title: "Chapter 4: Quadratic Equations"
+next_url: /handbook/chapters/04-quadratic-equations/
+---
+
 ## Chapter 3: Pair of Linear Equations in Two Variables
 
 ### A. Chapter overview

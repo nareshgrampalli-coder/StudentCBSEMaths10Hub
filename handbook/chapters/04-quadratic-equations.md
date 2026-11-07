@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 4: Quadratic Equations"
+permalink: /handbook/chapters/04-quadratic-equations/
+book_section: "Chapters"
+previous_title: "Chapter 3: Pair of Linear Equations in Two Variables"
+previous_url: /handbook/chapters/03-pair-of-linear-equations/
+next_title: "Chapter 5: Arithmetic Progressions"
+next_url: /handbook/chapters/05-arithmetic-progressions/
+---
+
 ## Chapter 4: Quadratic Equations
 
 ### A. Chapter overview

@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 12: Surface Areas and Volumes"
+permalink: /handbook/chapters/12-surface-areas-and-volumes/
+book_section: "Chapters"
+previous_title: "Chapter 11: Areas Related to Circles"
+previous_url: /handbook/chapters/11-areas-related-to-circles/
+next_title: "Chapter 13: Statistics"
+next_url: /handbook/chapters/13-statistics/
+---
+
 ## Chapter 12: Surface Areas and Volumes
 
 ### A. Chapter overview

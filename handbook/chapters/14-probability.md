@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 14: Probability"
+permalink: /handbook/chapters/14-probability/
+book_section: "Chapters"
+previous_title: "Chapter 13: Statistics"
+previous_url: /handbook/chapters/13-statistics/
+next_title: "Final formula revision sheet"
+next_url: /handbook/sections/final-formula-revision-sheet/
+---
+
 ## Chapter 14: Probability
 
 ### A. Chapter overview

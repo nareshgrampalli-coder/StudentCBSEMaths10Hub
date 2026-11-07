@@ -1,3 +1,9 @@
+---
+layout: book
+title: Complete Handbook
+permalink: /complete-handbook/
+---
+
 # CBSE Class 10 Mathematics Standard (041): 2026–27 Handbook
 
 **Board examination:** 2027  
@@ -8,30 +14,30 @@
 
 ## Table of contents
 
-- [Examination blueprint](handbook/sections/examination-blueprint.md)
-- [Unit I: Number Systems](handbook/sections/unit-i-number-systems.md)
-- [Unit II: Algebra](handbook/sections/unit-ii-algebra.md)
-- [Unit III: Coordinate Geometry](handbook/sections/unit-iii-coordinate-geometry.md)
-- [Unit IV: Geometry](handbook/sections/unit-iv-geometry.md)
-- [Unit V: Trigonometry](handbook/sections/unit-v-trigonometry.md)
-- [Unit VI: Mensuration](handbook/sections/unit-vi-mensuration.md)
-- [Unit VII: Statistics and Probability](handbook/sections/unit-vii-statistics-and-probability.md)
-- [Chapter 1: Real Numbers](handbook/chapters/01-real-numbers.md)
-- [Chapter 2: Polynomials](handbook/chapters/02-polynomials.md)
-- [Chapter 3: Pair of Linear Equations in Two Variables](handbook/chapters/03-pair-of-linear-equations.md)
-- [Chapter 4: Quadratic Equations](handbook/chapters/04-quadratic-equations.md)
-- [Chapter 5: Arithmetic Progressions](handbook/chapters/05-arithmetic-progressions.md)
-- [Chapter 6: Triangles](handbook/chapters/06-triangles.md)
-- [Chapter 7: Coordinate Geometry](handbook/chapters/07-coordinate-geometry.md)
-- [Chapter 8: Introduction to Trigonometry](handbook/chapters/08-introduction-to-trigonometry.md)
-- [Chapter 9: Some Applications of Trigonometry](handbook/chapters/09-applications-of-trigonometry.md)
-- [Chapter 10: Circles](handbook/chapters/10-circles.md)
-- [Chapter 11: Areas Related to Circles](handbook/chapters/11-areas-related-to-circles.md)
-- [Chapter 12: Surface Areas and Volumes](handbook/chapters/12-surface-areas-and-volumes.md)
-- [Chapter 13: Statistics](handbook/chapters/13-statistics.md)
-- [Chapter 14: Probability](handbook/chapters/14-probability.md)
-- [Final formula revision sheet](handbook/sections/final-formula-revision-sheet.md)
-- [Final examination checklist](handbook/sections/final-examination-checklist.md)
+- [Examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }})
+- [Unit I: Number Systems]({{ '/handbook/sections/unit-i-number-systems/' | relative_url }})
+- [Unit II: Algebra]({{ '/handbook/sections/unit-ii-algebra/' | relative_url }})
+- [Unit III: Coordinate Geometry]({{ '/handbook/sections/unit-iii-coordinate-geometry/' | relative_url }})
+- [Unit IV: Geometry]({{ '/handbook/sections/unit-iv-geometry/' | relative_url }})
+- [Unit V: Trigonometry]({{ '/handbook/sections/unit-v-trigonometry/' | relative_url }})
+- [Unit VI: Mensuration]({{ '/handbook/sections/unit-vi-mensuration/' | relative_url }})
+- [Unit VII: Statistics and Probability]({{ '/handbook/sections/unit-vii-statistics-and-probability/' | relative_url }})
+- [Chapter 1: Real Numbers]({{ '/handbook/chapters/01-real-numbers/' | relative_url }})
+- [Chapter 2: Polynomials]({{ '/handbook/chapters/02-polynomials/' | relative_url }})
+- [Chapter 3: Pair of Linear Equations in Two Variables]({{ '/handbook/chapters/03-pair-of-linear-equations/' | relative_url }})
+- [Chapter 4: Quadratic Equations]({{ '/handbook/chapters/04-quadratic-equations/' | relative_url }})
+- [Chapter 5: Arithmetic Progressions]({{ '/handbook/chapters/05-arithmetic-progressions/' | relative_url }})
+- [Chapter 6: Triangles]({{ '/handbook/chapters/06-triangles/' | relative_url }})
+- [Chapter 7: Coordinate Geometry]({{ '/handbook/chapters/07-coordinate-geometry/' | relative_url }})
+- [Chapter 8: Introduction to Trigonometry]({{ '/handbook/chapters/08-introduction-to-trigonometry/' | relative_url }})
+- [Chapter 9: Some Applications of Trigonometry]({{ '/handbook/chapters/09-applications-of-trigonometry/' | relative_url }})
+- [Chapter 10: Circles]({{ '/handbook/chapters/10-circles/' | relative_url }})
+- [Chapter 11: Areas Related to Circles]({{ '/handbook/chapters/11-areas-related-to-circles/' | relative_url }})
+- [Chapter 12: Surface Areas and Volumes]({{ '/handbook/chapters/12-surface-areas-and-volumes/' | relative_url }})
+- [Chapter 13: Statistics]({{ '/handbook/chapters/13-statistics/' | relative_url }})
+- [Chapter 14: Probability]({{ '/handbook/chapters/14-probability/' | relative_url }})
+- [Final formula revision sheet]({{ '/handbook/sections/final-formula-revision-sheet/' | relative_url }})
+- [Final examination checklist]({{ '/handbook/sections/final-examination-checklist/' | relative_url }})
 - [References](#references)
 
 ## Examination blueprint

@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 8: Introduction to Trigonometry"
+permalink: /handbook/chapters/08-introduction-to-trigonometry/
+book_section: "Chapters"
+previous_title: "Chapter 7: Coordinate Geometry"
+previous_url: /handbook/chapters/07-coordinate-geometry/
+next_title: "Chapter 9: Some Applications of Trigonometry"
+next_url: /handbook/chapters/09-applications-of-trigonometry/
+---
+
 ## Chapter 8: Introduction to Trigonometry
 
 ### A. Chapter overview

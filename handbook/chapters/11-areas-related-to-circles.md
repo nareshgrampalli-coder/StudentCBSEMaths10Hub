@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 11: Areas Related to Circles"
+permalink: /handbook/chapters/11-areas-related-to-circles/
+book_section: "Chapters"
+previous_title: "Chapter 10: Circles"
+previous_url: /handbook/chapters/10-circles/
+next_title: "Chapter 12: Surface Areas and Volumes"
+next_url: /handbook/chapters/12-surface-areas-and-volumes/
+---
+
 ## Chapter 11: Areas Related to Circles
 
 ### A. Chapter overview

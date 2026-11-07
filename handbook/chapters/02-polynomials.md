@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 2: Polynomials"
+permalink: /handbook/chapters/02-polynomials/
+book_section: "Chapters"
+previous_title: "Chapter 1: Real Numbers"
+previous_url: /handbook/chapters/01-real-numbers/
+next_title: "Chapter 3: Pair of Linear Equations in Two Variables"
+next_url: /handbook/chapters/03-pair-of-linear-equations/
+---
+
 ## Chapter 2: Polynomials
 
 ### A. Chapter overview

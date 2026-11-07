@@ -1,0 +1,15 @@
+title: CBSE Class 10 Mathematics Standard
+description: A navigable 2026–27 study handbook for Mathematics Standard (041).
+url: https://nareshgrampalli-coder.github.io
+baseurl: /StudentHub
+markdown: kramdown
+relative_links:
+  enabled: true
+  collections: true
+plugins:
+  - jekyll-relative-links
+exclude:
+  - .github
+  - README.md
+  - Gemfile
+  - Gemfile.lock

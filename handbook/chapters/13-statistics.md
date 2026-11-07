@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 13: Statistics"
+permalink: /handbook/chapters/13-statistics/
+book_section: "Chapters"
+previous_title: "Chapter 12: Surface Areas and Volumes"
+previous_url: /handbook/chapters/12-surface-areas-and-volumes/
+next_title: "Chapter 14: Probability"
+next_url: /handbook/chapters/14-probability/
+---
+
 ## Chapter 13: Statistics
 
 ### A. Chapter overview

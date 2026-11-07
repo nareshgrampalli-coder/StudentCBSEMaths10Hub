@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Final formula revision sheet"
+permalink: /handbook/sections/final-formula-revision-sheet/
+book_section: "Final revision"
+previous_title: "Chapter 14: Probability"
+previous_url: /handbook/chapters/14-probability/
+next_title: "Final examination checklist"
+next_url: /handbook/sections/final-examination-checklist/
+---
+
 ## Final formula revision sheet
 
 | Topic | Formula |

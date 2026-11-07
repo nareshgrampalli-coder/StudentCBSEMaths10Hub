@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 7: Coordinate Geometry"
+permalink: /handbook/chapters/07-coordinate-geometry/
+book_section: "Chapters"
+previous_title: "Chapter 6: Triangles"
+previous_url: /handbook/chapters/06-triangles/
+next_title: "Chapter 8: Introduction to Trigonometry"
+next_url: /handbook/chapters/08-introduction-to-trigonometry/
+---
+
 ## Chapter 7: Coordinate Geometry
 
 ### A. Chapter overview

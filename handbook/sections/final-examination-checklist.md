@@ -1,3 +1,12 @@
+---
+layout: book
+title: "Final examination checklist"
+permalink: /handbook/sections/final-examination-checklist/
+book_section: "Final revision"
+previous_title: "Final formula revision sheet"
+previous_url: /handbook/sections/final-formula-revision-sheet/
+---
+
 ## Final examination checklist
 
 - [ ] I have confirmed the current CBSE syllabus and official assessment notices.

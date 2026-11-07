@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 5: Arithmetic Progressions"
+permalink: /handbook/chapters/05-arithmetic-progressions/
+book_section: "Chapters"
+previous_title: "Chapter 4: Quadratic Equations"
+previous_url: /handbook/chapters/04-quadratic-equations/
+next_title: "Chapter 6: Triangles"
+next_url: /handbook/chapters/06-triangles/
+---
+
 ## Chapter 5: Arithmetic Progressions
 
 ### A. Chapter overview

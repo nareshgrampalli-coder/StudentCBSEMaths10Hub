@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 10: Circles"
+permalink: /handbook/chapters/10-circles/
+book_section: "Chapters"
+previous_title: "Chapter 9: Some Applications of Trigonometry"
+previous_url: /handbook/chapters/09-applications-of-trigonometry/
+next_title: "Chapter 11: Areas Related to Circles"
+next_url: /handbook/chapters/11-areas-related-to-circles/
+---
+
 ## Chapter 10: Circles
 
 ### A. Chapter overview

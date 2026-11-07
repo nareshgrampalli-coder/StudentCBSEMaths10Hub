@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 9: Some Applications of Trigonometry"
+permalink: /handbook/chapters/09-applications-of-trigonometry/
+book_section: "Chapters"
+previous_title: "Chapter 8: Introduction to Trigonometry"
+previous_url: /handbook/chapters/08-introduction-to-trigonometry/
+next_title: "Chapter 10: Circles"
+next_url: /handbook/chapters/10-circles/
+---
+
 ## Chapter 9: Some Applications of Trigonometry
 
 ### A. Chapter overview

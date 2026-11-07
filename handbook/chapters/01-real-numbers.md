@@ -1,3 +1,14 @@
+---
+layout: book
+title: "Chapter 1: Real Numbers"
+permalink: /handbook/chapters/01-real-numbers/
+book_section: "Chapters"
+previous_title: "Unit VII: Statistics and Probability"
+previous_url: /handbook/sections/unit-vii-statistics-and-probability/
+next_title: "Chapter 2: Polynomials"
+next_url: /handbook/chapters/02-polynomials/
+---
+
 ## Chapter 1: Real Numbers
 
 ### A. Chapter overview
