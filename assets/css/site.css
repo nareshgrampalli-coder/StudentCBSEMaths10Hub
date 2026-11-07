@@ -237,6 +237,12 @@ summary:focus-visible,
   margin-bottom: .9rem;
 }
 
+.book-content h3[id*="practice-questions"] ~ p {
+  margin-left: 1rem;
+  padding-left: .85rem;
+  border-left: 2px solid #dce8e3;
+}
+
 .book-content li + li {
   margin-top: .25rem;
 }
