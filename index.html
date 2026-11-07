@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A quick reference of school formulas and revision notes for students across boards.">
+  <title>StudentHub — Formulas &amp; Notes</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #172033;
+      background: #f5f7fb;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+    }
+
+    * { box-sizing: border-box; }
+
+    body { margin: 0; }
+
+    header {
+      padding: 2rem max(1.25rem, calc((100% - 1100px) / 2));
+      color: white;
+      background: linear-gradient(120deg, #253b80, #4568c5);
+    }
+
+    header h1 { margin: 0; font-size: clamp(1.8rem, 5vw, 2.7rem); }
+    header p { max-width: 650px; margin: .5rem 0 0; color: #e3eaff; line-height: 1.6; }
+
+    main { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+
+    .filters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 1rem;
+      padding: 1.1rem;
+      margin-bottom: 1.5rem;
+      background: white;
+      border: 1px solid #e1e6f0;
+      border-radius: 12px;
+    }
+
+    label { display: grid; gap: .4rem; font-size: .9rem; font-weight: 650; }
+
+    input, select {
+      width: 100%;
+      min-height: 44px;
+      padding: .65rem .75rem;
+      color: inherit;
+      background: white;
+      border: 1px solid #bac4d7;
+      border-radius: 7px;
+      font: inherit;
+    }
+
+    input:focus, select:focus { outline: 3px solid #c5d3ff; border-color: #4568c5; }
+
+    .results-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+    .results-heading h2 { margin: 0 0 1rem; font-size: 1.25rem; }
+    #result-count { color: #596579; font-size: .9rem; }
+
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr)); gap: 1rem; }
+
+    article {
+      padding: 1.15rem;
+      background: white;
+      border: 1px solid #e1e6f0;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgb(22 39 82 / 4%);
+    }
+
+    .metadata { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: .65rem; }
+    .tag { padding: .2rem .55rem; color: #304b9a; background: #edf1ff; border-radius: 999px; font-size: .75rem; font-weight: 650; }
+    .tag.subject { color: #425168; background: #eef1f5; }
+    article h3 { margin: 0 0 .65rem; font-size: 1.1rem; }
+    article p { margin: .5rem 0 0; color: #4b5669; line-height: 1.55; }
+    .equation { padding: .7rem; overflow-wrap: anywhere; color: #182b62; background: #f5f7ff; border-radius: 7px; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .empty-state { grid-column: 1 / -1; padding: 2rem; color: #596579; text-align: center; background: white; border: 1px dashed #bac4d7; border-radius: 12px; }
+
+    footer { padding: 1rem 1.25rem 2rem; color: #596579; text-align: center; font-size: .85rem; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      article { transition: transform 140ms ease, box-shadow 140ms ease; }
+      article:hover { transform: translateY(-2px); box-shadow: 0 7px 18px rgb(22 39 82 / 9%); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>StudentHub</h1>
+    <p>A handy collection of school formulas and revision notes. Filter by subject or curriculum, or search for a topic to find a quick refresher.</p>
+  </header>
+
+  <main>
+    <section class="filters" aria-label="Filter study resources">
+      <label for="search">Search topics
+        <input id="search" type="search" placeholder="Try “quadratic” or “electricity”">
+      </label>
+      <label for="subject">Subject
+        <select id="subject">
+          <option value="all">All subjects</option>
+          <option value="mathematics">Mathematics</option>
+          <option value="physics">Physics</option>
+          <option value="chemistry">Chemistry</option>
+          <option value="biology">Biology</option>
+        </select>
+      </label>
+      <label for="board">Curriculum
+        <select id="board">
+          <option value="all">All curricula</option>
+          <option value="cbse">CBSE / NCERT</option>
+          <option value="icse">ICSE</option>
+          <option value="state">State boards</option>
+        </select>
+      </label>
+    </section>
+
+    <div class="results-heading">
+      <h2>Quick reference</h2>
+      <span id="result-count" aria-live="polite"></span>
+    </div>
+
+    <section class="cards" id="resources" aria-label="Formulas and notes">
+      <article data-subject="mathematics" data-boards="cbse icse state">
+        <div class="metadata"><span class="tag subject">Mathematics</span><span class="tag">CBSE · ICSE · State</span></div>
+        <h3>Quadratic equation</h3>
+        <p>For ax² + bx + c = 0, where a ≠ 0, the roots are:</p>
+        <p class="equation">x = (−b ± √(b² − 4ac)) / 2a</p>
+        <p>The discriminant b² − 4ac indicates whether the roots are real and distinct, equal, or non-real.</p>
+      </article>
+
+      <article data-subject="mathematics" data-boards="cbse icse state">
+        <div class="metadata"><span class="tag subject">Mathematics</span><span class="tag">CBSE · ICSE · State</span></div>
+        <h3>Arithmetic progression</h3>
+        <p>For first term a and common difference d, the nth term and sum of n terms are:</p>
+        <p class="equation">aₙ = a + (n − 1)d<br>Sₙ = n/2 [2a + (n − 1)d]</p>
+      </article>
+
+      <article data-subject="mathematics" data-boards="cbse icse state">
+        <div class="metadata"><span class="tag subject">Mathematics</span><span class="tag">CBSE · ICSE · State</span></div>
+        <h3>Circle measures</h3>
+        <p>For a circle of radius r:</p>
+        <p class="equation">Circumference = 2πr<br>Area = πr²</p>
+      </article>
+
+      <article data-subject="physics" data-boards="cbse icse state">
+        <div class="metadata"><span class="tag subject">Physics</span><span class="tag">CBSE · ICSE · State</span></div>
+        <h3>Newton’s second law</h3>
+        <p>The net force on an object equals its mass multiplied by its acceleration. Use consistent SI units.</p>
+        <p class="equation">F = ma</p>
+      </article>
+
+      <article data-subject="physics" data-boards="cbse icse state">
+        <div class="metadata"><span class="tag subject">Physics</span><span class="tag">CBSE · ICSE · State</span></div>
+        <h3>Ohm’s law</h3>
+        <p>At constant temperature and other physical conditions, current through a conductor is proportional to the potential difference across it.</p>
+        <p class="equation">V = IR</p>
+      </article>
+
+      <article data-subject="physics" data-boards="cbse icse state">
+        <div class="metadata"><span class="tag subject">Physics</span><span class="tag">CBSE · ICSE · State</span></div>
+        <h3>Power and electrical energy</h3>
+        <p>Electrical power is the rate of energy transfer. With voltage V, current I, and time t:</p>
+        <p class="equation">P = VI<br>E = Pt</p>
+      </article>
+
+      <article data-subject="chemistry" data-boards="cbse icse state">
+        <div class="metadata"><span class="tag subject">Chemistry</span><span class="tag">CBSE · ICSE · State</span></div>
+        <h3>Amount of substance</h3>
+        <p>The number of moles n in a sample is its mass divided by its molar mass.</p>
+        <p class="equation">n = mass / molar mass</p>
+      </article>
+
+      <article data-subject="chemistry" data-boards="cbse icse state">
+        <div class="metadata"><span class="tag subject">Chemistry</span><span class="tag">CBSE · ICSE · State</span></div>
+        <h3>Balancing equations</h3>
+        <p>A balanced chemical equation has the same number of atoms of each element on both sides. Change coefficients, not subscripts in a chemical formula.</p>
+      </article>
+
+      <article data-subject="biology" data-boards="cbse icse state">
+        <div class="metadata"><span class="tag subject">Biology</span><span class="tag">CBSE · ICSE · State</span></div>
+        <h3>Photosynthesis</h3>
+        <p>In the presence of light and chlorophyll, plants use carbon dioxide and water to produce glucose and oxygen.</p>
+        <p class="equation">6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>Use these quick references alongside your textbook and the syllabus for your board.</footer>
+
+  <script>
+    const searchInput = document.querySelector("#search");
+    const subjectSelect = document.querySelector("#subject");
+    const boardSelect = document.querySelector("#board");
+    const cards = [...document.querySelectorAll("#resources article")];
+    const resultCount = document.querySelector("#result-count");
+    const resources = document.querySelector("#resources");
+
+    function filterResources() {
+      const query = searchInput.value.trim().toLocaleLowerCase();
+      const subject = subjectSelect.value;
+      const board = boardSelect.value;
+      let visibleCount = 0;
+
+      for (const card of cards) {
+        const matches = (subject === "all" || card.dataset.subject === subject)
+          && (board === "all" || card.dataset.boards.split(" ").includes(board))
+          && card.textContent.toLocaleLowerCase().includes(query);
+        card.hidden = !matches;
+        if (matches) visibleCount++;
+      }
+
+      resultCount.textContent = `${visibleCount} ${visibleCount === 1 ? "resource" : "resources"}`;
+      let emptyState = resources.querySelector(".empty-state");
+      if (visibleCount === 0 && !emptyState) {
+        emptyState = document.createElement("p");
+        emptyState.className = "empty-state";
+        emptyState.textContent = "No resources match your filters. Try another subject or search term.";
+        resources.append(emptyState);
+      } else if (visibleCount > 0 && emptyState) {
+        emptyState.remove();
+      }
+    }
+
+    searchInput.addEventListener("input", filterResources);
+    subjectSelect.addEventListener("change", filterResources);
+    boardSelect.addEventListener("change", filterResources);
+    filterResources();
+  </script>
+</body>
+</html>
