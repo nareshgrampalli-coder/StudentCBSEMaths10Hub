@@ -16,7 +16,7 @@ Similar triangles have the same shape: corresponding angles are equal and corres
 
 **Objectives:** apply similarity criteria; prove and use BPT and its converse; compare areas of similar triangles.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit IV (Geometry) carries **15 marks** in the supplied, unverified blueprint. Allow roughly **7–10 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - AA similarity: two corresponding angles equal. SSS: corresponding sides proportional. SAS: included angle equal and surrounding sides proportional.
@@ -120,20 +120,42 @@ AA, SSS, and SAS establish similarity. BPT applies when a line is parallel; its 
 - [ ] I can compare areas using the squared scale factor.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Two sides of one triangle are proportional to two sides of another, and their included angles are equal. Name the similarity criterion.
+**S1.** Two sides of one triangle are proportional to two sides of another, and their included angles are equal. Name the similarity criterion.
+
+**S2.** Two triangles have two pairs of corresponding angles equal. State the similarity criterion.
 
 #### Medium
-2. Similar triangles have corresponding side ratio $2:7$. Find their area ratio.
+**M1.** Similar triangles have corresponding side ratio $2:7$. Find their area ratio.
+
+**M2.** In $\triangle ABC$, $DE\parallel BC$, $AD=3$, $DB=4$, and $AE=6$. Find $EC$.
 
 #### Complex
-3. In $\triangle ABC$, $DE\parallel BC$, $AD=4$, $DB=6$, and $AE=5$. Find $EC$ and the ratio of the areas of $\triangle ADE$ and $\triangle ABC$.
+**C1.** In $\triangle ABC$, $DE\parallel BC$, $AD=4$, $DB=6$, and $AE=5$. Find $EC$ and the ratio of the areas of $\triangle ADE$ and $\triangle ABC$.
+
+**C2.** Two similar triangles have areas $36\text{ cm}^2$ and $64\text{ cm}^2$. A side of the smaller triangle is 9 cm. Find the corresponding side of the larger triangle.
 
 #### Answers / hints
-1. The included angle condition together with proportional sides gives the **SAS similarity criterion**.
-2. Similar-triangle area ratio is the square of the side ratio.
-   The area ratio is $2^2:7^2=\mathbf{4:49}$.
-3. By BPT, $AD/DB=AE/EC$, so $4/6=5/EC$ and $EC=7.5$.
-   Also $AD/AB=4/10=2/5$; the area ratio is $(2/5)^2=\mathbf{4:25}$.
+**S1.** The included-angle condition and proportional sides give the **SAS similarity criterion**.
+
+**S2.** Two equal pairs of corresponding angles establish **AA similarity**.
+
+**M1.** Square the corresponding-side ratio.
+
+The area ratio is $2^2:7^2=\mathbf{4:49}$.
+
+**M2.** By BPT, $AD/DB=AE/EC$, so $3/4=6/EC$.
+
+Therefore $EC=\mathbf{8}$.
+
+**C1.** By BPT, $AD/DB=AE/EC$, so $4/6=5/EC$ and $EC=7.5$.
+
+Also $AD/AB=4/10=2/5$; the area ratio is $(2/5)^2=\mathbf{4:25}$.
+
+**C2.** The side ratio is the square root of the area ratio: $\sqrt{36:64}=3:4$.
+
+The corresponding larger side is $9(4/3)=\mathbf{12\text{ cm}}$.

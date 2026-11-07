@@ -16,7 +16,7 @@ Angles of elevation and depression connect a line of sight to a right-triangle m
 
 **Objectives:** draw a labelled diagram; choose a ratio; solve situations involving at most two right triangles.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit V (Trigonometry) carries **12 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - The line of sight joins the observer's eye to the object.
@@ -114,21 +114,46 @@ Translate the wording into a right triangle. Elevation/depression is relative to
 - [ ] I can account for eye height and units.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. A 12 m pole casts a shadow when the sun's elevation is $45^\circ$. Find the shadow length.
+**S1.** A 12 m pole casts a shadow when the sun's elevation is $45^\circ$. Find the shadow length.
+
+**S2.** From a point 10 m from a tree, the angle of elevation to its top is $45^\circ$. Find the height, assuming eye level at the ground.
 
 #### Medium
-2. A 10 m ladder makes an angle of $60^\circ$ with level ground. How high up a vertical wall does it reach?
+**M1.** A 10 m ladder makes an angle of $60^\circ$ with level ground. How high up a vertical wall does it reach?
+
+**M2.** A kite string 20 m long makes an angle of $30^\circ$ with the horizontal. Find its vertical height above the hand.
 
 #### Complex
-3. From a point 30 m from a building, its top is seen at an elevation of $30^\circ$. Find the height above the observer's eye level.
+**C1.** From a point 30 m from a building, its top is seen at an elevation of $30^\circ$. Find the height above the observer's eye level.
+
+**C2.** From the top of a 20 m building, the angle of depression to a point on level ground is $45^\circ$. Find the horizontal distance to that point.
 
 #### Answers / hints
-1. Let the shadow length be $x$. Then $\tan45^\circ=12/x$.
-   Hence $x=\mathbf{12\text{ m}}$.
-2. The ladder is the hypotenuse; height $=10\sin60^\circ$.
-   The height is $\mathbf{5\sqrt3\text{ m}}$.
-3. Let the height above eye level be $h$. Then $\tan30^\circ=h/30$.
-   Thus $h=30/\sqrt3=\mathbf{10\sqrt3\text{ m}}$.
+**S1.** Let the shadow length be $x$. Then $\tan45^\circ=12/x$.
+
+Hence $x=\mathbf{12\text{ m}}$.
+
+**S2.** $\tan45^\circ=h/10$.
+
+The tree is $\mathbf{10\text{ m}}$ high.
+
+**M1.** The ladder is the hypotenuse; height $=10\sin60^\circ$.
+
+The height is $\mathbf{5\sqrt3\text{ m}}$.
+
+**M2.** Height $=20\sin30^\circ$.
+
+The kite is **10 m** above the hand.
+
+**C1.** Let the height above eye level be $h$. Then $\tan30^\circ=h/30$.
+
+Thus $h=30/\sqrt3=\mathbf{10\sqrt3\text{ m}}$.
+
+**C2.** The depression angle equals the ground elevation angle, so $\tan45^\circ=20/d$.
+
+Therefore the horizontal distance is **20 m**.

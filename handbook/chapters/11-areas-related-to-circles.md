@@ -16,7 +16,7 @@ Circle measures extend to sectors, arcs, segments, and composite shapes. A secto
 
 **Objectives:** calculate circumference, area, arc length, sector area, segment area, and composite perimeter.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit VI (Mensuration) carries **10 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 A sector is bounded by two radii and an arc. A segment is bounded by a chord and its corresponding arc. Segment area is sector area minus the triangle formed by the radii and chord.
@@ -112,21 +112,46 @@ Circle area is $\pi r^2$; circumference is $2\pi r$. Sector and arc are the corr
 - [ ] I can split composite shapes into familiar parts.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Find the circumference of a circle of radius 10 cm.
+**S1.** Find the circumference of a circle of radius 10 cm.
+
+**S2.** Find the area of a circle with diameter 14 cm.
 
 #### Medium
-2. Find the area of a $120^\circ$ sector of radius 6 cm.
+**M1.** Find the area of a $120^\circ$ sector of radius 6 cm.
+
+**M2.** Find the perimeter of a $90^\circ$ sector of radius 8 cm.
 
 #### Complex
-3. A circular garden has radius 12 m. Find the length of a $60^\circ$ arc and the area of its sector.
+**C1.** A circular garden has radius 12 m. Find the length of a $60^\circ$ arc and the area of its sector.
+
+**C2.** A circle has radius 14 cm and a $90^\circ$ sector is removed. Find the area of the remaining major sector and its perimeter, using $\pi=22/7$.
 
 #### Answers / hints
-1. Use $C=2\pi r$.
-   The circumference is $\mathbf{20\pi\text{ cm}}$.
-2. Sector area $=\frac{120}{360}\pi(6)^2$.
-   The area is $\mathbf{12\pi\text{ cm}^2}$.
-3. Arc length $=\frac{60}{360}(2\pi\cdot12)$.
-   The arc is $4\pi$ m; sector area $=\frac{60}{360}\pi(12)^2=\mathbf{24\pi\text{ m}^2}$.
+**S1.** Use $C=2\pi r$.
+
+The circumference is $\mathbf{20\pi\text{ cm}}$.
+
+**S2.** The radius is 7 cm, half the diameter.
+
+Area $=\pi(7)^2=\mathbf{49\pi\text{ cm}^2}$.
+
+**M1.** Sector area $=\frac{120}{360}\pi(6)^2$.
+
+The area is $\mathbf{12\pi\text{ cm}^2}$.
+
+**M2.** The arc length is $\frac{90}{360}(2\pi\cdot8)=4\pi$ cm.
+
+Perimeter $=2(8)+4\pi=\mathbf{16+4\pi\text{ cm}}$.
+
+**C1.** Arc length $=\frac{60}{360}(2\pi\cdot12)$.
+
+The arc is $4\pi$ m; sector area $=\frac{60}{360}\pi(12)^2=\mathbf{24\pi\text{ m}^2}$.
+
+**C2.** The major sector angle is $270^\circ$.
+
+Area $=\frac{270}{360}\pi(14)^2=\mathbf{462\text{ cm}^2}$; perimeter $=2(14)+\frac{270}{360}(2\pi\cdot14)=\mathbf{94\text{ cm}}$.

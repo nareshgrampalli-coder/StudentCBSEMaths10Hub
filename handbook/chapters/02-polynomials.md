@@ -16,7 +16,7 @@ Polynomial zeros are the inputs where its value is zero. For a quadratic, they a
 
 **Objectives:** identify zeros from graphs or algebra; use and verify the zero-coefficient relationships; construct a quadratic from given zeros.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - A zero of $p(x)$ is a value $r$ for which $p(r)=0$. Graphically it is an x-coordinate where the curve meets or touches the x-axis.
@@ -25,15 +25,9 @@ Polynomial zeros are the inputs where its value is zero. For a quadratic, they a
 
 #### Visual guide: zeros are x-intercepts
 
-```text
-       y
-       ↑       \       /
-       |        \_____/
-───────●───────────────●──────→ x
-       α               β
-```
+![An upward-opening parabola crosses the x-axis at the two zeros alpha and beta.]({{ '/assets/images/polynomial-zeros.svg' | relative_url }})
 
-The curve meets the x-axis at $\alpha$ and $\beta$; those x-coordinates are its zeros.
+The labeled x-coordinates $\alpha$ and $\beta$ are the points where the graph meets the x-axis, so they are zeros of the polynomial.
 
 ### C. Formula and theorem sheet
 
@@ -112,21 +106,46 @@ Zeros satisfy $p(r)=0$. For a quadratic, sum $=-b/a$, product $=c/a$. The monic 
 - [ ] I can construct a quadratic from its zeros.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Form a monic quadratic polynomial with zeros 3 and 7.
+**S1.** Form a monic quadratic polynomial with zeros 3 and 7.
+
+**S2.** Find the sum and product of zeros of $x^2+2x-8$.
 
 #### Medium
-2. Find and verify the zeros of $2x^2-7x+3$.
+**M1.** Find and verify the zeros of $2x^2-7x+3$.
+
+**M2.** A quadratic polynomial has zeros $-2$ and $5$. Find the monic polynomial and verify its sum and product of zeros.
 
 #### Complex
-3. A quadratic graph touches the x-axis at $x=2$ and has $y$-intercept 8. Find the polynomial if its leading coefficient is 2.
+**C1.** A quadratic graph touches the x-axis at $x=2$ and has $y$-intercept 8. Find the polynomial if its leading coefficient is 2.
+
+**C2.** A quadratic polynomial has zeros whose sum is 5 and product is 6. If its leading coefficient is 2, find the polynomial and verify its zeros.
 
 #### Answers / hints
-1. Use $(x-3)(x-7)$.
-   The polynomial is $x^2-10x+21$.
-2. Factor: $(2x-1)(x-3)=0$.
-   Zeros are $1/2$ and $3$; their sum is $7/2$ and product is $3/2$.
-3. A touch at $x=2$ means a repeated zero, so write $p(x)=2(x-2)^2$.
-   Its y-intercept is 8, as required; $p(x)=2x^2-8x+8$.
+**S1.** Use $(x-3)(x-7)$.
+
+The polynomial is $x^2-10x+21$.
+
+**S2.** Here $a=1,b=2,c=-8$.
+
+The sum is $-2$ and the product is $-8$.
+
+**M1.** Factor $2x^2-7x+3=(2x-1)(x-3)$.
+
+The zeros are $1/2$ and 3; their sum is $7/2$ and product is $3/2$.
+
+**M2.** The polynomial is $(x+2)(x-5)=x^2-3x-10$.
+
+The sum is 3 and product is $-10$, matching the coefficients.
+
+**C1.** A touch at $x=2$ means a repeated zero, so write $p(x)=2(x-2)^2$.
+
+This has y-intercept 8; expanded, $p(x)=2x^2-8x+8$.
+
+**C2.** A monic polynomial with sum 5 and product 6 is $x^2-5x+6$.
+
+With leading coefficient 2 it is $2x^2-10x+12=2(x-2)(x-3)$, with zeros 2 and 3.

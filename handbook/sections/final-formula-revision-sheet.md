@@ -13,14 +13,14 @@ next_url: /handbook/sections/final-examination-checklist/
 
 This quick-reference sheet collects the main formulas from all 14 chapters. Use the chapter pages for full conditions, proofs, worked examples, and diagrams.
 
-### 1. Real Numbers
+### [1. Real Numbers: worked examples]({{ '/handbook/chapters/01-real-numbers/#d-solved-board-style-examples' | relative_url }})
 
 | Result | Formula / fact |
 | --- | --- |
 | Prime factorisation | $n=p_1^{a_1}p_2^{a_2}\cdots p_k^{a_k}$, with distinct primes $p_i$ |
 | HCF–LCM relation | $\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$ for positive integers $a,b$ |
 
-### 2. Polynomials
+### [2. Polynomials: worked examples]({{ '/handbook/chapters/02-polynomials/#d-solved-board-style-examples' | relative_url }})
 
 For $p(x)=ax^2+bx+c$, $a\ne0$, with zeros $\alpha,\beta$:
 
@@ -30,19 +30,21 @@ For $p(x)=ax^2+bx+c$, $a\ne0$, with zeros $\alpha,\beta$:
 | Product of zeros | $\alpha\beta=\frac ca$ |
 | Quadratic from zeros | $p(x)=a(x-\alpha)(x-\beta)$ |
 
-### 3. Pair of Linear Equations in Two Variables
+### [3. Pair of Linear Equations: worked examples]({{ '/handbook/chapters/03-pair-of-linear-equations/#d-solved-board-style-examples' | relative_url }})
 
-For $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$:
+For genuine lines $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$, where neither $(a_i,b_i)=(0,0)$, define $\Delta=a_1b_2-a_2b_1$.
 
 | Relationship | Number of solutions |
 | --- | --- |
-| $\frac{a_1}{a_2}\ne\frac{b_1}{b_2}$ | One solution |
-| $\frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}$ | Infinitely many solutions |
-| $\frac{a_1}{a_2}=\frac{b_1}{b_2}\ne\frac{c_1}{c_2}$ | No solution |
+| $\Delta\ne0$ | One solution |
+| $\Delta=0$, $a_1c_2-a_2c_1=0$, and $b_1c_2-b_2c_1=0$ | Infinitely many solutions |
+| $\Delta=0$ and at least one of $a_1c_2-a_2c_1$, $b_1c_2-b_2c_1$ is nonzero | No solution |
 
-When a denominator is zero, compare ratios by cross-multiplication or use the equivalent coefficient conditions.
+These determinant conditions work even when one or more coefficients are zero.
 
-### 4. Quadratic Equations
+For example, $x-2=0$ and $x-3=0$ have $\Delta=0$ but a nonzero constant minor, so they are distinct parallel lines with no solution. The pair $x-2=0$ and $2x-4=0$ has all minors zero, so it represents the same line and has infinitely many solutions.
+
+### [4. Quadratic Equations: worked examples]({{ '/handbook/chapters/04-quadratic-equations/#d-solved-board-style-examples' | relative_url }})
 
 For $ax^2+bx+c=0$, $a\ne0$:
 
@@ -54,7 +56,7 @@ For $ax^2+bx+c=0$, $a\ne0$:
 | $D=0$ | Two equal real roots |
 | $D<0$ | No real roots |
 
-### 5. Arithmetic Progressions
+### [5. Arithmetic Progressions: worked examples]({{ '/handbook/chapters/05-arithmetic-progressions/#d-solved-board-style-examples' | relative_url }})
 
 Here $a$ is the first term, $d$ the common difference, and $n$ the number of terms.
 
@@ -65,7 +67,7 @@ Here $a$ is the first term, $d$ the common difference, and $n$ the number of ter
 | Sum of first $n$ terms | $S_n=\frac n2[2a+(n-1)d]$ |
 | Sum using last term $l$ | $S_n=\frac n2(a+l)$ |
 
-### 6. Triangles
+### [6. Triangles: worked examples]({{ '/handbook/chapters/06-triangles/#d-solved-board-style-examples' | relative_url }})
 
 | Result | Formula / relationship |
 | --- | --- |
@@ -73,7 +75,7 @@ Here $a$ is the first term, $d$ the common difference, and $n$ the number of ter
 | Similar-triangle area ratio | $\frac{[\triangle_1]}{[\triangle_2]}=\left(\frac{\text{corresponding side}_1}{\text{corresponding side}_2}\right)^2$ |
 | Pythagoras theorem | In a right triangle, $(\text{hypotenuse})^2=(\text{leg}_1)^2+(\text{leg}_2)^2$ |
 
-### 7. Coordinate Geometry
+### [7. Coordinate Geometry: worked examples]({{ '/handbook/chapters/07-coordinate-geometry/#d-solved-board-style-examples' | relative_url }})
 
 For points $A(x_1,y_1)$ and $B(x_2,y_2)$:
 
@@ -83,7 +85,7 @@ For points $A(x_1,y_1)$ and $B(x_2,y_2)$:
 | Internal section, ratio $m:n$ | $\left(\frac{mx_2+nx_1}{m+n},\frac{my_2+ny_1}{m+n}\right)$ |
 | Midpoint | $\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right)$ |
 
-### 8. Introduction to Trigonometry
+### [8. Introduction to Trigonometry: worked examples]({{ '/handbook/chapters/08-introduction-to-trigonometry/#d-solved-board-style-examples' | relative_url }})
 
 For an acute angle $A$ in a right triangle, let $O$ be opposite, $Adj$ adjacent, and $H$ the hypotenuse.
 
@@ -103,7 +105,7 @@ For an acute angle $A$ in a right triangle, let $O$ be opposite, $Adj$ adjacent,
 | $\cos A$ | $1$ | $\frac{\sqrt3}{2}$ | $\frac1{\sqrt2}$ | $\frac12$ | $0$ |
 | $\tan A$ | $0$ | $\frac1{\sqrt3}$ | $1$ | $\sqrt3$ | undefined |
 
-### 9. Some Applications of Trigonometry
+### [9. Some Applications of Trigonometry: worked examples]({{ '/handbook/chapters/09-applications-of-trigonometry/#d-solved-board-style-examples' | relative_url }})
 
 For angle of elevation or depression $\theta$, vertical height difference $h$, and horizontal distance $d$:
 
@@ -115,14 +117,14 @@ For angle of elevation or depression $\theta$, vertical height difference $h$, a
 
 Draw and label a right triangle first; use heights above or below eye level as appropriate.
 
-### 10. Circles
+### [10. Circles: worked examples]({{ '/handbook/chapters/10-circles/#d-solved-board-style-examples' | relative_url }})
 
 | Theorem | Result |
 | --- | --- |
 | Radius and tangent | The radius to the point of contact is perpendicular to the tangent |
 | Tangents from an external point | If $PA$ and $PB$ are tangents from $P$, then $PA=PB$ |
 
-### 11. Areas Related to Circles
+### [11. Areas Related to Circles: worked examples]({{ '/handbook/chapters/11-areas-related-to-circles/#d-solved-board-style-examples' | relative_url }})
 
 For radius $r$ and central angle $\theta$ in degrees:
 
@@ -135,7 +137,7 @@ For radius $r$ and central angle $\theta$ in degrees:
 | Perimeter of a sector | $2r+\text{arc length}$ |
 | Area of a minor segment | $\text{sector area}-\text{area of triangle}$ |
 
-### 12. Surface Areas and Volumes
+### [12. Surface Areas and Volumes: worked examples]({{ '/handbook/chapters/12-surface-areas-and-volumes/#d-solved-board-style-examples' | relative_url }})
 
 Here $r$ is radius, $h$ perpendicular height, $l$ and $b$ are cuboid edges, and $a$ is cube edge length.
 
@@ -150,7 +152,7 @@ Here $r$ is radius, $h$ perpendicular height, $l$ and $b$ are cuboid edges, and 
 
 For a cone, slant height $\ell=\sqrt{r^2+h^2}$. For combined solids, count only exposed surfaces.
 
-### 13. Statistics
+### [13. Statistics: worked examples]({{ '/handbook/chapters/13-statistics/#d-solved-board-style-examples' | relative_url }})
 
 For grouped data, $N=\sum f_i$, $x_i$ is the class mark, and $h$ is the class width.
 
@@ -165,7 +167,7 @@ For grouped data, $N=\sum f_i$, $x_i$ is the class mark, and $h$ is the class wi
 
 For the median, $l$ is the lower boundary of the median class, $cf$ the cumulative frequency before it, and $f$ its frequency. For the mode, $l$ is the lower boundary of the modal class; $f_1$ is its frequency and $f_0,f_2$ are the preceding and following frequencies.
 
-### 14. Probability
+### [14. Probability: worked examples]({{ '/handbook/chapters/14-probability/#d-solved-board-style-examples' | relative_url }})
 
 For equally likely outcomes:
 

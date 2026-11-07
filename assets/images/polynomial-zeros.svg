@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-labelledby="title desc">
+  <title id="title">Zeros of a quadratic polynomial</title>
+  <desc id="desc">An upward-opening parabola crosses the horizontal x-axis at alpha and beta. The curve is below the axis between the two roots and above it outside them.</desc>
+  <path d="M35 15V190M20 145H345" fill="none" stroke="#647584" stroke-width="2"/>
+  <path d="M35 20Q180 330 325 20" fill="none" stroke="#146b65" stroke-width="4"/>
+  <path d="M105 139V151M255 139V151" stroke="#172a3a" stroke-width="2"/>
+  <circle cx="105" cy="145" r="5" fill="#146b65"/>
+  <circle cx="255" cy="145" r="5" fill="#146b65"/>
+  <text x="330" y="139" font-family="Arial, sans-serif" font-size="16" fill="#172a3a">x</text>
+  <text x="20" y="16" font-family="Arial, sans-serif" font-size="16" fill="#172a3a">y</text>
+  <text x="98" y="174" font-family="Arial, sans-serif" font-size="16" fill="#172a3a">α</text>
+  <text x="248" y="174" font-family="Arial, sans-serif" font-size="16" fill="#172a3a">β</text>
+</svg>

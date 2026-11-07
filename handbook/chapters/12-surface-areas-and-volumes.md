@@ -16,7 +16,7 @@ Solid geometry measures exposed surfaces and capacity. For combined solids, coun
 
 **Objectives:** recall formulas; convert units; handle combinations of two prescribed solids and practical contexts.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit VI (Mensuration) carries **10 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - Curved/lateral surface area excludes circular or polygonal ends; total surface area includes exposed faces.
@@ -119,21 +119,46 @@ Use correct CSA/TSA/volume formula. Joined surfaces are not exposed. Check dimen
 - [ ] I can convert units before substituting.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. A cuboid measures $4\times3\times2$ cm. Find its volume.
+**S1.** A cuboid measures $4\times3\times2$ cm. Find its volume.
+
+**S2.** Find the curved surface area of a cylinder with radius 3 cm and height 5 cm.
 
 #### Medium
-2. Find the volume of a sphere of radius 3 cm.
+**M1.** Find the volume of a sphere of radius 3 cm.
+
+**M2.** Find the slant height of a cone with radius 5 cm and perpendicular height 12 cm.
 
 #### Complex
-3. Find the total surface area of a hemisphere of radius 7 cm, using $\pi=22/7$.
+**C1.** A cylinder of radius 3 cm and height 8 cm has a hemisphere of the same radius attached to its top. Find the exposed surface area.
+
+**C2.** A cone with radius 3 cm and height 4 cm is mounted on a cylinder of radius 3 cm and height 10 cm. Find the volume of the combined solid.
 
 #### Answers / hints
-1. Volume $=lbh=4\cdot3\cdot2$.
-   The volume is $\mathbf{24\text{ cm}^3}$.
-2. Use $V=\frac43\pi r^3$.
-   The volume is $\mathbf{36\pi\text{ cm}^3}$.
-3. Total surface area of a hemisphere is $3\pi r^2$.
-   $3\cdot\frac{22}{7}\cdot49=\mathbf{462\text{ cm}^2}$.
+**S1.** Volume $=lbh=4\cdot3\cdot2$.
+
+The volume is $\mathbf{24\text{ cm}^3}$.
+
+**S2.** Curved surface area $=2\pi rh=2\pi(3)(5)$.
+
+The area is $\mathbf{30\pi\text{ cm}^2}$.
+
+**M1.** Use $V=\frac43\pi r^3$.
+
+The volume is $\mathbf{36\pi\text{ cm}^3}$.
+
+**M2.** Slant height $l=\sqrt{r^2+h^2}=\sqrt{5^2+12^2}$.
+
+$l=\mathbf{13\text{ cm}}$.
+
+**C1.** Exposed area is cylinder CSA, hemisphere CSA, and the cylinder's bottom base.
+
+$2\pi(3)(8)+2\pi(3^2)+\pi(3^2)=\mathbf{75\pi\text{ cm}^2}$.
+
+**C2.** Cylinder volume $=\pi(3)^2(10)=90\pi$; cone volume $=\frac13\pi(3)^2(4)=12\pi$.
+
+Combined volume $=\mathbf{102\pi\text{ cm}^3}$.

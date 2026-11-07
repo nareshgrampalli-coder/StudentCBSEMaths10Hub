@@ -16,7 +16,7 @@ Prime factorisation reveals the structure of whole numbers. Use it to compare di
 
 **Objectives:** apply the Fundamental Theorem of Arithmetic; find HCF/LCM; construct a contradiction proof of irrationality.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit I carries **6 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - A prime has exactly two positive factors, 1 and itself. Every composite integer greater than 1 is a product of primes.
@@ -114,21 +114,44 @@ Use unique prime factorisation; HCF takes common primes with minimum powers, LCM
 - [ ] I can write an irrationality proof clearly.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Find the HCF and LCM of 84 and 126.
+**S1.** Find the HCF and LCM of 84 and 126.
+
+**S2.** Write 360 as a product of prime powers.
 
 #### Medium
-2. Three lights flash every 12, 15, and 20 seconds. If they flash together now, when will they next flash together?
+**M1.** Three lights flash every 12, 15, and 20 seconds. If they flash together now, when will they next flash together?
+
+**M2.** Find the least positive integer divisible by both 18 and 30.
 
 #### Complex
-3. Prove that $3+2\sqrt5$ is irrational.
+**C1.** Prove that $3+2\sqrt5$ is irrational.
+
+**C2.** Prove that $\sqrt2$ is irrational.
 
 #### Answers / hints
-1. $84=2^2\cdot3\cdot7$ and $126=2\cdot3^2\cdot7$.
-   HCF $=42$; LCM $=252$.
-2. Find $\operatorname{LCM}(12,15,20)$.
-   The lights next flash together after **60 seconds**.
-3. Assume $3+2\sqrt5$ is rational.
-   Then $\sqrt5=((3+2\sqrt5)-3)/2$ would be rational, a contradiction.
+**S1.** $84=2^2\cdot3\cdot7$ and $126=2\cdot3^2\cdot7$.
+
+HCF $=42$; LCM $=252$.
+
+**S2.** Divide by primes: $360=2^3\cdot3^2\cdot5$.
+
+**M1.** Find $\operatorname{LCM}(12,15,20)$.
+
+The lights next flash together after **60 seconds**.
+
+**M2.** $\operatorname{LCM}(18,30)=2\cdot3^2\cdot5$.
+
+The least positive common multiple is **90**.
+
+**C1.** Assume $3+2\sqrt5$ is rational.
+
+Then $\sqrt5=((3+2\sqrt5)-3)/2$ would be rational, a contradiction.
+
+**C2.** Assume $\sqrt2=a/b$ in lowest terms, so $a^2=2b^2$.
+
+Then $a$ is even; substituting $a=2k$ shows $b$ is even too, contradicting lowest terms.

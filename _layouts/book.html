@@ -18,25 +18,31 @@
     </header>
 
     <div class="book-shell">
-      <aside class="book-sidebar" aria-label="Book contents">
-        <a class="contents-home" href="{{ '/' | relative_url }}">Book contents</a>
-        {% assign previous_group = '' %}
-        {% for item in site.data.book %}
-          {% if item.group != previous_group %}
-            {% unless forloop.first %}</div>{% endunless %}
-            <h2 class="nav-group-title">{{ item.group }}</h2>
-            <div class="nav-group">
-            {% assign previous_group = item.group %}
-          {% endif %}
-          <a class="nav-link{% if page.permalink == item.url %} is-current{% endif %}"
-             href="{{ item.url | relative_url }}"{% if page.permalink == item.url %} aria-current="page"{% endif %}>
-            {{ item.title | escape }}
-          </a>
-        {% endfor %}
-        </div>
-      </aside>
+      <details class="contents-disclosure" open>
+        <summary>Book contents</summary>
+        <aside class="book-sidebar" aria-label="Book contents">
+          <a class="contents-home" href="{{ '/' | relative_url }}">Book contents</a>
+          {% assign previous_group = '' %}
+          {% for item in site.data.book %}
+            {% if item.group != previous_group %}
+              {% unless forloop.first %}</div>{% endunless %}
+              <h2 class="nav-group-title">{{ item.group }}</h2>
+              <div class="nav-group">
+              {% assign previous_group = item.group %}
+            {% endif %}
+            <a class="nav-link{% if page.permalink == item.url %} is-current{% endif %}"
+               href="{{ item.url | relative_url }}"{% if page.permalink == item.url %} aria-current="page"{% endif %}>
+              {{ item.title | escape }}
+            </a>
+          {% endfor %}
+          </div>
+        </aside>
+      </details>
 
       <main id="main-content" class="book-main">
+        <p id="mathjax-status" class="mathjax-status" role="status" hidden>
+          Mathematical expressions are shown in source notation because the formatting service did not load. The expressions and surrounding explanations remain available.
+        </p>
         <div class="reading-column">
           {% if page.book_section %}
             <p class="eyebrow">{{ page.book_section | escape }}</p>
@@ -79,7 +85,28 @@
           processEscapes: true
         }
       };
+      const contentsDisclosure = document.querySelector(".contents-disclosure");
+      const mobileContents = window.matchMedia("(max-width: 860px)");
+      const updateContentsDisclosure = () => {
+        if (mobileContents.matches) {
+          contentsDisclosure.removeAttribute("open");
+        } else {
+          contentsDisclosure.setAttribute("open", "");
+        }
+      };
+      updateContentsDisclosure();
+      mobileContents.addEventListener("change", updateContentsDisclosure);
+      document.querySelectorAll(".book-content table").forEach((table, index) => {
+        table.setAttribute("tabindex", "0");
+        table.setAttribute("aria-label", `Scrollable data table ${index + 1}`);
+      });
+      document.querySelector("#mathjax-script").addEventListener("error", () => {
+        document.querySelector("#mathjax-status").hidden = false;
+      });
     </script>
-    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <noscript>
+      <p class="mathjax-status">Mathematical expressions use readable TeX source notation when JavaScript is unavailable.</p>
+    </noscript>
+    <script id="mathjax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </body>
 </html>

@@ -16,22 +16,16 @@ A quadratic equation has degree two. Factorisation or the quadratic formula find
 
 **Objectives:** solve by prescribed methods; interpret the discriminant; model simple area or number situations.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–3 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 Standard form is $ax^2+bx+c=0$, $a\ne0$. Roots are values satisfying the equation. For discriminant $D=b^2-4ac$: $D>0$ gives two distinct real roots; $D=0$ gives equal real roots; $D<0$ gives no real roots.
 
 #### Visual guide: roots and the x-axis
 
-```text
-       y
-       ↑       \       /
-       |        \_____/
-───────●───────────────●──────→ x
-    root 1           root 2
-```
+![An upward-opening parabola crosses the x-axis at two distinct real roots.]({{ '/assets/images/quadratic-roots.svg' | relative_url }})
 
-For this downward-opening sketch, the two x-intercepts represent two distinct real roots. A graph may instead touch the axis once or miss it.
+The x-intercepts represent the two distinct real roots. A graph may instead touch the axis once when the discriminant is zero, or miss it when there are no real roots.
 
 ### C. Formula and theorem sheet
 
@@ -116,21 +110,46 @@ Standard form requires $a\ne0$. Discriminant $D=b^2-4ac$ classifies real roots. 
 - [ ] I can check contextual answers.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Solve $x^2-9x+20=0$ by factorisation.
+**S1.** Solve $x^2-9x+20=0$ by factorisation.
+
+**S2.** Find the discriminant and nature of roots of $x^2-6x+9=0$.
 
 #### Medium
-2. Solve $3x^2-2x-1=0$.
+**M1.** Solve $3x^2-2x-1=0$.
+
+**M2.** Solve $2x^2-5x-3=0$ using the quadratic formula.
 
 #### Complex
-3. Find all values of $p$ for which $x^2+px+9=0$ has equal roots.
+**C1.** Find all values of $p$ for which $x^2+px+9=0$ has equal roots.
+
+**C2.** A rectangle has area $48\text{ cm}^2$ and its length is 2 cm more than its width. Find its dimensions.
 
 #### Answers / hints
-1. Factor as $(x-4)(x-5)=0$.
-   Therefore, $x=4$ or $x=5$.
-2. Factor as $(3x+1)(x-1)=0$.
-   Therefore, $x=1$ or $x=-1/3$.
-3. Equal roots require discriminant $b^2-4ac=0$.
-   Thus $p^2-36=0$, so $p=6$ or $p=-6$.
+**S1.** Factor as $(x-4)(x-5)=0$.
+
+Therefore, $x=4$ or $x=5$.
+
+**S2.** $D=(-6)^2-4(1)(9)=0$.
+
+The equation has two equal real roots.
+
+**M1.** Factor as $(3x+1)(x-1)=0$.
+
+Therefore, $x=1$ or $x=-1/3$.
+
+**M2.** Here $a=2,b=-5,c=-3$ and $D=25+24=49$.
+
+The roots are $(5\pm7)/4$, so $x=3$ or $x=-1/2$.
+
+**C1.** Equal roots require discriminant $b^2-4ac=0$.
+
+Thus $p^2-36=0$, so $p=6$ or $p=-6$.
+
+**C2.** Let the width be $w$ cm; then $w(w+2)=48$.
+
+$w^2+2w-48=0=(w+8)(w-6)$; reject the negative length, giving width 6 cm and length 8 cm.

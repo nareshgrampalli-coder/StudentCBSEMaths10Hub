@@ -16,7 +16,7 @@ An arithmetic progression (AP) adds the same common difference at each step. Its
 
 **Objectives:** identify an AP; find terms, number of terms, and sums; model repeated increases or decreases.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 An AP has terms $a,a+d,a+2d,\ldots$, where $a$ is first term and $d$ common difference. Subtract consecutive terms to test whether the difference is constant.
@@ -104,21 +104,46 @@ Constant consecutive difference defines an AP. Use $a+(n-1)d$ for one term and t
 - [ ] I can distinguish a single term from a cumulative quantity.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Find the 25th term of $7,3,-1,\ldots$.
+**S1.** Find the 25th term of $7,3,-1,\ldots$.
+
+**S2.** Find the common difference of $12,7,2,-3,\ldots$.
 
 #### Medium
-2. Which term of $2,6,10,\ldots$ is 50?
+**M1.** Which term of $2,6,10,\ldots$ is 50?
+
+**M2.** Find the sum of the first 8 terms of $3,7,11,\ldots$.
 
 #### Complex
-3. Find the sum of the first 10 terms of $4,7,10,\ldots$.
+**C1.** Find the sum of the first 10 terms of $4,7,10,\ldots$.
+
+**C2.** The 5th term of an AP is 18 and its 12th term is 46. Find the first term and the sum of the first 12 terms.
 
 #### Answers / hints
-1. Here $a=7$ and $d=-4$; use $a_n=a+(n-1)d$.
-   $a_{25}=7+24(-4)=\mathbf{-89}$.
-2. Solve $2+(n-1)4=50$.
-   This gives $n=13$, so 50 is the **13th term**.
-3. Here $a=4$, $d=3$, and $n=10$.
-   $S_{10}=\frac{10}{2}[2(4)+9(3)]=\mathbf{175}$.
+**S1.** Here $a=7$ and $d=-4$; use $a_n=a+(n-1)d$.
+
+$a_{25}=7+24(-4)=\mathbf{-89}$.
+
+**S2.** Subtract consecutive terms: $7-12=-5$.
+
+The common difference is **$-5$**.
+
+**M1.** Solve $2+(n-1)4=50$.
+
+This gives $n=13$, so 50 is the **13th term**.
+
+**M2.** Here $a=3,d=4,n=8$.
+
+$S_8=\frac82[6+7(4)]=\mathbf{136}$.
+
+**C1.** Here $a=4$, $d=3$, and $n=10$.
+
+$S_{10}=\frac{10}{2}[2(4)+9(3)]=\mathbf{175}$.
+
+**C2.** Subtract term equations: $7d=46-18=28$, so $d=4$ and $a=18-4d=2$.
+
+$S_{12}=\frac{12}{2}[2(2)+11(4)]=\mathbf{288}$.

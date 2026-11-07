@@ -16,7 +16,7 @@ Classical probability compares favourable equally likely outcomes with all possi
 
 **Objectives:** define experiments, outcomes, and events; calculate simple probabilities; use complements; check bounds.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit VII (Statistics and Probability) carries **11 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - A random experiment has an uncertain outcome from a known set of possibilities.
@@ -109,21 +109,46 @@ For finite equally likely outcomes, probability is favourable over total. Comple
 - [ ] I can verify the probability lies in $[0,1]$.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Draw one card from a standard 52-card deck. Find the probability that it is a heart.
+**S1.** Draw one card from a standard 52-card deck. Find the probability that it is a heart.
+
+**S2.** A fair die is rolled. Find the probability of getting a 6.
 
 #### Medium
-2. Roll a fair die once. Find the probability of getting a number greater than 4.
+**M1.** Roll a fair die once. Find the probability of getting a number greater than 4.
+
+**M2.** A bag contains 4 green and 6 yellow balls. Find the probability of drawing a yellow ball.
 
 #### Complex
-3. A bag contains 3 red and 5 blue balls. One ball is drawn at random. Find the probability that it is not red, and verify it using the complementary event.
+**C1.** A bag contains 3 red and 5 blue balls. One ball is drawn at random. Find the probability that it is not red, and verify it using the complementary event.
+
+**C2.** One integer is selected at random from 1 to 20 inclusive. Find the probability that it is divisible by 2 or 3.
 
 #### Answers / hints
-1. There are 13 hearts among 52 cards.
-   The probability is $13/52=\mathbf{1/4}$.
-2. Outcomes greater than 4 are 5 and 6.
-   The probability is $2/6=\mathbf{1/3}$.
-3. The complement of “not red” is “red”; $P(\text{red})=3/8$.
-   Therefore $P(\text{not red})=1-3/8=\mathbf{5/8}$.
+**S1.** There are 13 hearts among 52 cards.
+
+The probability is $13/52=\mathbf{1/4}$.
+
+**S2.** One of the six equally likely outcomes is 6.
+
+The probability is $\mathbf{1/6}$.
+
+**M1.** Outcomes greater than 4 are 5 and 6.
+
+The probability is $2/6=\mathbf{1/3}$.
+
+**M2.** There are 6 yellow balls among 10 balls.
+
+The probability is $6/10=\mathbf{3/5}$.
+
+**C1.** The complement of “not red” is “red”; $P(\text{red})=3/8$.
+
+Therefore $P(\text{not red})=1-3/8=\mathbf{5/8}$.
+
+**C2.** Multiples of 2: 10; multiples of 3: 6; common multiples of both: 3.
+
+Favourable outcomes $=10+6-3=13$, so the probability is $\mathbf{13/20}$.

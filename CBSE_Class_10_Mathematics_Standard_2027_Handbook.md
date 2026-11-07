@@ -10,7 +10,7 @@ permalink: /complete-handbook/
 **Audience:** Class 10 students and teachers  
 **Scope:** CBSE/NCERT Mathematics Standard; not Maharashtra State Board
 
-> **Source and assessment note:** The official CBSE curriculum for 2026–27 is the syllabus authority. Its linked PDF was reachable during preparation, but could not be text-extracted in this environment. The linked CBSE marks-bifurcation circular dated 6 November 2026 returned HTTP 403. Therefore, the 80-mark theory/20-mark internal structure and unit figures below are reproduced as the requested planning blueprint, not independently verified official allocations. Confirm them against the current CBSE documents before relying on them. CBSE unit weightage must not be interpreted as guaranteed chapter-wise marks.
+> **Source and assessment note (checked 7 November 2026):** The official CBSE curriculum PDF link below responds with a PDF, but its contents could not be text-extracted for verification in this environment. The linked CBSE marks-bifurcation circular dated 6 November 2026 returned HTTP 403. Therefore, the 80-mark theory/20-mark internal structure, unit figures, and assessment-component figures below are reproduced from the supplied planning blueprint, not independently verified official allocations. Confirm them against current CBSE documents before relying on them. CBSE unit weightage must not be interpreted as guaranteed chapter-wise marks or question counts.
 
 ## Table of contents
 
@@ -42,7 +42,7 @@ permalink: /complete-handbook/
 
 ## Examination blueprint
 
-The requested blueprint is shown here as a planning aid. Verify the current official circular and curriculum before treating any entries as official.
+The requested blueprint is shown here as a planning aid. The official CBSE curriculum PDF link responds with a PDF, but its contents could not be text-extracted for verification in this environment; the linked marks-bifurcation circular returned HTTP 403. These figures are reproduced from the supplied planning blueprint and are not independently verified official allocations. Confirm current details with CBSE before relying on them.
 
 | Component | Marks | Duration |
 | --- | ---: | --- |
@@ -71,29 +71,113 @@ The requested blueprint is shown here as a planning aid. Verify the current offi
 The supplied prompt also gives a competency split of Remembering/Understanding 43 (54%), Applying 19 (24%), and Analysing/Evaluating/Creating 18 (22%). This distribution has not been independently verified against the circular and is **not represented here as an official CBSE requirement**. Prepare for recall, applications, reasoning, interpretation, and unfamiliar problem situations. The unit table is not a prediction of chapter-wise marks.
 
 ### Unit I: Number Systems
-Real Numbers.
+**Chapters:** [Chapter 1: Real Numbers]({{ '/handbook/chapters/01-real-numbers/' | relative_url }})
+
+**Learning goals:** use prime factorisation to find HCF and LCM; apply the Fundamental Theorem of Arithmetic; construct irrationality proofs.
+
+**Prerequisites:** divisibility, prime numbers, fractions in lowest terms, and square roots.
+
+**Common checks:** distinguish HCF from LCM; do not treat 1 as prime; state why a reduced-fraction assumption leads to a contradiction.
+
+**Self-check:** The same buses leave every 18 and 24 minutes. Which operation gives the time until they next leave together? Explain why.
+
+**Answer:** Find the LCM, because the question asks for the first shared repeat.
+
+**Practice path:** Review the [worked HCF/LCM example]({{ '/handbook/chapters/01-real-numbers/#d-solved-board-style-examples' | relative_url }}), then complete the chapter's simple-to-complex questions.
 
 ### Unit II: Algebra
-Polynomials; Pair of Linear Equations in Two Variables; Quadratic Equations; Arithmetic Progressions.
+**Chapters:** [Polynomials]({{ '/handbook/chapters/02-polynomials/' | relative_url }}); [Pair of Linear Equations]({{ '/handbook/chapters/03-pair-of-linear-equations/' | relative_url }}); [Quadratic Equations]({{ '/handbook/chapters/04-quadratic-equations/' | relative_url }}); [Arithmetic Progressions]({{ '/handbook/chapters/05-arithmetic-progressions/' | relative_url }}).
+
+**Learning goals:** interpret polynomial zeros; solve and classify linear pairs and quadratic equations; model regular sequences with AP formulas.
+
+**Prerequisites:** integer operations, fractions, substitution into expressions, and solving linear equations.
+
+**Common checks:** keep signs when identifying coefficients; distinguish one AP term from a sum; verify equation solutions in the original equations.
+
+**Self-check:** Which formula gives the 12th term of an AP, and which formula gives the sum of its first 12 terms?
+
+**Answer:** $a_{12}=a+11d$ gives one term; $S_{12}=\frac{12}{2}[2a+11d]$ gives the sum.
+
+**Practice path:** Work through one example in each linked chapter, then complete each chapter's simple-to-complex practice.
 
 ### Unit III: Coordinate Geometry
-Coordinate Geometry.
+**Chapter:** [Chapter 7: Coordinate Geometry]({{ '/handbook/chapters/07-coordinate-geometry/' | relative_url }}).
+
+**Learning goals:** calculate distances and midpoints; locate an internally dividing point using the section formula.
+
+**Prerequisites:** ordered pairs, plotting points, signed numbers, squares, and square roots.
+
+**Common checks:** maintain coordinate order $(x,y)$; match the section ratio to the stated endpoints; check that a midpoint lies halfway between them.
+
+**Self-check:** Find the midpoint of $(2,4)$ and $(8,10)$.
+
+**Answer:** Average each coordinate: $(5,7)$.
+
+**Practice path:** Review the [distance example]({{ '/handbook/chapters/07-coordinate-geometry/#d-solved-board-style-examples' | relative_url }}), then complete the chapter practice.
 
 ### Unit IV: Geometry
-Triangles; Circles.
+**Chapters:** [Chapter 6: Triangles]({{ '/handbook/chapters/06-triangles/' | relative_url }}); [Chapter 10: Circles]({{ '/handbook/chapters/10-circles/' | relative_url }}).
+
+**Learning goals:** prove and apply similarity and proportionality results; identify tangent properties and use them to calculate lengths.
+
+**Prerequisites:** angle facts, ratios, fractions, triangle area, and Pythagoras' theorem.
+
+**Common checks:** state the conditions for BPT or a similarity criterion; mark corresponding vertices; use the right angle between a radius and tangent.
+
+**Self-check:** What angle is formed by a circle's radius and tangent at the point of contact?
+
+**Answer:** $90^\circ$.
+
+**Practice path:** Study the [BPT example]({{ '/handbook/chapters/06-triangles/#d-solved-board-style-examples' | relative_url }}) and the [tangent example]({{ '/handbook/chapters/10-circles/#d-solved-board-style-examples' | relative_url }}), then practice both chapters.
 
 ### Unit V: Trigonometry
-Introduction to Trigonometry; Some Applications of Trigonometry.
+**Chapters:** [Chapter 8: Introduction to Trigonometry]({{ '/handbook/chapters/08-introduction-to-trigonometry/' | relative_url }}); [Chapter 9: Some Applications of Trigonometry]({{ '/handbook/chapters/09-applications-of-trigonometry/' | relative_url }}).
+
+**Learning goals:** define the trigonometric ratios; use standard values and identities; model heights and distances with right triangles.
+
+**Prerequisites:** right triangles, Pythagoras' theorem, fractions, and angle notation.
+
+**Common checks:** label sides relative to the chosen angle; check whether a ratio is defined; measure elevation from the horizontal and account for eye height.
+
+**Self-check:** For an acute angle with opposite side 5 and adjacent side 12, find the hypotenuse and $\tan A$.
+
+**Answer:** The hypotenuse is 13; $\tan A=5/12$.
+
+**Practice path:** Review the [ratio example]({{ '/handbook/chapters/08-introduction-to-trigonometry/#d-solved-board-style-examples' | relative_url }}) and the [height-and-distance example]({{ '/handbook/chapters/09-applications-of-trigonometry/#d-solved-board-style-examples' | relative_url }}), then practice both chapters.
 
 ### Unit VI: Mensuration
-Areas Related to Circles; Surface Areas and Volumes.
+**Chapters:** [Chapter 11: Areas Related to Circles]({{ '/handbook/chapters/11-areas-related-to-circles/' | relative_url }}); [Chapter 12: Surface Areas and Volumes]({{ '/handbook/chapters/12-surface-areas-and-volumes/' | relative_url }}).
+
+**Learning goals:** calculate circle, sector, and segment measures; choose surface-area and volume formulas for solids and combinations.
+
+**Prerequisites:** area of common plane figures, fractions, square roots, and unit conversion.
+
+**Common checks:** use radius rather than diameter; include the radii in a sector perimeter; exclude joined internal faces; report square or cubic units correctly.
+
+**Self-check:** A cylinder and hemisphere share a circular face. Is that shared face part of the exposed surface area?
+
+**Answer:** No. The joined face is internal.
+
+**Practice path:** Study the [sector example]({{ '/handbook/chapters/11-areas-related-to-circles/#d-solved-board-style-examples' | relative_url }}) and the [combined-solids example]({{ '/handbook/chapters/12-surface-areas-and-volumes/#d-solved-board-style-examples' | relative_url }}), then practice both chapters.
 
 ### Unit VII: Statistics and Probability
-Statistics; Probability.
+**Chapters:** [Chapter 13: Statistics]({{ '/handbook/chapters/13-statistics/' | relative_url }}); [Chapter 14: Probability]({{ '/handbook/chapters/14-probability/' | relative_url }}).
 
----
+**Learning goals:** summarize grouped data with mean, median, and mode; identify equally likely outcomes and calculate event probabilities and complements.
+
+**Prerequisites:** fractions, arithmetic with tables, class intervals, and systematic counting.
+
+**Common checks:** use class marks for grouped means; locate median classes using cumulative frequency; select the correct adjacent frequencies for mode; confirm probability lies between 0 and 1.
+
+**Self-check:** A die is rolled. What is the probability of not getting 1?
+
+**Answer:** $1-P(1)=1-\frac16=\frac56$.
+
+**Practice path:** Review the [grouped-data example]({{ '/handbook/chapters/13-statistics/#d-solved-board-style-examples' | relative_url }}) and the [probability example]({{ '/handbook/chapters/14-probability/#d-solved-board-style-examples' | relative_url }}), then practice both chapters.
 
 <!-- PAGE BREAK -->
+
+
 ## Chapter 1: Real Numbers
 
 ### A. Chapter overview
@@ -101,7 +185,7 @@ Prime factorisation reveals the structure of whole numbers. Use it to compare di
 
 **Objectives:** apply the Fundamental Theorem of Arithmetic; find HCF/LCM; construct a contradiction proof of irrationality.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit I carries **6 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - A prime has exactly two positive factors, 1 and itself. Every composite integer greater than 1 is a product of primes.
@@ -199,25 +283,49 @@ Use unique prime factorisation; HCF takes common primes with minimum powers, LCM
 - [ ] I can write an irrationality proof clearly.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Find the HCF and LCM of 84 and 126.
+**S1.** Find the HCF and LCM of 84 and 126.
+
+**S2.** Write 360 as a product of prime powers.
 
 #### Medium
-2. Three lights flash every 12, 15, and 20 seconds. If they flash together now, when will they next flash together?
+**M1.** Three lights flash every 12, 15, and 20 seconds. If they flash together now, when will they next flash together?
+
+**M2.** Find the least positive integer divisible by both 18 and 30.
 
 #### Complex
-3. Prove that $3+2\sqrt5$ is irrational.
+**C1.** Prove that $3+2\sqrt5$ is irrational.
+
+**C2.** Prove that $\sqrt2$ is irrational.
 
 #### Answers / hints
-1. $84=2^2\cdot3\cdot7$ and $126=2\cdot3^2\cdot7$.
-   HCF $=42$; LCM $=252$.
-2. Find $\operatorname{LCM}(12,15,20)$.
-   The lights next flash together after **60 seconds**.
-3. Assume $3+2\sqrt5$ is rational.
-   Then $\sqrt5=((3+2\sqrt5)-3)/2$ would be rational, a contradiction.
+**S1.** $84=2^2\cdot3\cdot7$ and $126=2\cdot3^2\cdot7$.
+
+HCF $=42$; LCM $=252$.
+
+**S2.** Divide by primes: $360=2^3\cdot3^2\cdot5$.
+
+**M1.** Find $\operatorname{LCM}(12,15,20)$.
+
+The lights next flash together after **60 seconds**.
+
+**M2.** $\operatorname{LCM}(18,30)=2\cdot3^2\cdot5$.
+
+The least positive common multiple is **90**.
+
+**C1.** Assume $3+2\sqrt5$ is rational.
+
+Then $\sqrt5=((3+2\sqrt5)-3)/2$ would be rational, a contradiction.
+
+**C2.** Assume $\sqrt2=a/b$ in lowest terms, so $a^2=2b^2$.
+
+Then $a$ is even; substituting $a=2k$ shows $b$ is even too, contradicting lowest terms.
 <!-- PAGE BREAK -->
+
 ## Chapter 2: Polynomials
 
 ### A. Chapter overview
@@ -225,7 +333,7 @@ Polynomial zeros are the inputs where its value is zero. For a quadratic, they a
 
 **Objectives:** identify zeros from graphs or algebra; use and verify the zero-coefficient relationships; construct a quadratic from given zeros.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - A zero of $p(x)$ is a value $r$ for which $p(r)=0$. Graphically it is an x-coordinate where the curve meets or touches the x-axis.
@@ -234,15 +342,9 @@ Polynomial zeros are the inputs where its value is zero. For a quadratic, they a
 
 #### Visual guide: zeros are x-intercepts
 
-```text
-       y
-       ↑       \       /
-       |        \_____/
-───────●───────────────●──────→ x
-       α               β
-```
+![An upward-opening parabola crosses the x-axis at the two zeros alpha and beta.]({{ '/assets/images/polynomial-zeros.svg' | relative_url }})
 
-The curve meets the x-axis at $\alpha$ and $\beta$; those x-coordinates are its zeros.
+The labeled x-coordinates $\alpha$ and $\beta$ are the points where the graph meets the x-axis, so they are zeros of the polynomial.
 
 ### C. Formula and theorem sheet
 
@@ -321,25 +423,51 @@ Zeros satisfy $p(r)=0$. For a quadratic, sum $=-b/a$, product $=c/a$. The monic 
 - [ ] I can construct a quadratic from its zeros.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Form a monic quadratic polynomial with zeros 3 and 7.
+**S1.** Form a monic quadratic polynomial with zeros 3 and 7.
+
+**S2.** Find the sum and product of zeros of $x^2+2x-8$.
 
 #### Medium
-2. Find and verify the zeros of $2x^2-7x+3$.
+**M1.** Find and verify the zeros of $2x^2-7x+3$.
+
+**M2.** A quadratic polynomial has zeros $-2$ and $5$. Find the monic polynomial and verify its sum and product of zeros.
 
 #### Complex
-3. A quadratic graph touches the x-axis at $x=2$ and has $y$-intercept 8. Find the polynomial if its leading coefficient is 2.
+**C1.** A quadratic graph touches the x-axis at $x=2$ and has $y$-intercept 8. Find the polynomial if its leading coefficient is 2.
+
+**C2.** A quadratic polynomial has zeros whose sum is 5 and product is 6. If its leading coefficient is 2, find the polynomial and verify its zeros.
 
 #### Answers / hints
-1. Use $(x-3)(x-7)$.
-   The polynomial is $x^2-10x+21$.
-2. Factor: $(2x-1)(x-3)=0$.
-   Zeros are $1/2$ and $3$; their sum is $7/2$ and product is $3/2$.
-3. A touch at $x=2$ means a repeated zero, so write $p(x)=2(x-2)^2$.
-   Its y-intercept is 8, as required; $p(x)=2x^2-8x+8$.
+**S1.** Use $(x-3)(x-7)$.
+
+The polynomial is $x^2-10x+21$.
+
+**S2.** Here $a=1,b=2,c=-8$.
+
+The sum is $-2$ and the product is $-8$.
+
+**M1.** Factor $2x^2-7x+3=(2x-1)(x-3)$.
+
+The zeros are $1/2$ and 3; their sum is $7/2$ and product is $3/2$.
+
+**M2.** The polynomial is $(x+2)(x-5)=x^2-3x-10$.
+
+The sum is 3 and product is $-10$, matching the coefficients.
+
+**C1.** A touch at $x=2$ means a repeated zero, so write $p(x)=2(x-2)^2$.
+
+This has y-intercept 8; expanded, $p(x)=2x^2-8x+8$.
+
+**C2.** A monic polynomial with sum 5 and product 6 is $x^2-5x+6$.
+
+With leading coefficient 2 it is $2x^2-10x+12=2(x-2)(x-3)$, with zeros 2 and 3.
 <!-- PAGE BREAK -->
+
 ## Chapter 3: Pair of Linear Equations in Two Variables
 
 ### A. Chapter overview
@@ -347,7 +475,7 @@ A pair of linear equations represents two lines. Their intersection, coincidence
 
 **Objectives:** classify pairs; solve graphically, by substitution, and by elimination; model simple situations.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–3 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 For $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$:
@@ -454,25 +582,49 @@ Intersecting lines give one solution; coincident lines infinitely many; distinct
 - [ ] I can translate a simple situation into two equations.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Classify the pair $x+2y=3$ and $2x+4y=8$ as consistent or inconsistent.
+**S1.** Classify the pair $x+2y=3$ and $2x+4y=8$ as consistent or inconsistent.
+
+**S2.** Solve $x+y=7$ and $x-y=1$.
 
 #### Medium
-2. Solve $3x+2y=12$ and $x-y=1$.
+**M1.** Solve $3x+2y=12$ and $x-y=1$.
+
+**M2.** Solve $2x+3y=13$ and $x-y=1$.
 
 #### Complex
-3. The sum of two numbers is 31 and their difference is 7. Form a pair of equations and find the numbers.
+**C1.** The sum of two numbers is 31 and their difference is 7. Form a pair of equations and find the numbers.
+
+**C2.** A two-digit number has digit sum 9. Reversing its digits increases the number by 27. Find the number.
 
 #### Answers / hints
-1. The coefficient ratios are $1/2=2/4$, while the constant ratio is $3/8$.
-   The pair is inconsistent; it has no solution.
-2. From $x-y=1$, get $x=y+1$.
-   Substitute to obtain $y=9/5$, $x=14/5$.
-3. Let the numbers be $x,y$: $x+y=31$, $x-y=7$.
-   Adding gives $2x=38$, so the numbers are **19 and 12**.
+**S1.** The coefficient ratios are $1/2=2/4$, while the constant ratio is $3/8$.
+
+The pair is inconsistent; it has no solution.
+
+**S2.** Add the equations to get $2x=8$, so $x=4$ and $y=3$.
+
+**M1.** From $x-y=1$, get $x=y+1$.
+
+Substitute to obtain $y=9/5$, $x=14/5$.
+
+**M2.** From $x-y=1$, $x=y+1$; substitution gives $5y+2=13$.
+
+Thus $y=11/5$ and $x=16/5$.
+
+**C1.** Let the numbers be $x,y$: $x+y=31$, $x-y=7$.
+
+Adding gives $2x=38$, so the numbers are **19 and 12**.
+
+**C2.** Let tens digit be $x$ and units digit be $y$.
+
+$x+y=9$ and $10y+x=10x+y+27$ give $y-x=3$; hence $x=3,y=6$ and the number is **36**.
 <!-- PAGE BREAK -->
+
 ## Chapter 4: Quadratic Equations
 
 ### A. Chapter overview
@@ -480,22 +632,16 @@ A quadratic equation has degree two. Factorisation or the quadratic formula find
 
 **Objectives:** solve by prescribed methods; interpret the discriminant; model simple area or number situations.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–3 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 Standard form is $ax^2+bx+c=0$, $a\ne0$. Roots are values satisfying the equation. For discriminant $D=b^2-4ac$: $D>0$ gives two distinct real roots; $D=0$ gives equal real roots; $D<0$ gives no real roots.
 
 #### Visual guide: roots and the x-axis
 
-```text
-       y
-       ↑       \       /
-       |        \_____/
-───────●───────────────●──────→ x
-    root 1           root 2
-```
+![An upward-opening parabola crosses the x-axis at two distinct real roots.]({{ '/assets/images/quadratic-roots.svg' | relative_url }})
 
-For this downward-opening sketch, the two x-intercepts represent two distinct real roots. A graph may instead touch the axis once or miss it.
+The x-intercepts represent the two distinct real roots. A graph may instead touch the axis once when the discriminant is zero, or miss it when there are no real roots.
 
 ### C. Formula and theorem sheet
 
@@ -580,25 +726,51 @@ Standard form requires $a\ne0$. Discriminant $D=b^2-4ac$ classifies real roots. 
 - [ ] I can check contextual answers.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Solve $x^2-9x+20=0$ by factorisation.
+**S1.** Solve $x^2-9x+20=0$ by factorisation.
+
+**S2.** Find the discriminant and nature of roots of $x^2-6x+9=0$.
 
 #### Medium
-2. Solve $3x^2-2x-1=0$.
+**M1.** Solve $3x^2-2x-1=0$.
+
+**M2.** Solve $2x^2-5x-3=0$ using the quadratic formula.
 
 #### Complex
-3. Find all values of $p$ for which $x^2+px+9=0$ has equal roots.
+**C1.** Find all values of $p$ for which $x^2+px+9=0$ has equal roots.
+
+**C2.** A rectangle has area $48\text{ cm}^2$ and its length is 2 cm more than its width. Find its dimensions.
 
 #### Answers / hints
-1. Factor as $(x-4)(x-5)=0$.
-   Therefore, $x=4$ or $x=5$.
-2. Factor as $(3x+1)(x-1)=0$.
-   Therefore, $x=1$ or $x=-1/3$.
-3. Equal roots require discriminant $b^2-4ac=0$.
-   Thus $p^2-36=0$, so $p=6$ or $p=-6$.
+**S1.** Factor as $(x-4)(x-5)=0$.
+
+Therefore, $x=4$ or $x=5$.
+
+**S2.** $D=(-6)^2-4(1)(9)=0$.
+
+The equation has two equal real roots.
+
+**M1.** Factor as $(3x+1)(x-1)=0$.
+
+Therefore, $x=1$ or $x=-1/3$.
+
+**M2.** Here $a=2,b=-5,c=-3$ and $D=25+24=49$.
+
+The roots are $(5\pm7)/4$, so $x=3$ or $x=-1/2$.
+
+**C1.** Equal roots require discriminant $b^2-4ac=0$.
+
+Thus $p^2-36=0$, so $p=6$ or $p=-6$.
+
+**C2.** Let the width be $w$ cm; then $w(w+2)=48$.
+
+$w^2+2w-48=0=(w+8)(w-6)$; reject the negative length, giving width 6 cm and length 8 cm.
 <!-- PAGE BREAK -->
+
 ## Chapter 5: Arithmetic Progressions
 
 ### A. Chapter overview
@@ -606,7 +778,7 @@ An arithmetic progression (AP) adds the same common difference at each step. Its
 
 **Objectives:** identify an AP; find terms, number of terms, and sums; model repeated increases or decreases.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 An AP has terms $a,a+d,a+2d,\ldots$, where $a$ is first term and $d$ common difference. Subtract consecutive terms to test whether the difference is constant.
@@ -694,25 +866,51 @@ Constant consecutive difference defines an AP. Use $a+(n-1)d$ for one term and t
 - [ ] I can distinguish a single term from a cumulative quantity.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Find the 25th term of $7,3,-1,\ldots$.
+**S1.** Find the 25th term of $7,3,-1,\ldots$.
+
+**S2.** Find the common difference of $12,7,2,-3,\ldots$.
 
 #### Medium
-2. Which term of $2,6,10,\ldots$ is 50?
+**M1.** Which term of $2,6,10,\ldots$ is 50?
+
+**M2.** Find the sum of the first 8 terms of $3,7,11,\ldots$.
 
 #### Complex
-3. Find the sum of the first 10 terms of $4,7,10,\ldots$.
+**C1.** Find the sum of the first 10 terms of $4,7,10,\ldots$.
+
+**C2.** The 5th term of an AP is 18 and its 12th term is 46. Find the first term and the sum of the first 12 terms.
 
 #### Answers / hints
-1. Here $a=7$ and $d=-4$; use $a_n=a+(n-1)d$.
-   $a_{25}=7+24(-4)=\mathbf{-89}$.
-2. Solve $2+(n-1)4=50$.
-   This gives $n=13$, so 50 is the **13th term**.
-3. Here $a=4$, $d=3$, and $n=10$.
-   $S_{10}=\frac{10}{2}[2(4)+9(3)]=\mathbf{175}$.
+**S1.** Here $a=7$ and $d=-4$; use $a_n=a+(n-1)d$.
+
+$a_{25}=7+24(-4)=\mathbf{-89}$.
+
+**S2.** Subtract consecutive terms: $7-12=-5$.
+
+The common difference is **$-5$**.
+
+**M1.** Solve $2+(n-1)4=50$.
+
+This gives $n=13$, so 50 is the **13th term**.
+
+**M2.** Here $a=3,d=4,n=8$.
+
+$S_8=\frac82[6+7(4)]=\mathbf{136}$.
+
+**C1.** Here $a=4$, $d=3$, and $n=10$.
+
+$S_{10}=\frac{10}{2}[2(4)+9(3)]=\mathbf{175}$.
+
+**C2.** Subtract term equations: $7d=46-18=28$, so $d=4$ and $a=18-4d=2$.
+
+$S_{12}=\frac{12}{2}[2(2)+11(4)]=\mathbf{288}$.
 <!-- PAGE BREAK -->
+
 ## Chapter 6: Triangles
 
 ### A. Chapter overview
@@ -720,7 +918,7 @@ Similar triangles have the same shape: corresponding angles are equal and corres
 
 **Objectives:** apply similarity criteria; prove and use BPT and its converse; compare areas of similar triangles.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit IV (Geometry) carries **15 marks** in the supplied, unverified blueprint. Allow roughly **7–10 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - AA similarity: two corresponding angles equal. SSS: corresponding sides proportional. SAS: included angle equal and surrounding sides proportional.
@@ -824,24 +1022,47 @@ AA, SSS, and SAS establish similarity. BPT applies when a line is parallel; its 
 - [ ] I can compare areas using the squared scale factor.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Two sides of one triangle are proportional to two sides of another, and their included angles are equal. Name the similarity criterion.
+**S1.** Two sides of one triangle are proportional to two sides of another, and their included angles are equal. Name the similarity criterion.
+
+**S2.** Two triangles have two pairs of corresponding angles equal. State the similarity criterion.
 
 #### Medium
-2. Similar triangles have corresponding side ratio $2:7$. Find their area ratio.
+**M1.** Similar triangles have corresponding side ratio $2:7$. Find their area ratio.
+
+**M2.** In $\triangle ABC$, $DE\parallel BC$, $AD=3$, $DB=4$, and $AE=6$. Find $EC$.
 
 #### Complex
-3. In $\triangle ABC$, $DE\parallel BC$, $AD=4$, $DB=6$, and $AE=5$. Find $EC$ and the ratio of the areas of $\triangle ADE$ and $\triangle ABC$.
+**C1.** In $\triangle ABC$, $DE\parallel BC$, $AD=4$, $DB=6$, and $AE=5$. Find $EC$ and the ratio of the areas of $\triangle ADE$ and $\triangle ABC$.
+
+**C2.** Two similar triangles have areas $36\text{ cm}^2$ and $64\text{ cm}^2$. A side of the smaller triangle is 9 cm. Find the corresponding side of the larger triangle.
 
 #### Answers / hints
-1. The included angle condition together with proportional sides gives the **SAS similarity criterion**.
-2. Similar-triangle area ratio is the square of the side ratio.
-   The area ratio is $2^2:7^2=\mathbf{4:49}$.
-3. By BPT, $AD/DB=AE/EC$, so $4/6=5/EC$ and $EC=7.5$.
-   Also $AD/AB=4/10=2/5$; the area ratio is $(2/5)^2=\mathbf{4:25}$.
+**S1.** The included-angle condition and proportional sides give the **SAS similarity criterion**.
+
+**S2.** Two equal pairs of corresponding angles establish **AA similarity**.
+
+**M1.** Square the corresponding-side ratio.
+
+The area ratio is $2^2:7^2=\mathbf{4:49}$.
+
+**M2.** By BPT, $AD/DB=AE/EC$, so $3/4=6/EC$.
+
+Therefore $EC=\mathbf{8}$.
+
+**C1.** By BPT, $AD/DB=AE/EC$, so $4/6=5/EC$ and $EC=7.5$.
+
+Also $AD/AB=4/10=2/5$; the area ratio is $(2/5)^2=\mathbf{4:25}$.
+
+**C2.** The side ratio is the square root of the area ratio: $\sqrt{36:64}=3:4$.
+
+The corresponding larger side is $9(4/3)=\mathbf{12\text{ cm}}$.
 <!-- PAGE BREAK -->
+
 ## Chapter 7: Coordinate Geometry
 
 ### A. Chapter overview
@@ -849,7 +1070,7 @@ Coordinate formulas turn geometric questions into calculations with ordered pair
 
 **Objectives:** calculate distances; find an internally dividing point; use the midpoint as a special case.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit III (Coordinate Geometry) carries **6 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 The distance formula follows from Pythagoras: horizontal change is $x_2-x_1$, vertical change is $y_2-y_1$. Section formula uses a weighted average, with the nearer endpoint receiving the larger weight.
@@ -937,25 +1158,51 @@ Distance is the Pythagorean length. Internal section coordinates are weighted av
 - [ ] I can find and interpret a midpoint.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Find the midpoint of $(3,4)$ and $(9,-2)$.
+**S1.** Find the midpoint of $(3,4)$ and $(9,-2)$.
+
+**S2.** Find the distance between $(1,1)$ and $(4,5)$.
 
 #### Medium
-2. Find the distance between $(0,-1)$ and $(6,7)$.
+**M1.** Find the distance between $(0,-1)$ and $(6,7)$.
+
+**M2.** Find the midpoint of $(-2,5)$ and $(6,1)$.
 
 #### Complex
-3. Find the point dividing the segment joining $(0,0)$ and $(8,4)$ internally in the ratio $3:1$.
+**C1.** Find the point dividing the segment joining $(0,0)$ and $(8,4)$ internally in the ratio $3:1$.
+
+**C2.** The point $P(4,3)$ divides $A(1,1)$ and $B(x,y)$ internally in the ratio $1:2$. Find $B$.
 
 #### Answers / hints
-1. Average the x-coordinates and the y-coordinates separately.
-   The midpoint is $\mathbf{(6,1)}$.
-2. Use the distance formula: $\sqrt{(6-0)^2+(7+1)^2}$.
-   The distance is $\sqrt{100}=\mathbf{10}$.
-3. Apply the section formula with $m:n=3:1$.
-   The point is $\left(\frac{3(8)+1(0)}4,\frac{3(4)+1(0)}4\right)=\mathbf{(6,3)}$.
+**S1.** Average the x-coordinates and the y-coordinates separately.
+
+The midpoint is $\mathbf{(6,1)}$.
+
+**S2.** Distance $=\sqrt{(4-1)^2+(5-1)^2}=\sqrt{9+16}$.
+
+The distance is **5 units**.
+
+**M1.** Use the distance formula: $\sqrt{(6-0)^2+(7+1)^2}$.
+
+The distance is $\sqrt{100}=\mathbf{10}$.
+
+**M2.** Average each pair of coordinates.
+
+The midpoint is $\mathbf{(2,3)}$.
+
+**C1.** Apply the section formula with $m:n=3:1$.
+
+The point is $\left(\frac{3(8)+1(0)}4,\frac{3(4)+1(0)}4\right)=\mathbf{(6,3)}$.
+
+**C2.** Section formula gives $4=(1x+2\cdot1)/3$ and $3=(1y+2\cdot1)/3$.
+
+Solving gives $x=10,y=7$, so $B=\mathbf{(10,7)}$.
 <!-- PAGE BREAK -->
+
 ## Chapter 8: Introduction to Trigonometry
 
 ### A. Chapter overview
@@ -963,7 +1210,7 @@ Trigonometric ratios compare sides of a right triangle relative to an acute angl
 
 **Objectives:** define six ratios; recall standard values; use reciprocal relationships and the fundamental identity.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit V (Trigonometry) carries **12 marks** in the supplied, unverified blueprint. Allow roughly **6–9 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 Relative to angle $A$, opposite, adjacent, and hypotenuse identify sides. $\sin A=O/H$, $\cos A=A/H$, $\tan A=O/A$; cosec, sec, and cot are reciprocals. Ratios depend on the angle, not the triangle's size.
@@ -1071,24 +1318,49 @@ SOH-CAH-TOA defines the three primary ratios. Their reciprocals are cosec, sec, 
 - [ ] I can apply the fundamental identity.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. State the value of $\cot90^\circ$.
+**S1.** State the value of $\cot90^\circ$.
+
+**S2.** Evaluate $\sin30^\circ+\cos60^\circ$.
 
 #### Medium
-2. Evaluate $2\sin30^\circ+\sec60^\circ$.
+**M1.** Evaluate $2\sin30^\circ+\sec60^\circ$.
+
+**M2.** If $\sin A=3/5$ for acute $A$, find $\cos A$ and $\tan A$.
 
 #### Complex
-3. If $\tan A=5/12$ for acute $A$, find $\sin A+\cos A$.
+**C1.** If $\tan A=5/12$ for acute $A$, find $\sin A+\cos A$.
+
+**C2.** If $\sec A=13/12$ for acute $A$, find $\tan A$ and $\sin A$.
 
 #### Answers / hints
-1. $\cot90^\circ=\mathbf{0}$.
-2. Substitute the standard values: $2(1/2)+2$.
-   The value is **3**.
-3. Use a right triangle with opposite side 5, adjacent side 12, and hypotenuse 13.
-   Then $\sin A+\cos A=5/13+12/13=\mathbf{17/13}$.
+**S1.** $\cot90^\circ=\mathbf{0}$.
+
+**S2.** Substitute the standard values: $1/2+1/2$.
+
+The value is **1**.
+
+**M1.** Substitute the standard values: $2(1/2)+2$.
+
+The value is **3**.
+
+**M2.** $\cos A=\sqrt{1-\sin^2A}=\sqrt{16/25}=4/5$ because $A$ is acute.
+
+$\tan A=(3/5)/(4/5)=\mathbf{3/4}$.
+
+**C1.** Use a right triangle with opposite side 5, adjacent side 12, and hypotenuse 13.
+
+Then $\sin A+\cos A=5/13+12/13=\mathbf{17/13}$.
+
+**C2.** $\sec A=13/12$ gives adjacent 12 and hypotenuse 13, so opposite $=\sqrt{13^2-12^2}=5$.
+
+Thus $\tan A=\mathbf{5/12}$ and $\sin A=\mathbf{5/13}$.
 <!-- PAGE BREAK -->
+
 ## Chapter 9: Some Applications of Trigonometry
 
 ### A. Chapter overview
@@ -1096,7 +1368,7 @@ Angles of elevation and depression connect a line of sight to a right-triangle m
 
 **Objectives:** draw a labelled diagram; choose a ratio; solve situations involving at most two right triangles.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit V (Trigonometry) carries **12 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - The line of sight joins the observer's eye to the object.
@@ -1194,25 +1466,51 @@ Translate the wording into a right triangle. Elevation/depression is relative to
 - [ ] I can account for eye height and units.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. A 12 m pole casts a shadow when the sun's elevation is $45^\circ$. Find the shadow length.
+**S1.** A 12 m pole casts a shadow when the sun's elevation is $45^\circ$. Find the shadow length.
+
+**S2.** From a point 10 m from a tree, the angle of elevation to its top is $45^\circ$. Find the height, assuming eye level at the ground.
 
 #### Medium
-2. A 10 m ladder makes an angle of $60^\circ$ with level ground. How high up a vertical wall does it reach?
+**M1.** A 10 m ladder makes an angle of $60^\circ$ with level ground. How high up a vertical wall does it reach?
+
+**M2.** A kite string 20 m long makes an angle of $30^\circ$ with the horizontal. Find its vertical height above the hand.
 
 #### Complex
-3. From a point 30 m from a building, its top is seen at an elevation of $30^\circ$. Find the height above the observer's eye level.
+**C1.** From a point 30 m from a building, its top is seen at an elevation of $30^\circ$. Find the height above the observer's eye level.
+
+**C2.** From the top of a 20 m building, the angle of depression to a point on level ground is $45^\circ$. Find the horizontal distance to that point.
 
 #### Answers / hints
-1. Let the shadow length be $x$. Then $\tan45^\circ=12/x$.
-   Hence $x=\mathbf{12\text{ m}}$.
-2. The ladder is the hypotenuse; height $=10\sin60^\circ$.
-   The height is $\mathbf{5\sqrt3\text{ m}}$.
-3. Let the height above eye level be $h$. Then $\tan30^\circ=h/30$.
-   Thus $h=30/\sqrt3=\mathbf{10\sqrt3\text{ m}}$.
+**S1.** Let the shadow length be $x$. Then $\tan45^\circ=12/x$.
+
+Hence $x=\mathbf{12\text{ m}}$.
+
+**S2.** $\tan45^\circ=h/10$.
+
+The tree is $\mathbf{10\text{ m}}$ high.
+
+**M1.** The ladder is the hypotenuse; height $=10\sin60^\circ$.
+
+The height is $\mathbf{5\sqrt3\text{ m}}$.
+
+**M2.** Height $=20\sin30^\circ$.
+
+The kite is **10 m** above the hand.
+
+**C1.** Let the height above eye level be $h$. Then $\tan30^\circ=h/30$.
+
+Thus $h=30/\sqrt3=\mathbf{10\sqrt3\text{ m}}$.
+
+**C2.** The depression angle equals the ground elevation angle, so $\tan45^\circ=20/d$.
+
+Therefore the horizontal distance is **20 m**.
 <!-- PAGE BREAK -->
+
 ## Chapter 10: Circles
 
 ### A. Chapter overview
@@ -1220,7 +1518,7 @@ Tangents touch a circle at one point. Their relation to radii gives useful perpe
 
 **Objectives:** state and prove the radius-tangent theorem; prove equal tangents from an external point; solve length problems.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit IV (Geometry) carries **15 marks** in the supplied, unverified blueprint. Allow roughly **5–8 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - A tangent meets a circle at exactly one point; that point is the point of contact.
@@ -1321,25 +1619,51 @@ Radius to contact point is perpendicular to tangent. Tangents from the same exte
 - [ ] I can identify the external point correctly.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. What angle does a radius make with the tangent at the point of contact?
+**S1.** What angle does a radius make with the tangent at the point of contact?
+
+**S2.** A circle with centre $O$ is touched by tangent line $\ell$ at $T$. Find the angle between $OT$ and $\ell$.
 
 #### Medium
-2. A circle has radius 8 cm, and an external point is 17 cm from its centre. Find the tangent length.
+**M1.** A circle has radius 8 cm, and an external point is 17 cm from its centre. Find the tangent length.
+
+**M2.** A tangent from $P$ has length 12 cm. What is the length of the other tangent from $P$ to the same circle?
 
 #### Complex
-3. Two tangents from the same external point have lengths $2x+9$ and $5x$. Find $x$ and the tangent length.
+**C1.** Two tangents from the same external point have lengths $2x+9$ and $5x$. Find $x$ and the tangent length.
+
+**C2.** A circle has radius 5 cm. From an external point 13 cm from the centre, two tangents touch the circle. Find each tangent length and the perimeter of the quadrilateral formed with the two radii.
 
 #### Answers / hints
-1. The radius is perpendicular to the tangent at the point of contact.
-   The angle is **$90^\circ$**.
-2. The radius and tangent form a right triangle with hypotenuse 17.
-   Tangent length $=\sqrt{17^2-8^2}=\mathbf{15\text{ cm}}$.
-3. Tangents from a common external point are equal: $2x+9=5x$.
-   Thus $x=3$ and each tangent is **15 units**.
+**S1.** The radius is perpendicular to the tangent at the point of contact.
+
+The angle is **$90^\circ$**.
+
+**S2.** The radius to the point of contact is perpendicular to the tangent.
+
+The angle between $OT$ and $\ell$ is **$90^\circ$**.
+
+**M1.** The radius and tangent form a right triangle with hypotenuse 17.
+
+Tangent length $=\sqrt{17^2-8^2}=\mathbf{15\text{ cm}}$.
+
+**M2.** Tangents from a common external point are equal.
+
+The other tangent is **12 cm**.
+
+**C1.** Tangents from a common external point are equal: $2x+9=5x$.
+
+Thus $x=3$ and each tangent is **15 units**.
+
+**C2.** Tangent length $=\sqrt{13^2-5^2}=12$ cm.
+
+The quadrilateral has two radii and two equal tangents, so its perimeter is $5+5+12+12=\mathbf{34\text{ cm}}$.
 <!-- PAGE BREAK -->
+
 ## Chapter 11: Areas Related to Circles
 
 ### A. Chapter overview
@@ -1347,7 +1671,7 @@ Circle measures extend to sectors, arcs, segments, and composite shapes. A secto
 
 **Objectives:** calculate circumference, area, arc length, sector area, segment area, and composite perimeter.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit VI (Mensuration) carries **10 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 A sector is bounded by two radii and an arc. A segment is bounded by a chord and its corresponding arc. Segment area is sector area minus the triangle formed by the radii and chord.
@@ -1443,25 +1767,51 @@ Circle area is $\pi r^2$; circumference is $2\pi r$. Sector and arc are the corr
 - [ ] I can split composite shapes into familiar parts.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Find the circumference of a circle of radius 10 cm.
+**S1.** Find the circumference of a circle of radius 10 cm.
+
+**S2.** Find the area of a circle with diameter 14 cm.
 
 #### Medium
-2. Find the area of a $120^\circ$ sector of radius 6 cm.
+**M1.** Find the area of a $120^\circ$ sector of radius 6 cm.
+
+**M2.** Find the perimeter of a $90^\circ$ sector of radius 8 cm.
 
 #### Complex
-3. A circular garden has radius 12 m. Find the length of a $60^\circ$ arc and the area of its sector.
+**C1.** A circular garden has radius 12 m. Find the length of a $60^\circ$ arc and the area of its sector.
+
+**C2.** A circle has radius 14 cm and a $90^\circ$ sector is removed. Find the area of the remaining major sector and its perimeter, using $\pi=22/7$.
 
 #### Answers / hints
-1. Use $C=2\pi r$.
-   The circumference is $\mathbf{20\pi\text{ cm}}$.
-2. Sector area $=\frac{120}{360}\pi(6)^2$.
-   The area is $\mathbf{12\pi\text{ cm}^2}$.
-3. Arc length $=\frac{60}{360}(2\pi\cdot12)$.
-   The arc is $4\pi$ m; sector area $=\frac{60}{360}\pi(12)^2=\mathbf{24\pi\text{ m}^2}$.
+**S1.** Use $C=2\pi r$.
+
+The circumference is $\mathbf{20\pi\text{ cm}}$.
+
+**S2.** The radius is 7 cm, half the diameter.
+
+Area $=\pi(7)^2=\mathbf{49\pi\text{ cm}^2}$.
+
+**M1.** Sector area $=\frac{120}{360}\pi(6)^2$.
+
+The area is $\mathbf{12\pi\text{ cm}^2}$.
+
+**M2.** The arc length is $\frac{90}{360}(2\pi\cdot8)=4\pi$ cm.
+
+Perimeter $=2(8)+4\pi=\mathbf{16+4\pi\text{ cm}}$.
+
+**C1.** Arc length $=\frac{60}{360}(2\pi\cdot12)$.
+
+The arc is $4\pi$ m; sector area $=\frac{60}{360}\pi(12)^2=\mathbf{24\pi\text{ m}^2}$.
+
+**C2.** The major sector angle is $270^\circ$.
+
+Area $=\frac{270}{360}\pi(14)^2=\mathbf{462\text{ cm}^2}$; perimeter $=2(14)+\frac{270}{360}(2\pi\cdot14)=\mathbf{94\text{ cm}}$.
 <!-- PAGE BREAK -->
+
 ## Chapter 12: Surface Areas and Volumes
 
 ### A. Chapter overview
@@ -1469,7 +1819,7 @@ Solid geometry measures exposed surfaces and capacity. For combined solids, coun
 
 **Objectives:** recall formulas; convert units; handle combinations of two prescribed solids and practical contexts.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit VI (Mensuration) carries **10 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - Curved/lateral surface area excludes circular or polygonal ends; total surface area includes exposed faces.
@@ -1572,25 +1922,51 @@ Use correct CSA/TSA/volume formula. Joined surfaces are not exposed. Check dimen
 - [ ] I can convert units before substituting.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. A cuboid measures $4\times3\times2$ cm. Find its volume.
+**S1.** A cuboid measures $4\times3\times2$ cm. Find its volume.
+
+**S2.** Find the curved surface area of a cylinder with radius 3 cm and height 5 cm.
 
 #### Medium
-2. Find the volume of a sphere of radius 3 cm.
+**M1.** Find the volume of a sphere of radius 3 cm.
+
+**M2.** Find the slant height of a cone with radius 5 cm and perpendicular height 12 cm.
 
 #### Complex
-3. Find the total surface area of a hemisphere of radius 7 cm, using $\pi=22/7$.
+**C1.** A cylinder of radius 3 cm and height 8 cm has a hemisphere of the same radius attached to its top. Find the exposed surface area.
+
+**C2.** A cone with radius 3 cm and height 4 cm is mounted on a cylinder of radius 3 cm and height 10 cm. Find the volume of the combined solid.
 
 #### Answers / hints
-1. Volume $=lbh=4\cdot3\cdot2$.
-   The volume is $\mathbf{24\text{ cm}^3}$.
-2. Use $V=\frac43\pi r^3$.
-   The volume is $\mathbf{36\pi\text{ cm}^3}$.
-3. Total surface area of a hemisphere is $3\pi r^2$.
-   $3\cdot\frac{22}{7}\cdot49=\mathbf{462\text{ cm}^2}$.
+**S1.** Volume $=lbh=4\cdot3\cdot2$.
+
+The volume is $\mathbf{24\text{ cm}^3}$.
+
+**S2.** Curved surface area $=2\pi rh=2\pi(3)(5)$.
+
+The area is $\mathbf{30\pi\text{ cm}^2}$.
+
+**M1.** Use $V=\frac43\pi r^3$.
+
+The volume is $\mathbf{36\pi\text{ cm}^3}$.
+
+**M2.** Slant height $l=\sqrt{r^2+h^2}=\sqrt{5^2+12^2}$.
+
+$l=\mathbf{13\text{ cm}}$.
+
+**C1.** Exposed area is cylinder CSA, hemisphere CSA, and the cylinder's bottom base.
+
+$2\pi(3)(8)+2\pi(3^2)+\pi(3^2)=\mathbf{75\pi\text{ cm}^2}$.
+
+**C2.** Cylinder volume $=\pi(3)^2(10)=90\pi$; cone volume $=\frac13\pi(3)^2(4)=12\pi$.
+
+Combined volume $=\mathbf{102\pi\text{ cm}^3}$.
 <!-- PAGE BREAK -->
+
 ## Chapter 13: Statistics
 
 ### A. Chapter overview
@@ -1598,7 +1974,7 @@ Grouped data summarises many observations in intervals. Mean, median, and mode d
 
 **Objectives:** find class marks; calculate mean by three methods; identify median/modal classes; calculate grouped median and mode; interpret results.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit VII (Statistics and Probability) carries **11 marks** in the supplied, unverified blueprint. Allow roughly **6–8 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - Class mark $x_i=(\text{lower limit}+\text{upper limit})/2$.
@@ -1699,25 +2075,49 @@ Mean is frequency-weighted average. Median locates the middle via cumulative fre
 - [ ] I can substitute grouped median/mode values correctly.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Frequencies for values $5,10,15$ are $1,2,1$, respectively. Find the mean.
+**S1.** Frequencies for values $5,10,15$ are $1,2,1$, respectively. Find the mean.
+
+**S2.** Find the class mark of the interval $20$–$30$.
 
 #### Medium
-2. Frequencies are $2,6,2$ in consecutive classes $0$–$10$, $10$–$20$, and $20$–$30$. Identify the median class.
+**M1.** Frequencies are $2,6,2$ in consecutive classes $0$–$10$, $10$–$20$, and $20$–$30$. Identify the median class.
+
+**M2.** For $x_i=2,4,6$ and $f_i=1,3,2$, find the mean.
 
 #### Complex
-3. For a grouped distribution, the modal-class frequency is 12, the preceding frequency is 7, the following frequency is 5, the class width is 10, and the lower boundary is 20. Find the mode.
+**C1.** For a grouped distribution, the modal-class frequency is 12, the preceding frequency is 7, the following frequency is 5, the class width is 10, and the lower boundary is 20. Find the mode.
+
+**C2.** Classes $0$–$10$, $10$–$20$, $20$–$30$ have frequencies $3,5,2$. Find the grouped median, using continuous class boundaries.
 
 #### Answers / hints
-1. Use $\bar{x}=\frac{\sum f_ix_i}{\sum f_i}$.
-   The mean is $(5+20+15)/4=\mathbf{10}$.
-2. The total frequency is 10, so the median position is the 5th observation.
-   The cumulative frequency first reaches 5 in $10$–$20$; this is the median class.
-3. Use $\text{Mode}=l+\frac{f_1-f_0}{2f_1-f_0-f_2}h$.
-   $20+\frac{12-7}{24-7-5}(10)=\mathbf{24\frac16}$.
+**S1.** Use $\bar{x}=\frac{\sum f_ix_i}{\sum f_i}$.
+
+The mean is $(5+20+15)/4=\mathbf{10}$.
+
+**S2.** Class mark $=(20+30)/2=\mathbf{25}$.
+
+**M1.** The total frequency is 10, so the median position is the 5th observation.
+
+The cumulative frequency first reaches 5 in $10$–$20$; this is the median class.
+
+**M2.** $\sum f_ix_i=2+12+12=26$ and $N=6$.
+
+The mean is $\mathbf{13/3}$.
+
+**C1.** Use $\text{Mode}=l+\frac{f_1-f_0}{2f_1-f_0-f_2}h$.
+
+$20+\frac{12-7}{24-7-5}(10)=\mathbf{24\frac16}$.
+
+**C2.** $N=10$, so $N/2=5$; cumulative frequencies are $3,8,10$, making $10$–$20$ the median class.
+
+With $l=10,cf=3,f=5,h=10$, median $=10+\frac{5-3}{5}(10)=\mathbf{14}$.
 <!-- PAGE BREAK -->
+
 ## Chapter 14: Probability
 
 ### A. Chapter overview
@@ -1725,7 +2125,7 @@ Classical probability compares favourable equally likely outcomes with all possi
 
 **Objectives:** define experiments, outcomes, and events; calculate simple probabilities; use complements; check bounds.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit VII (Statistics and Probability) carries **11 marks** in the supplied, unverified blueprint. Allow roughly **3–5 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - A random experiment has an uncertain outcome from a known set of possibilities.
@@ -1818,36 +2218,63 @@ For finite equally likely outcomes, probability is favourable over total. Comple
 - [ ] I can verify the probability lies in $[0,1]$.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Draw one card from a standard 52-card deck. Find the probability that it is a heart.
+**S1.** Draw one card from a standard 52-card deck. Find the probability that it is a heart.
+
+**S2.** A fair die is rolled. Find the probability of getting a 6.
 
 #### Medium
-2. Roll a fair die once. Find the probability of getting a number greater than 4.
+**M1.** Roll a fair die once. Find the probability of getting a number greater than 4.
+
+**M2.** A bag contains 4 green and 6 yellow balls. Find the probability of drawing a yellow ball.
 
 #### Complex
-3. A bag contains 3 red and 5 blue balls. One ball is drawn at random. Find the probability that it is not red, and verify it using the complementary event.
+**C1.** A bag contains 3 red and 5 blue balls. One ball is drawn at random. Find the probability that it is not red, and verify it using the complementary event.
+
+**C2.** One integer is selected at random from 1 to 20 inclusive. Find the probability that it is divisible by 2 or 3.
 
 #### Answers / hints
-1. There are 13 hearts among 52 cards.
-   The probability is $13/52=\mathbf{1/4}$.
-2. Outcomes greater than 4 are 5 and 6.
-   The probability is $2/6=\mathbf{1/3}$.
-3. The complement of “not red” is “red”; $P(\text{red})=3/8$.
-   Therefore $P(\text{not red})=1-3/8=\mathbf{5/8}$.
+**S1.** There are 13 hearts among 52 cards.
+
+The probability is $13/52=\mathbf{1/4}$.
+
+**S2.** One of the six equally likely outcomes is 6.
+
+The probability is $\mathbf{1/6}$.
+
+**M1.** Outcomes greater than 4 are 5 and 6.
+
+The probability is $2/6=\mathbf{1/3}$.
+
+**M2.** There are 6 yellow balls among 10 balls.
+
+The probability is $6/10=\mathbf{3/5}$.
+
+**C1.** The complement of “not red” is “red”; $P(\text{red})=3/8$.
+
+Therefore $P(\text{not red})=1-3/8=\mathbf{5/8}$.
+
+**C2.** Multiples of 2: 10; multiples of 3: 6; common multiples of both: 3.
+
+Favourable outcomes $=10+6-3=13$, so the probability is $\mathbf{13/20}$.
+<!-- PAGE BREAK -->
+
 ## Final formula revision sheet
 
 This quick-reference sheet collects the main formulas from all 14 chapters. Use the chapter pages for full conditions, proofs, worked examples, and diagrams.
 
-### 1. Real Numbers
+### [1. Real Numbers: worked examples]({{ '/handbook/chapters/01-real-numbers/#d-solved-board-style-examples' | relative_url }})
 
 | Result | Formula / fact |
 | --- | --- |
 | Prime factorisation | $n=p_1^{a_1}p_2^{a_2}\cdots p_k^{a_k}$, with distinct primes $p_i$ |
 | HCF–LCM relation | $\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$ for positive integers $a,b$ |
 
-### 2. Polynomials
+### [2. Polynomials: worked examples]({{ '/handbook/chapters/02-polynomials/#d-solved-board-style-examples' | relative_url }})
 
 For $p(x)=ax^2+bx+c$, $a\ne0$, with zeros $\alpha,\beta$:
 
@@ -1857,19 +2284,21 @@ For $p(x)=ax^2+bx+c$, $a\ne0$, with zeros $\alpha,\beta$:
 | Product of zeros | $\alpha\beta=\frac ca$ |
 | Quadratic from zeros | $p(x)=a(x-\alpha)(x-\beta)$ |
 
-### 3. Pair of Linear Equations in Two Variables
+### [3. Pair of Linear Equations: worked examples]({{ '/handbook/chapters/03-pair-of-linear-equations/#d-solved-board-style-examples' | relative_url }})
 
-For $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$:
+For genuine lines $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$, where neither $(a_i,b_i)=(0,0)$, define $\Delta=a_1b_2-a_2b_1$.
 
 | Relationship | Number of solutions |
 | --- | --- |
-| $\frac{a_1}{a_2}\ne\frac{b_1}{b_2}$ | One solution |
-| $\frac{a_1}{a_2}=\frac{b_1}{b_2}=\frac{c_1}{c_2}$ | Infinitely many solutions |
-| $\frac{a_1}{a_2}=\frac{b_1}{b_2}\ne\frac{c_1}{c_2}$ | No solution |
+| $\Delta\ne0$ | One solution |
+| $\Delta=0$, $a_1c_2-a_2c_1=0$, and $b_1c_2-b_2c_1=0$ | Infinitely many solutions |
+| $\Delta=0$ and at least one of $a_1c_2-a_2c_1$, $b_1c_2-b_2c_1$ is nonzero | No solution |
 
-When a denominator is zero, compare ratios by cross-multiplication or use the equivalent coefficient conditions.
+These determinant conditions work even when one or more coefficients are zero.
 
-### 4. Quadratic Equations
+For example, $x-2=0$ and $x-3=0$ have $\Delta=0$ but a nonzero constant minor, so they are distinct parallel lines with no solution. The pair $x-2=0$ and $2x-4=0$ has all minors zero, so it represents the same line and has infinitely many solutions.
+
+### [4. Quadratic Equations: worked examples]({{ '/handbook/chapters/04-quadratic-equations/#d-solved-board-style-examples' | relative_url }})
 
 For $ax^2+bx+c=0$, $a\ne0$:
 
@@ -1881,7 +2310,7 @@ For $ax^2+bx+c=0$, $a\ne0$:
 | $D=0$ | Two equal real roots |
 | $D<0$ | No real roots |
 
-### 5. Arithmetic Progressions
+### [5. Arithmetic Progressions: worked examples]({{ '/handbook/chapters/05-arithmetic-progressions/#d-solved-board-style-examples' | relative_url }})
 
 Here $a$ is the first term, $d$ the common difference, and $n$ the number of terms.
 
@@ -1892,7 +2321,7 @@ Here $a$ is the first term, $d$ the common difference, and $n$ the number of ter
 | Sum of first $n$ terms | $S_n=\frac n2[2a+(n-1)d]$ |
 | Sum using last term $l$ | $S_n=\frac n2(a+l)$ |
 
-### 6. Triangles
+### [6. Triangles: worked examples]({{ '/handbook/chapters/06-triangles/#d-solved-board-style-examples' | relative_url }})
 
 | Result | Formula / relationship |
 | --- | --- |
@@ -1900,7 +2329,7 @@ Here $a$ is the first term, $d$ the common difference, and $n$ the number of ter
 | Similar-triangle area ratio | $\frac{[\triangle_1]}{[\triangle_2]}=\left(\frac{\text{corresponding side}_1}{\text{corresponding side}_2}\right)^2$ |
 | Pythagoras theorem | In a right triangle, $(\text{hypotenuse})^2=(\text{leg}_1)^2+(\text{leg}_2)^2$ |
 
-### 7. Coordinate Geometry
+### [7. Coordinate Geometry: worked examples]({{ '/handbook/chapters/07-coordinate-geometry/#d-solved-board-style-examples' | relative_url }})
 
 For points $A(x_1,y_1)$ and $B(x_2,y_2)$:
 
@@ -1910,7 +2339,7 @@ For points $A(x_1,y_1)$ and $B(x_2,y_2)$:
 | Internal section, ratio $m:n$ | $\left(\frac{mx_2+nx_1}{m+n},\frac{my_2+ny_1}{m+n}\right)$ |
 | Midpoint | $\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right)$ |
 
-### 8. Introduction to Trigonometry
+### [8. Introduction to Trigonometry: worked examples]({{ '/handbook/chapters/08-introduction-to-trigonometry/#d-solved-board-style-examples' | relative_url }})
 
 For an acute angle $A$ in a right triangle, let $O$ be opposite, $Adj$ adjacent, and $H$ the hypotenuse.
 
@@ -1930,7 +2359,7 @@ For an acute angle $A$ in a right triangle, let $O$ be opposite, $Adj$ adjacent,
 | $\cos A$ | $1$ | $\frac{\sqrt3}{2}$ | $\frac1{\sqrt2}$ | $\frac12$ | $0$ |
 | $\tan A$ | $0$ | $\frac1{\sqrt3}$ | $1$ | $\sqrt3$ | undefined |
 
-### 9. Some Applications of Trigonometry
+### [9. Some Applications of Trigonometry: worked examples]({{ '/handbook/chapters/09-applications-of-trigonometry/#d-solved-board-style-examples' | relative_url }})
 
 For angle of elevation or depression $\theta$, vertical height difference $h$, and horizontal distance $d$:
 
@@ -1942,14 +2371,14 @@ For angle of elevation or depression $\theta$, vertical height difference $h$, a
 
 Draw and label a right triangle first; use heights above or below eye level as appropriate.
 
-### 10. Circles
+### [10. Circles: worked examples]({{ '/handbook/chapters/10-circles/#d-solved-board-style-examples' | relative_url }})
 
 | Theorem | Result |
 | --- | --- |
 | Radius and tangent | The radius to the point of contact is perpendicular to the tangent |
 | Tangents from an external point | If $PA$ and $PB$ are tangents from $P$, then $PA=PB$ |
 
-### 11. Areas Related to Circles
+### [11. Areas Related to Circles: worked examples]({{ '/handbook/chapters/11-areas-related-to-circles/#d-solved-board-style-examples' | relative_url }})
 
 For radius $r$ and central angle $\theta$ in degrees:
 
@@ -1962,7 +2391,7 @@ For radius $r$ and central angle $\theta$ in degrees:
 | Perimeter of a sector | $2r+\text{arc length}$ |
 | Area of a minor segment | $\text{sector area}-\text{area of triangle}$ |
 
-### 12. Surface Areas and Volumes
+### [12. Surface Areas and Volumes: worked examples]({{ '/handbook/chapters/12-surface-areas-and-volumes/#d-solved-board-style-examples' | relative_url }})
 
 Here $r$ is radius, $h$ perpendicular height, $l$ and $b$ are cuboid edges, and $a$ is cube edge length.
 
@@ -1977,7 +2406,7 @@ Here $r$ is radius, $h$ perpendicular height, $l$ and $b$ are cuboid edges, and 
 
 For a cone, slant height $\ell=\sqrt{r^2+h^2}$. For combined solids, count only exposed surfaces.
 
-### 13. Statistics
+### [13. Statistics: worked examples]({{ '/handbook/chapters/13-statistics/#d-solved-board-style-examples' | relative_url }})
 
 For grouped data, $N=\sum f_i$, $x_i$ is the class mark, and $h$ is the class width.
 
@@ -1992,7 +2421,7 @@ For grouped data, $N=\sum f_i$, $x_i$ is the class mark, and $h$ is the class wi
 
 For the median, $l$ is the lower boundary of the median class, $cf$ the cumulative frequency before it, and $f$ its frequency. For the mode, $l$ is the lower boundary of the modal class; $f_1$ is its frequency and $f_0,f_2$ are the preceding and following frequencies.
 
-### 14. Probability
+### [14. Probability: worked examples]({{ '/handbook/chapters/14-probability/#d-solved-board-style-examples' | relative_url }})
 
 For equally likely outcomes:
 

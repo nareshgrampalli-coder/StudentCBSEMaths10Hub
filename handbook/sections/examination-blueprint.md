@@ -9,7 +9,7 @@ next_url: /handbook/sections/unit-i-number-systems/
 
 ## Examination blueprint
 
-The requested blueprint is shown here as a planning aid. Verify the current official circular and curriculum before treating any entries as official.
+The requested blueprint is shown here as a planning aid. The official CBSE curriculum PDF link responds with a PDF, but its contents could not be text-extracted for verification in this environment; the linked marks-bifurcation circular returned HTTP 403. These figures are reproduced from the supplied planning blueprint and are not independently verified official allocations. Confirm current details with CBSE before relying on them.
 
 | Component | Marks | Duration |
 | --- | ---: | --- |

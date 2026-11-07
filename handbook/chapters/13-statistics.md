@@ -16,7 +16,7 @@ Grouped data summarises many observations in intervals. Mean, median, and mode d
 
 **Objectives:** find class marks; calculate mean by three methods; identify median/modal classes; calculate grouped median and mode; interpret results.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit VII (Statistics and Probability) carries **11 marks** in the supplied, unverified blueprint. Allow roughly **6–8 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - Class mark $x_i=(\text{lower limit}+\text{upper limit})/2$.
@@ -117,21 +117,44 @@ Mean is frequency-weighted average. Median locates the middle via cumulative fre
 - [ ] I can substitute grouped median/mode values correctly.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Frequencies for values $5,10,15$ are $1,2,1$, respectively. Find the mean.
+**S1.** Frequencies for values $5,10,15$ are $1,2,1$, respectively. Find the mean.
+
+**S2.** Find the class mark of the interval $20$–$30$.
 
 #### Medium
-2. Frequencies are $2,6,2$ in consecutive classes $0$–$10$, $10$–$20$, and $20$–$30$. Identify the median class.
+**M1.** Frequencies are $2,6,2$ in consecutive classes $0$–$10$, $10$–$20$, and $20$–$30$. Identify the median class.
+
+**M2.** For $x_i=2,4,6$ and $f_i=1,3,2$, find the mean.
 
 #### Complex
-3. For a grouped distribution, the modal-class frequency is 12, the preceding frequency is 7, the following frequency is 5, the class width is 10, and the lower boundary is 20. Find the mode.
+**C1.** For a grouped distribution, the modal-class frequency is 12, the preceding frequency is 7, the following frequency is 5, the class width is 10, and the lower boundary is 20. Find the mode.
+
+**C2.** Classes $0$–$10$, $10$–$20$, $20$–$30$ have frequencies $3,5,2$. Find the grouped median, using continuous class boundaries.
 
 #### Answers / hints
-1. Use $\bar{x}=\frac{\sum f_ix_i}{\sum f_i}$.
-   The mean is $(5+20+15)/4=\mathbf{10}$.
-2. The total frequency is 10, so the median position is the 5th observation.
-   The cumulative frequency first reaches 5 in $10$–$20$; this is the median class.
-3. Use $\text{Mode}=l+\frac{f_1-f_0}{2f_1-f_0-f_2}h$.
-   $20+\frac{12-7}{24-7-5}(10)=\mathbf{24\frac16}$.
+**S1.** Use $\bar{x}=\frac{\sum f_ix_i}{\sum f_i}$.
+
+The mean is $(5+20+15)/4=\mathbf{10}$.
+
+**S2.** Class mark $=(20+30)/2=\mathbf{25}$.
+
+**M1.** The total frequency is 10, so the median position is the 5th observation.
+
+The cumulative frequency first reaches 5 in $10$–$20$; this is the median class.
+
+**M2.** $\sum f_ix_i=2+12+12=26$ and $N=6$.
+
+The mean is $\mathbf{13/3}$.
+
+**C1.** Use $\text{Mode}=l+\frac{f_1-f_0}{2f_1-f_0-f_2}h$.
+
+$20+\frac{12-7}{24-7-5}(10)=\mathbf{24\frac16}$.
+
+**C2.** $N=10$, so $N/2=5$; cumulative frequencies are $3,8,10$, making $10$–$20$ the median class.
+
+With $l=10,cf=3,f=5,h=10$, median $=10+\frac{5-3}{5}(10)=\mathbf{14}$.

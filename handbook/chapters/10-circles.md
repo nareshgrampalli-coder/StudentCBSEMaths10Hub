@@ -16,7 +16,7 @@ Tangents touch a circle at one point. Their relation to radii gives useful perpe
 
 **Objectives:** state and prove the radius-tangent theorem; prove equal tangents from an external point; solve length problems.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit IV (Geometry) carries **15 marks** in the supplied, unverified blueprint. Allow roughly **5–8 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 - A tangent meets a circle at exactly one point; that point is the point of contact.
@@ -117,21 +117,46 @@ Radius to contact point is perpendicular to tangent. Tangents from the same exte
 - [ ] I can identify the external point correctly.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. What angle does a radius make with the tangent at the point of contact?
+**S1.** What angle does a radius make with the tangent at the point of contact?
+
+**S2.** A circle with centre $O$ is touched by tangent line $\ell$ at $T$. Find the angle between $OT$ and $\ell$.
 
 #### Medium
-2. A circle has radius 8 cm, and an external point is 17 cm from its centre. Find the tangent length.
+**M1.** A circle has radius 8 cm, and an external point is 17 cm from its centre. Find the tangent length.
+
+**M2.** A tangent from $P$ has length 12 cm. What is the length of the other tangent from $P$ to the same circle?
 
 #### Complex
-3. Two tangents from the same external point have lengths $2x+9$ and $5x$. Find $x$ and the tangent length.
+**C1.** Two tangents from the same external point have lengths $2x+9$ and $5x$. Find $x$ and the tangent length.
+
+**C2.** A circle has radius 5 cm. From an external point 13 cm from the centre, two tangents touch the circle. Find each tangent length and the perimeter of the quadrilateral formed with the two radii.
 
 #### Answers / hints
-1. The radius is perpendicular to the tangent at the point of contact.
-   The angle is **$90^\circ$**.
-2. The radius and tangent form a right triangle with hypotenuse 17.
-   Tangent length $=\sqrt{17^2-8^2}=\mathbf{15\text{ cm}}$.
-3. Tangents from a common external point are equal: $2x+9=5x$.
-   Thus $x=3$ and each tangent is **15 units**.
+**S1.** The radius is perpendicular to the tangent at the point of contact.
+
+The angle is **$90^\circ$**.
+
+**S2.** The radius to the point of contact is perpendicular to the tangent.
+
+The angle between $OT$ and $\ell$ is **$90^\circ$**.
+
+**M1.** The radius and tangent form a right triangle with hypotenuse 17.
+
+Tangent length $=\sqrt{17^2-8^2}=\mathbf{15\text{ cm}}$.
+
+**M2.** Tangents from a common external point are equal.
+
+The other tangent is **12 cm**.
+
+**C1.** Tangents from a common external point are equal: $2x+9=5x$.
+
+Thus $x=3$ and each tangent is **15 units**.
+
+**C2.** Tangent length $=\sqrt{13^2-5^2}=12$ cm.
+
+The quadrilateral has two radii and two equal tangents, so its perimeter is $5+5+12+12=\mathbf{34\text{ cm}}$.

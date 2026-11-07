@@ -16,7 +16,7 @@ Coordinate formulas turn geometric questions into calculations with ordered pair
 
 **Objectives:** calculate distances; find an internally dividing point; use the midpoint as a special case.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit III (Coordinate Geometry) carries **6 marks** in the supplied, unverified blueprint. Allow roughly **4–6 marks** or **1–2 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 The distance formula follows from Pythagoras: horizontal change is $x_2-x_1$, vertical change is $y_2-y_1$. Section formula uses a weighted average, with the nearer endpoint receiving the larger weight.
@@ -104,21 +104,46 @@ Distance is the Pythagorean length. Internal section coordinates are weighted av
 - [ ] I can find and interpret a midpoint.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Find the midpoint of $(3,4)$ and $(9,-2)$.
+**S1.** Find the midpoint of $(3,4)$ and $(9,-2)$.
+
+**S2.** Find the distance between $(1,1)$ and $(4,5)$.
 
 #### Medium
-2. Find the distance between $(0,-1)$ and $(6,7)$.
+**M1.** Find the distance between $(0,-1)$ and $(6,7)$.
+
+**M2.** Find the midpoint of $(-2,5)$ and $(6,1)$.
 
 #### Complex
-3. Find the point dividing the segment joining $(0,0)$ and $(8,4)$ internally in the ratio $3:1$.
+**C1.** Find the point dividing the segment joining $(0,0)$ and $(8,4)$ internally in the ratio $3:1$.
+
+**C2.** The point $P(4,3)$ divides $A(1,1)$ and $B(x,y)$ internally in the ratio $1:2$. Find $B$.
 
 #### Answers / hints
-1. Average the x-coordinates and the y-coordinates separately.
-   The midpoint is $\mathbf{(6,1)}$.
-2. Use the distance formula: $\sqrt{(6-0)^2+(7+1)^2}$.
-   The distance is $\sqrt{100}=\mathbf{10}$.
-3. Apply the section formula with $m:n=3:1$.
-   The point is $\left(\frac{3(8)+1(0)}4,\frac{3(4)+1(0)}4\right)=\mathbf{(6,3)}$.
+**S1.** Average the x-coordinates and the y-coordinates separately.
+
+The midpoint is $\mathbf{(6,1)}$.
+
+**S2.** Distance $=\sqrt{(4-1)^2+(5-1)^2}=\sqrt{9+16}$.
+
+The distance is **5 units**.
+
+**M1.** Use the distance formula: $\sqrt{(6-0)^2+(7+1)^2}$.
+
+The distance is $\sqrt{100}=\mathbf{10}$.
+
+**M2.** Average each pair of coordinates.
+
+The midpoint is $\mathbf{(2,3)}$.
+
+**C1.** Apply the section formula with $m:n=3:1$.
+
+The point is $\left(\frac{3(8)+1(0)}4,\frac{3(4)+1(0)}4\right)=\mathbf{(6,3)}$.
+
+**C2.** Section formula gives $4=(1x+2\cdot1)/3$ and $3=(1y+2\cdot1)/3$.
+
+Solving gives $x=10,y=7$, so $B=\mathbf{(10,7)}$.

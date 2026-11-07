@@ -29,6 +29,14 @@ a:hover {
   color: var(--accent);
 }
 
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+.book-content table:focus-visible {
+  outline: 3px solid #bf5717;
+  outline-offset: 3px;
+}
+
 .skip-link {
   position: absolute;
   top: -4rem;
@@ -109,6 +117,14 @@ a:hover {
   padding: 1.5rem 1rem 2rem;
   border-right: 1px solid var(--line);
   background: #f8faf9;
+}
+
+.contents-disclosure {
+  min-width: 0;
+}
+
+.contents-disclosure > summary {
+  display: none;
 }
 
 .contents-home {
@@ -242,6 +258,10 @@ a:hover {
   font-size: .92rem;
 }
 
+.book-content table:focus-visible {
+  outline-offset: 1px;
+}
+
 .book-content th,
 .book-content td {
   min-width: 5rem;
@@ -274,6 +294,13 @@ a:hover {
 
 .book-content code {
   font-family: Consolas, "Courier New", monospace;
+}
+
+.book-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.25rem auto;
 }
 
 .chapter-pager {
@@ -336,6 +363,16 @@ a:hover {
   font-weight: 600;
 }
 
+.mathjax-status {
+  max-width: 60rem;
+  margin: 1rem auto;
+  padding: .8rem 1rem;
+  border-left: 4px solid #bf5717;
+  background: #fff5e8;
+  color: #49320f;
+  font-size: .9rem;
+}
+
 .home-intro {
   max-width: 47rem;
   margin-bottom: 2rem;
@@ -395,13 +432,25 @@ a:hover {
     display: block;
   }
 
+  .contents-disclosure {
+    border-bottom: 1px solid var(--line);
+    background: #f8faf9;
+  }
+
+  .contents-disclosure > summary {
+    display: list-item;
+    padding: .85rem 1rem;
+    color: var(--ink);
+    cursor: pointer;
+    font-weight: 700;
+  }
+
   .book-sidebar {
     position: static;
     width: 100%;
     height: auto;
-    max-height: 18rem;
+    max-height: 60vh;
     border-right: 0;
-    border-bottom: 1px solid var(--line);
   }
 
   .book-main {
@@ -425,5 +474,43 @@ a:hover {
 
   .contents-list .contents-group {
     grid-column: auto;
+  }
+}
+
+@media print {
+  body {
+    color: #000;
+    background: #fff;
+  }
+
+  .site-header,
+  .contents-disclosure,
+  .chapter-pager,
+  .book-footer,
+  .start-reading {
+    display: none !important;
+  }
+
+  .book-shell,
+  .book-main {
+    display: block;
+    min-height: 0;
+    padding: 0;
+  }
+
+  .reading-column {
+    max-width: none;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .book-content table,
+  .book-content pre {
+    overflow: visible;
+  }
+
+  a {
+    color: #000;
   }
 }

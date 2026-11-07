@@ -16,7 +16,7 @@ A pair of linear equations represents two lines. Their intersection, coincidence
 
 **Objectives:** classify pairs; solve graphically, by substitution, and by elimination; model simple situations.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit II (Algebra) carries **20 marks** in the supplied, unverified blueprint. Allow roughly **5–7 marks** or **1–3 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 For $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$:
@@ -123,21 +123,44 @@ Intersecting lines give one solution; coincident lines infinitely many; distinct
 - [ ] I can translate a simple situation into two equations.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. Classify the pair $x+2y=3$ and $2x+4y=8$ as consistent or inconsistent.
+**S1.** Classify the pair $x+2y=3$ and $2x+4y=8$ as consistent or inconsistent.
+
+**S2.** Solve $x+y=7$ and $x-y=1$.
 
 #### Medium
-2. Solve $3x+2y=12$ and $x-y=1$.
+**M1.** Solve $3x+2y=12$ and $x-y=1$.
+
+**M2.** Solve $2x+3y=13$ and $x-y=1$.
 
 #### Complex
-3. The sum of two numbers is 31 and their difference is 7. Form a pair of equations and find the numbers.
+**C1.** The sum of two numbers is 31 and their difference is 7. Form a pair of equations and find the numbers.
+
+**C2.** A two-digit number has digit sum 9. Reversing its digits increases the number by 27. Find the number.
 
 #### Answers / hints
-1. The coefficient ratios are $1/2=2/4$, while the constant ratio is $3/8$.
-   The pair is inconsistent; it has no solution.
-2. From $x-y=1$, get $x=y+1$.
-   Substitute to obtain $y=9/5$, $x=14/5$.
-3. Let the numbers be $x,y$: $x+y=31$, $x-y=7$.
-   Adding gives $2x=38$, so the numbers are **19 and 12**.
+**S1.** The coefficient ratios are $1/2=2/4$, while the constant ratio is $3/8$.
+
+The pair is inconsistent; it has no solution.
+
+**S2.** Add the equations to get $2x=8$, so $x=4$ and $y=3$.
+
+**M1.** From $x-y=1$, get $x=y+1$.
+
+Substitute to obtain $y=9/5$, $x=14/5$.
+
+**M2.** From $x-y=1$, $x=y+1$; substitution gives $5y+2=13$.
+
+Thus $y=11/5$ and $x=16/5$.
+
+**C1.** Let the numbers be $x,y$: $x+y=31$, $x-y=7$.
+
+Adding gives $2x=38$, so the numbers are **19 and 12**.
+
+**C2.** Let tens digit be $x$ and units digit be $y$.
+
+$x+y=9$ and $10y+x=10x+y+27$ give $y-x=3$; hence $x=3,y=6$ and the number is **36**.

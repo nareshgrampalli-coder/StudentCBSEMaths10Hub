@@ -16,7 +16,7 @@ Trigonometric ratios compare sides of a right triangle relative to an acute angl
 
 **Objectives:** define six ratios; recall standard values; use reciprocal relationships and the fundamental identity.
 
-**Exam planning estimate (not an official chapter-wise allocation):** Unit V (Trigonometry) carries **12 marks** in the supplied, unverified blueprint. Allow roughly **6–9 marks** or **2–3 questions/subparts** for this chapter in an 80-mark paper.
+**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
 
 ### B. Important concepts and explanations
 Relative to angle $A$, opposite, adjacent, and hypotenuse identify sides. $\sin A=O/H$, $\cos A=A/H$, $\tan A=O/A$; cosec, sec, and cot are reciprocals. Ratios depend on the angle, not the triangle's size.
@@ -124,20 +124,44 @@ SOH-CAH-TOA defines the three primary ratios. Their reciprocals are cosec, sec, 
 - [ ] I can apply the fundamental identity.
 
 ### I. Practice questions
-These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+These are original questions written for this handbook; they are not copied from past papers.
+
+**Difficulty guide:** Simple questions check one direct skill; Medium questions require choosing or combining a method; Complex questions require multi-step reasoning or modelling.
 
 #### Simple
-1. State the value of $\cot90^\circ$.
+**S1.** State the value of $\cot90^\circ$.
+
+**S2.** Evaluate $\sin30^\circ+\cos60^\circ$.
 
 #### Medium
-2. Evaluate $2\sin30^\circ+\sec60^\circ$.
+**M1.** Evaluate $2\sin30^\circ+\sec60^\circ$.
+
+**M2.** If $\sin A=3/5$ for acute $A$, find $\cos A$ and $\tan A$.
 
 #### Complex
-3. If $\tan A=5/12$ for acute $A$, find $\sin A+\cos A$.
+**C1.** If $\tan A=5/12$ for acute $A$, find $\sin A+\cos A$.
+
+**C2.** If $\sec A=13/12$ for acute $A$, find $\tan A$ and $\sin A$.
 
 #### Answers / hints
-1. $\cot90^\circ=\mathbf{0}$.
-2. Substitute the standard values: $2(1/2)+2$.
-   The value is **3**.
-3. Use a right triangle with opposite side 5, adjacent side 12, and hypotenuse 13.
-   Then $\sin A+\cos A=5/13+12/13=\mathbf{17/13}$.
+**S1.** $\cot90^\circ=\mathbf{0}$.
+
+**S2.** Substitute the standard values: $1/2+1/2$.
+
+The value is **1**.
+
+**M1.** Substitute the standard values: $2(1/2)+2$.
+
+The value is **3**.
+
+**M2.** $\cos A=\sqrt{1-\sin^2A}=\sqrt{16/25}=4/5$ because $A$ is acute.
+
+$\tan A=(3/5)/(4/5)=\mathbf{3/4}$.
+
+**C1.** Use a right triangle with opposite side 5, adjacent side 12, and hypotenuse 13.
+
+Then $\sin A+\cos A=5/13+12/13=\mathbf{17/13}$.
+
+**C2.** $\sec A=13/12$ gives adjacent 12 and hypotenuse 13, so opposite $=\sqrt{13^2-12^2}=5$.
+
+Thus $\tan A=\mathbf{5/12}$ and $\sin A=\mathbf{5/13}$.
