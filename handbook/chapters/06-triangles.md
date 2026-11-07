@@ -120,8 +120,20 @@ AA, SSS, and SAS establish similarity. BPT applies when a line is parallel; its 
 - [ ] I can compare areas using the squared scale factor.
 
 ### I. Practice questions
-1. If $AD=4, DB=6, AE=5$ and $DE\parallel BC$, find $EC$.
-2. Similar triangles have side ratio $2:7$. Find area ratio.
-3. Two sides of one triangle are proportional to two sides of another and their included angles are equal. Name the criterion.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $7.5$. 2. $4:49$. 3. SAS.
+#### Simple
+1. Two sides of one triangle are proportional to two sides of another, and their included angles are equal. Name the similarity criterion.
+
+#### Medium
+2. Similar triangles have corresponding side ratio $2:7$. Find their area ratio.
+
+#### Complex
+3. In $\triangle ABC$, $DE\parallel BC$, $AD=4$, $DB=6$, and $AE=5$. Find $EC$ and the ratio of the areas of $\triangle ADE$ and $\triangle ABC$.
+
+#### Answers / hints
+1. The included angle condition together with proportional sides gives the **SAS similarity criterion**.
+2. Similar-triangle area ratio is the square of the side ratio.
+   The area ratio is $2^2:7^2=\mathbf{4:49}$.
+3. By BPT, $AD/DB=AE/EC$, so $4/6=5/EC$ and $EC=7.5$.
+   Also $AD/AB=4/10=2/5$; the area ratio is $(2/5)^2=\mathbf{4:25}$.

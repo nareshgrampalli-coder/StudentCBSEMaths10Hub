@@ -117,8 +117,21 @@ Mean is frequency-weighted average. Median locates the middle via cumulative fre
 - [ ] I can substitute grouped median/mode values correctly.
 
 ### I. Practice questions
-1. Find the mean for $x_i=5,10,15$ and $f_i=1,2,1$.
-2. Frequencies are 2, 6, 2 in consecutive classes 0–10, 10–20, 20–30. Identify the median class.
-3. For modal-class frequency 12, preceding 7, following 5, class width 10 and lower boundary 20, find mode.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. 10. 2. 10–20. 3. 25.
+#### Simple
+1. Frequencies for values $5,10,15$ are $1,2,1$, respectively. Find the mean.
+
+#### Medium
+2. Frequencies are $2,6,2$ in consecutive classes $0$–$10$, $10$–$20$, and $20$–$30$. Identify the median class.
+
+#### Complex
+3. For a grouped distribution, the modal-class frequency is 12, the preceding frequency is 7, the following frequency is 5, the class width is 10, and the lower boundary is 20. Find the mode.
+
+#### Answers / hints
+1. Use $\bar{x}=\frac{\sum f_ix_i}{\sum f_i}$.
+   The mean is $(5+20+15)/4=\mathbf{10}$.
+2. The total frequency is 10, so the median position is the 5th observation.
+   The cumulative frequency first reaches 5 in $10$–$20$; this is the median class.
+3. Use $\text{Mode}=l+\frac{f_1-f_0}{2f_1-f_0-f_2}h$.
+   $20+\frac{12-7}{24-7-5}(10)=\mathbf{24\frac16}$.

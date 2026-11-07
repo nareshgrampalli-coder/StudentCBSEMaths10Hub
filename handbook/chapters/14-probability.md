@@ -109,8 +109,21 @@ For finite equally likely outcomes, probability is favourable over total. Comple
 - [ ] I can verify the probability lies in $[0,1]$.
 
 ### I. Practice questions
-1. Roll a fair die. Find the probability of a number greater than 4.
-2. Draw one card from a standard 52-card deck. Find the probability it is a heart.
-3. A bag has 3 red and 5 blue balls. Find the probability of not drawing red.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $1/3$. 2. $1/4$. 3. $5/8$.
+#### Simple
+1. Draw one card from a standard 52-card deck. Find the probability that it is a heart.
+
+#### Medium
+2. Roll a fair die once. Find the probability of getting a number greater than 4.
+
+#### Complex
+3. A bag contains 3 red and 5 blue balls. One ball is drawn at random. Find the probability that it is not red, and verify it using the complementary event.
+
+#### Answers / hints
+1. There are 13 hearts among 52 cards.
+   The probability is $13/52=\mathbf{1/4}$.
+2. Outcomes greater than 4 are 5 and 6.
+   The probability is $2/6=\mathbf{1/3}$.
+3. The complement of “not red” is “red”; $P(\text{red})=3/8$.
+   Therefore $P(\text{not red})=1-3/8=\mathbf{5/8}$.

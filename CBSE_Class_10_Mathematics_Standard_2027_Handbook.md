@@ -199,14 +199,24 @@ Use unique prime factorisation; HCF takes common primes with minimum powers, LCM
 - [ ] I can write an irrationality proof clearly.
 
 ### I. Practice questions
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+
+#### Simple
 1. Find the HCF and LCM of 84 and 126.
-2. Three lights flash every 12, 15, and 20 seconds. When do they next flash together?
-3. Prove that $\sqrt2$ is irrational.
-4. Explain why $3+2\sqrt5$ is irrational.
 
-**Answers / hints:** 1. 42 and 252. 2. 60 seconds. 3. Assume $\sqrt2=a/b$ reduced; $a^2=2b^2$ forces both even. 4. If the expression were rational, subtract 3 and divide by 2 to make $\sqrt5$ rational.
----
+#### Medium
+2. Three lights flash every 12, 15, and 20 seconds. If they flash together now, when will they next flash together?
 
+#### Complex
+3. Prove that $3+2\sqrt5$ is irrational.
+
+#### Answers / hints
+1. $84=2^2\cdot3\cdot7$ and $126=2\cdot3^2\cdot7$.
+   HCF $=42$; LCM $=252$.
+2. Find $\operatorname{LCM}(12,15,20)$.
+   The lights next flash together after **60 seconds**.
+3. Assume $3+2\sqrt5$ is rational.
+   Then $\sqrt5=((3+2\sqrt5)-3)/2$ would be rational, a contradiction.
 <!-- PAGE BREAK -->
 ## Chapter 2: Polynomials
 
@@ -311,13 +321,24 @@ Zeros satisfy $p(r)=0$. For a quadratic, sum $=-b/a$, product $=c/a$. The monic 
 - [ ] I can construct a quadratic from its zeros.
 
 ### I. Practice questions
-1. Find and verify the zeros of $2x^2-7x+3$.
-2. Form a monic quadratic with zeros 3 and 7.
-3. A graph meets the x-axis at 2 only, touching it. What is its zero and what may its multiplicity be?
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $3,\frac12$; sum $7/2$, product $3/2$. 2. $x^2-10x+21$. 3. Zero 2; it may be a repeated zero.
----
+#### Simple
+1. Form a monic quadratic polynomial with zeros 3 and 7.
 
+#### Medium
+2. Find and verify the zeros of $2x^2-7x+3$.
+
+#### Complex
+3. A quadratic graph touches the x-axis at $x=2$ and has $y$-intercept 8. Find the polynomial if its leading coefficient is 2.
+
+#### Answers / hints
+1. Use $(x-3)(x-7)$.
+   The polynomial is $x^2-10x+21$.
+2. Factor: $(2x-1)(x-3)=0$.
+   Zeros are $1/2$ and $3$; their sum is $7/2$ and product is $3/2$.
+3. A touch at $x=2$ means a repeated zero, so write $p(x)=2(x-2)^2$.
+   Its y-intercept is 8, as required; $p(x)=2x^2-8x+8$.
 <!-- PAGE BREAK -->
 ## Chapter 3: Pair of Linear Equations in Two Variables
 
@@ -433,13 +454,24 @@ Intersecting lines give one solution; coincident lines infinitely many; distinct
 - [ ] I can translate a simple situation into two equations.
 
 ### I. Practice questions
-1. Solve $3x+2y=12$, $x-y=1$.
-2. Classify $x+2y=3$ and $2x+4y=8$.
-3. The sum of two numbers is 31 and their difference is 7. Find them.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $x=2,y=3$. 2. No solution. 3. 19 and 12.
----
+#### Simple
+1. Classify the pair $x+2y=3$ and $2x+4y=8$ as consistent or inconsistent.
 
+#### Medium
+2. Solve $3x+2y=12$ and $x-y=1$.
+
+#### Complex
+3. The sum of two numbers is 31 and their difference is 7. Form a pair of equations and find the numbers.
+
+#### Answers / hints
+1. The coefficient ratios are $1/2=2/4$, while the constant ratio is $3/8$.
+   The pair is inconsistent; it has no solution.
+2. From $x-y=1$, get $x=y+1$.
+   Substitute to obtain $y=9/5$, $x=14/5$.
+3. Let the numbers be $x,y$: $x+y=31$, $x-y=7$.
+   Adding gives $2x=38$, so the numbers are **19 and 12**.
 <!-- PAGE BREAK -->
 ## Chapter 4: Quadratic Equations
 
@@ -548,13 +580,24 @@ Standard form requires $a\ne0$. Discriminant $D=b^2-4ac$ classifies real roots. 
 - [ ] I can check contextual answers.
 
 ### I. Practice questions
-1. Solve $x^2-9x+20=0$.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+
+#### Simple
+1. Solve $x^2-9x+20=0$ by factorisation.
+
+#### Medium
 2. Solve $3x^2-2x-1=0$.
-3. For what $p$ does $x^2+px+9=0$ have equal roots?
 
-**Answers / hints:** 1. 4, 5. 2. 1, $-1/3$. 3. $p=\pm6$.
----
+#### Complex
+3. Find all values of $p$ for which $x^2+px+9=0$ has equal roots.
 
+#### Answers / hints
+1. Factor as $(x-4)(x-5)=0$.
+   Therefore, $x=4$ or $x=5$.
+2. Factor as $(3x+1)(x-1)=0$.
+   Therefore, $x=1$ or $x=-1/3$.
+3. Equal roots require discriminant $b^2-4ac=0$.
+   Thus $p^2-36=0$, so $p=6$ or $p=-6$.
 <!-- PAGE BREAK -->
 ## Chapter 5: Arithmetic Progressions
 
@@ -651,13 +694,24 @@ Constant consecutive difference defines an AP. Use $a+(n-1)d$ for one term and t
 - [ ] I can distinguish a single term from a cumulative quantity.
 
 ### I. Practice questions
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+
+#### Simple
 1. Find the 25th term of $7,3,-1,\ldots$.
-2. Find the sum of the first 10 terms of $4,7,10,\ldots$.
-3. Which term of $2,6,10,\ldots$ is 50?
 
-**Answers / hints:** 1. $-89$. 2. 175. 3. 13th.
----
+#### Medium
+2. Which term of $2,6,10,\ldots$ is 50?
 
+#### Complex
+3. Find the sum of the first 10 terms of $4,7,10,\ldots$.
+
+#### Answers / hints
+1. Here $a=7$ and $d=-4$; use $a_n=a+(n-1)d$.
+   $a_{25}=7+24(-4)=\mathbf{-89}$.
+2. Solve $2+(n-1)4=50$.
+   This gives $n=13$, so 50 is the **13th term**.
+3. Here $a=4$, $d=3$, and $n=10$.
+   $S_{10}=\frac{10}{2}[2(4)+9(3)]=\mathbf{175}$.
 <!-- PAGE BREAK -->
 ## Chapter 6: Triangles
 
@@ -770,13 +824,23 @@ AA, SSS, and SAS establish similarity. BPT applies when a line is parallel; its 
 - [ ] I can compare areas using the squared scale factor.
 
 ### I. Practice questions
-1. If $AD=4, DB=6, AE=5$ and $DE\parallel BC$, find $EC$.
-2. Similar triangles have side ratio $2:7$. Find area ratio.
-3. Two sides of one triangle are proportional to two sides of another and their included angles are equal. Name the criterion.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $7.5$. 2. $4:49$. 3. SAS.
----
+#### Simple
+1. Two sides of one triangle are proportional to two sides of another, and their included angles are equal. Name the similarity criterion.
 
+#### Medium
+2. Similar triangles have corresponding side ratio $2:7$. Find their area ratio.
+
+#### Complex
+3. In $\triangle ABC$, $DE\parallel BC$, $AD=4$, $DB=6$, and $AE=5$. Find $EC$ and the ratio of the areas of $\triangle ADE$ and $\triangle ABC$.
+
+#### Answers / hints
+1. The included angle condition together with proportional sides gives the **SAS similarity criterion**.
+2. Similar-triangle area ratio is the square of the side ratio.
+   The area ratio is $2^2:7^2=\mathbf{4:49}$.
+3. By BPT, $AD/DB=AE/EC$, so $4/6=5/EC$ and $EC=7.5$.
+   Also $AD/AB=4/10=2/5$; the area ratio is $(2/5)^2=\mathbf{4:25}$.
 <!-- PAGE BREAK -->
 ## Chapter 7: Coordinate Geometry
 
@@ -873,13 +937,24 @@ Distance is the Pythagorean length. Internal section coordinates are weighted av
 - [ ] I can find and interpret a midpoint.
 
 ### I. Practice questions
-1. Find the distance between $(0,-1)$ and $(6,7)$.
-2. Find the midpoint of $(3,4)$ and $(9,-2)$.
-3. Find the point dividing $(0,0)$ and $(8,4)$ in ratio $3:1$.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. 10. 2. $(6,1)$. 3. $(6,3)$.
----
+#### Simple
+1. Find the midpoint of $(3,4)$ and $(9,-2)$.
 
+#### Medium
+2. Find the distance between $(0,-1)$ and $(6,7)$.
+
+#### Complex
+3. Find the point dividing the segment joining $(0,0)$ and $(8,4)$ internally in the ratio $3:1$.
+
+#### Answers / hints
+1. Average the x-coordinates and the y-coordinates separately.
+   The midpoint is $\mathbf{(6,1)}$.
+2. Use the distance formula: $\sqrt{(6-0)^2+(7+1)^2}$.
+   The distance is $\sqrt{100}=\mathbf{10}$.
+3. Apply the section formula with $m:n=3:1$.
+   The point is $\left(\frac{3(8)+1(0)}4,\frac{3(4)+1(0)}4\right)=\mathbf{(6,3)}$.
 <!-- PAGE BREAK -->
 ## Chapter 8: Introduction to Trigonometry
 
@@ -996,13 +1071,23 @@ SOH-CAH-TOA defines the three primary ratios. Their reciprocals are cosec, sec, 
 - [ ] I can apply the fundamental identity.
 
 ### I. Practice questions
-1. If $\tan A=5/12$ for acute $A$, find $\sin A$ and $\cos A$.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+
+#### Simple
+1. State the value of $\cot90^\circ$.
+
+#### Medium
 2. Evaluate $2\sin30^\circ+\sec60^\circ$.
-3. State $\cot90^\circ$.
 
-**Answers / hints:** 1. $5/13,12/13$. 2. 3. 3. 0.
----
+#### Complex
+3. If $\tan A=5/12$ for acute $A$, find $\sin A+\cos A$.
 
+#### Answers / hints
+1. $\cot90^\circ=\mathbf{0}$.
+2. Substitute the standard values: $2(1/2)+2$.
+   The value is **3**.
+3. Use a right triangle with opposite side 5, adjacent side 12, and hypotenuse 13.
+   Then $\sin A+\cos A=5/13+12/13=\mathbf{17/13}$.
 <!-- PAGE BREAK -->
 ## Chapter 9: Some Applications of Trigonometry
 
@@ -1109,13 +1194,24 @@ Translate the wording into a right triangle. Elevation/depression is relative to
 - [ ] I can account for eye height and units.
 
 ### I. Practice questions
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+
+#### Simple
 1. A 12 m pole casts a shadow when the sun's elevation is $45^\circ$. Find the shadow length.
-2. A ladder 10 m long makes $60^\circ$ with the ground. Find the height reached.
-3. From 30 m away, a building's top is seen at $30^\circ$ elevation. Find its height above eye level.
 
-**Answers / hints:** 1. 12 m. 2. $5\sqrt3$ m. 3. $10\sqrt3$ m.
----
+#### Medium
+2. A 10 m ladder makes an angle of $60^\circ$ with level ground. How high up a vertical wall does it reach?
 
+#### Complex
+3. From a point 30 m from a building, its top is seen at an elevation of $30^\circ$. Find the height above the observer's eye level.
+
+#### Answers / hints
+1. Let the shadow length be $x$. Then $\tan45^\circ=12/x$.
+   Hence $x=\mathbf{12\text{ m}}$.
+2. The ladder is the hypotenuse; height $=10\sin60^\circ$.
+   The height is $\mathbf{5\sqrt3\text{ m}}$.
+3. Let the height above eye level be $h$. Then $\tan30^\circ=h/30$.
+   Thus $h=30/\sqrt3=\mathbf{10\sqrt3\text{ m}}$.
 <!-- PAGE BREAK -->
 ## Chapter 10: Circles
 
@@ -1225,13 +1321,24 @@ Radius to contact point is perpendicular to tangent. Tangents from the same exte
 - [ ] I can identify the external point correctly.
 
 ### I. Practice questions
-1. Radius 8 cm; centre-to-external-point distance 17 cm. Find tangent length.
-2. Two tangent lengths from $P$ are $2x+9$ and $5x$. Find $x$ and their common length.
-3. What angle does a radius make with the tangent at contact?
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. 15 cm. 2. $x=3$, length 15. 3. $90^\circ$.
----
+#### Simple
+1. What angle does a radius make with the tangent at the point of contact?
 
+#### Medium
+2. A circle has radius 8 cm, and an external point is 17 cm from its centre. Find the tangent length.
+
+#### Complex
+3. Two tangents from the same external point have lengths $2x+9$ and $5x$. Find $x$ and the tangent length.
+
+#### Answers / hints
+1. The radius is perpendicular to the tangent at the point of contact.
+   The angle is **$90^\circ$**.
+2. The radius and tangent form a right triangle with hypotenuse 17.
+   Tangent length $=\sqrt{17^2-8^2}=\mathbf{15\text{ cm}}$.
+3. Tangents from a common external point are equal: $2x+9=5x$.
+   Thus $x=3$ and each tangent is **15 units**.
 <!-- PAGE BREAK -->
 ## Chapter 11: Areas Related to Circles
 
@@ -1336,13 +1443,24 @@ Circle area is $\pi r^2$; circumference is $2\pi r$. Sector and arc are the corr
 - [ ] I can split composite shapes into familiar parts.
 
 ### I. Practice questions
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
+
+#### Simple
 1. Find the circumference of a circle of radius 10 cm.
+
+#### Medium
 2. Find the area of a $120^\circ$ sector of radius 6 cm.
-3. Find the arc length for a $60^\circ$ angle in a circle of radius 12 cm.
 
-**Answers / hints:** 1. $20\pi$ cm. 2. $12\pi$ cm$^2$. 3. $4\pi$ cm.
----
+#### Complex
+3. A circular garden has radius 12 m. Find the length of a $60^\circ$ arc and the area of its sector.
 
+#### Answers / hints
+1. Use $C=2\pi r$.
+   The circumference is $\mathbf{20\pi\text{ cm}}$.
+2. Sector area $=\frac{120}{360}\pi(6)^2$.
+   The area is $\mathbf{12\pi\text{ cm}^2}$.
+3. Arc length $=\frac{60}{360}(2\pi\cdot12)$.
+   The arc is $4\pi$ m; sector area $=\frac{60}{360}\pi(12)^2=\mathbf{24\pi\text{ m}^2}$.
 <!-- PAGE BREAK -->
 ## Chapter 12: Surface Areas and Volumes
 
@@ -1454,13 +1572,24 @@ Use correct CSA/TSA/volume formula. Joined surfaces are not exposed. Check dimen
 - [ ] I can convert units before substituting.
 
 ### I. Practice questions
-1. Find the volume of a sphere of radius 3 cm.
-2. Find the total surface area of a hemisphere of radius 7 cm.
-3. A cuboid measures $4\times3\times2$ cm. Find its volume.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $36\pi$ cm$^3$. 2. $462$ cm$^2$ using $\pi=22/7$. 3. 24 cm$^3$.
----
+#### Simple
+1. A cuboid measures $4\times3\times2$ cm. Find its volume.
 
+#### Medium
+2. Find the volume of a sphere of radius 3 cm.
+
+#### Complex
+3. Find the total surface area of a hemisphere of radius 7 cm, using $\pi=22/7$.
+
+#### Answers / hints
+1. Volume $=lbh=4\cdot3\cdot2$.
+   The volume is $\mathbf{24\text{ cm}^3}$.
+2. Use $V=\frac43\pi r^3$.
+   The volume is $\mathbf{36\pi\text{ cm}^3}$.
+3. Total surface area of a hemisphere is $3\pi r^2$.
+   $3\cdot\frac{22}{7}\cdot49=\mathbf{462\text{ cm}^2}$.
 <!-- PAGE BREAK -->
 ## Chapter 13: Statistics
 
@@ -1570,13 +1699,24 @@ Mean is frequency-weighted average. Median locates the middle via cumulative fre
 - [ ] I can substitute grouped median/mode values correctly.
 
 ### I. Practice questions
-1. Find the mean for $x_i=5,10,15$ and $f_i=1,2,1$.
-2. Frequencies are 2, 6, 2 in consecutive classes 0–10, 10–20, 20–30. Identify the median class.
-3. For modal-class frequency 12, preceding 7, following 5, class width 10 and lower boundary 20, find mode.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. 10. 2. 10–20. 3. 25.
----
+#### Simple
+1. Frequencies for values $5,10,15$ are $1,2,1$, respectively. Find the mean.
 
+#### Medium
+2. Frequencies are $2,6,2$ in consecutive classes $0$–$10$, $10$–$20$, and $20$–$30$. Identify the median class.
+
+#### Complex
+3. For a grouped distribution, the modal-class frequency is 12, the preceding frequency is 7, the following frequency is 5, the class width is 10, and the lower boundary is 20. Find the mode.
+
+#### Answers / hints
+1. Use $\bar{x}=\frac{\sum f_ix_i}{\sum f_i}$.
+   The mean is $(5+20+15)/4=\mathbf{10}$.
+2. The total frequency is 10, so the median position is the 5th observation.
+   The cumulative frequency first reaches 5 in $10$–$20$; this is the median class.
+3. Use $\text{Mode}=l+\frac{f_1-f_0}{2f_1-f_0-f_2}h$.
+   $20+\frac{12-7}{24-7-5}(10)=\mathbf{24\frac16}$.
 <!-- PAGE BREAK -->
 ## Chapter 14: Probability
 
@@ -1678,13 +1818,24 @@ For finite equally likely outcomes, probability is favourable over total. Comple
 - [ ] I can verify the probability lies in $[0,1]$.
 
 ### I. Practice questions
-1. Roll a fair die. Find the probability of a number greater than 4.
-2. Draw one card from a standard 52-card deck. Find the probability it is a heart.
-3. A bag has 3 red and 5 blue balls. Find the probability of not drawing red.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $1/3$. 2. $1/4$. 3. $5/8$.
----
+#### Simple
+1. Draw one card from a standard 52-card deck. Find the probability that it is a heart.
 
+#### Medium
+2. Roll a fair die once. Find the probability of getting a number greater than 4.
+
+#### Complex
+3. A bag contains 3 red and 5 blue balls. One ball is drawn at random. Find the probability that it is not red, and verify it using the complementary event.
+
+#### Answers / hints
+1. There are 13 hearts among 52 cards.
+   The probability is $13/52=\mathbf{1/4}$.
+2. Outcomes greater than 4 are 5 and 6.
+   The probability is $2/6=\mathbf{1/3}$.
+3. The complement of “not red” is “red”; $P(\text{red})=3/8$.
+   Therefore $P(\text{not red})=1-3/8=\mathbf{5/8}$.
 ## Final formula revision sheet
 
 | Topic | Formula |

@@ -104,8 +104,21 @@ Constant consecutive difference defines an AP. Use $a+(n-1)d$ for one term and t
 - [ ] I can distinguish a single term from a cumulative quantity.
 
 ### I. Practice questions
-1. Find the 25th term of $7,3,-1,\ldots$.
-2. Find the sum of the first 10 terms of $4,7,10,\ldots$.
-3. Which term of $2,6,10,\ldots$ is 50?
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $-89$. 2. 175. 3. 13th.
+#### Simple
+1. Find the 25th term of $7,3,-1,\ldots$.
+
+#### Medium
+2. Which term of $2,6,10,\ldots$ is 50?
+
+#### Complex
+3. Find the sum of the first 10 terms of $4,7,10,\ldots$.
+
+#### Answers / hints
+1. Here $a=7$ and $d=-4$; use $a_n=a+(n-1)d$.
+   $a_{25}=7+24(-4)=\mathbf{-89}$.
+2. Solve $2+(n-1)4=50$.
+   This gives $n=13$, so 50 is the **13th term**.
+3. Here $a=4$, $d=3$, and $n=10$.
+   $S_{10}=\frac{10}{2}[2(4)+9(3)]=\mathbf{175}$.

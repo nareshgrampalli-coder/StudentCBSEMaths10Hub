@@ -112,8 +112,21 @@ Zeros satisfy $p(r)=0$. For a quadratic, sum $=-b/a$, product $=c/a$. The monic 
 - [ ] I can construct a quadratic from its zeros.
 
 ### I. Practice questions
-1. Find and verify the zeros of $2x^2-7x+3$.
-2. Form a monic quadratic with zeros 3 and 7.
-3. A graph meets the x-axis at 2 only, touching it. What is its zero and what may its multiplicity be?
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $3,\frac12$; sum $7/2$, product $3/2$. 2. $x^2-10x+21$. 3. Zero 2; it may be a repeated zero.
+#### Simple
+1. Form a monic quadratic polynomial with zeros 3 and 7.
+
+#### Medium
+2. Find and verify the zeros of $2x^2-7x+3$.
+
+#### Complex
+3. A quadratic graph touches the x-axis at $x=2$ and has $y$-intercept 8. Find the polynomial if its leading coefficient is 2.
+
+#### Answers / hints
+1. Use $(x-3)(x-7)$.
+   The polynomial is $x^2-10x+21$.
+2. Factor: $(2x-1)(x-3)=0$.
+   Zeros are $1/2$ and $3$; their sum is $7/2$ and product is $3/2$.
+3. A touch at $x=2$ means a repeated zero, so write $p(x)=2(x-2)^2$.
+   Its y-intercept is 8, as required; $p(x)=2x^2-8x+8$.

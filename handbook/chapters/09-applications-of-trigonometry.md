@@ -114,8 +114,21 @@ Translate the wording into a right triangle. Elevation/depression is relative to
 - [ ] I can account for eye height and units.
 
 ### I. Practice questions
-1. A 12 m pole casts a shadow when the sun's elevation is $45^\circ$. Find the shadow length.
-2. A ladder 10 m long makes $60^\circ$ with the ground. Find the height reached.
-3. From 30 m away, a building's top is seen at $30^\circ$ elevation. Find its height above eye level.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. 12 m. 2. $5\sqrt3$ m. 3. $10\sqrt3$ m.
+#### Simple
+1. A 12 m pole casts a shadow when the sun's elevation is $45^\circ$. Find the shadow length.
+
+#### Medium
+2. A 10 m ladder makes an angle of $60^\circ$ with level ground. How high up a vertical wall does it reach?
+
+#### Complex
+3. From a point 30 m from a building, its top is seen at an elevation of $30^\circ$. Find the height above the observer's eye level.
+
+#### Answers / hints
+1. Let the shadow length be $x$. Then $\tan45^\circ=12/x$.
+   Hence $x=\mathbf{12\text{ m}}$.
+2. The ladder is the hypotenuse; height $=10\sin60^\circ$.
+   The height is $\mathbf{5\sqrt3\text{ m}}$.
+3. Let the height above eye level be $h$. Then $\tan30^\circ=h/30$.
+   Thus $h=30/\sqrt3=\mathbf{10\sqrt3\text{ m}}$.

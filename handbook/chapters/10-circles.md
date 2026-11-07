@@ -117,8 +117,21 @@ Radius to contact point is perpendicular to tangent. Tangents from the same exte
 - [ ] I can identify the external point correctly.
 
 ### I. Practice questions
-1. Radius 8 cm; centre-to-external-point distance 17 cm. Find tangent length.
-2. Two tangent lengths from $P$ are $2x+9$ and $5x$. Find $x$ and their common length.
-3. What angle does a radius make with the tangent at contact?
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. 15 cm. 2. $x=3$, length 15. 3. $90^\circ$.
+#### Simple
+1. What angle does a radius make with the tangent at the point of contact?
+
+#### Medium
+2. A circle has radius 8 cm, and an external point is 17 cm from its centre. Find the tangent length.
+
+#### Complex
+3. Two tangents from the same external point have lengths $2x+9$ and $5x$. Find $x$ and the tangent length.
+
+#### Answers / hints
+1. The radius is perpendicular to the tangent at the point of contact.
+   The angle is **$90^\circ$**.
+2. The radius and tangent form a right triangle with hypotenuse 17.
+   Tangent length $=\sqrt{17^2-8^2}=\mathbf{15\text{ cm}}$.
+3. Tangents from a common external point are equal: $2x+9=5x$.
+   Thus $x=3$ and each tangent is **15 units**.

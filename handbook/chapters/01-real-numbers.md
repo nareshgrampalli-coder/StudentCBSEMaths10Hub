@@ -114,9 +114,21 @@ Use unique prime factorisation; HCF takes common primes with minimum powers, LCM
 - [ ] I can write an irrationality proof clearly.
 
 ### I. Practice questions
-1. Find the HCF and LCM of 84 and 126.
-2. Three lights flash every 12, 15, and 20 seconds. When do they next flash together?
-3. Prove that $\sqrt2$ is irrational.
-4. Explain why $3+2\sqrt5$ is irrational.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. 42 and 252. 2. 60 seconds. 3. Assume $\sqrt2=a/b$ reduced; $a^2=2b^2$ forces both even. 4. If the expression were rational, subtract 3 and divide by 2 to make $\sqrt5$ rational.
+#### Simple
+1. Find the HCF and LCM of 84 and 126.
+
+#### Medium
+2. Three lights flash every 12, 15, and 20 seconds. If they flash together now, when will they next flash together?
+
+#### Complex
+3. Prove that $3+2\sqrt5$ is irrational.
+
+#### Answers / hints
+1. $84=2^2\cdot3\cdot7$ and $126=2\cdot3^2\cdot7$.
+   HCF $=42$; LCM $=252$.
+2. Find $\operatorname{LCM}(12,15,20)$.
+   The lights next flash together after **60 seconds**.
+3. Assume $3+2\sqrt5$ is rational.
+   Then $\sqrt5=((3+2\sqrt5)-3)/2$ would be rational, a contradiction.

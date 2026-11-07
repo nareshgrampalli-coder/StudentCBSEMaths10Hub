@@ -124,8 +124,20 @@ SOH-CAH-TOA defines the three primary ratios. Their reciprocals are cosec, sec, 
 - [ ] I can apply the fundamental identity.
 
 ### I. Practice questions
-1. If $\tan A=5/12$ for acute $A$, find $\sin A$ and $\cos A$.
-2. Evaluate $2\sin30^\circ+\sec60^\circ$.
-3. State $\cot90^\circ$.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $5/13,12/13$. 2. 3. 3. 0.
+#### Simple
+1. State the value of $\cot90^\circ$.
+
+#### Medium
+2. Evaluate $2\sin30^\circ+\sec60^\circ$.
+
+#### Complex
+3. If $\tan A=5/12$ for acute $A$, find $\sin A+\cos A$.
+
+#### Answers / hints
+1. $\cot90^\circ=\mathbf{0}$.
+2. Substitute the standard values: $2(1/2)+2$.
+   The value is **3**.
+3. Use a right triangle with opposite side 5, adjacent side 12, and hypotenuse 13.
+   Then $\sin A+\cos A=5/13+12/13=\mathbf{17/13}$.

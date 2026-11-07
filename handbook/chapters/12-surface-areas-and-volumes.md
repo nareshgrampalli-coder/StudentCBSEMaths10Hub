@@ -119,8 +119,21 @@ Use correct CSA/TSA/volume formula. Joined surfaces are not exposed. Check dimen
 - [ ] I can convert units before substituting.
 
 ### I. Practice questions
-1. Find the volume of a sphere of radius 3 cm.
-2. Find the total surface area of a hemisphere of radius 7 cm.
-3. A cuboid measures $4\times3\times2$ cm. Find its volume.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $36\pi$ cm$^3$. 2. $462$ cm$^2$ using $\pi=22/7$. 3. 24 cm$^3$.
+#### Simple
+1. A cuboid measures $4\times3\times2$ cm. Find its volume.
+
+#### Medium
+2. Find the volume of a sphere of radius 3 cm.
+
+#### Complex
+3. Find the total surface area of a hemisphere of radius 7 cm, using $\pi=22/7$.
+
+#### Answers / hints
+1. Volume $=lbh=4\cdot3\cdot2$.
+   The volume is $\mathbf{24\text{ cm}^3}$.
+2. Use $V=\frac43\pi r^3$.
+   The volume is $\mathbf{36\pi\text{ cm}^3}$.
+3. Total surface area of a hemisphere is $3\pi r^2$.
+   $3\cdot\frac{22}{7}\cdot49=\mathbf{462\text{ cm}^2}$.

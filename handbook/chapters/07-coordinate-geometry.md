@@ -104,8 +104,21 @@ Distance is the Pythagorean length. Internal section coordinates are weighted av
 - [ ] I can find and interpret a midpoint.
 
 ### I. Practice questions
-1. Find the distance between $(0,-1)$ and $(6,7)$.
-2. Find the midpoint of $(3,4)$ and $(9,-2)$.
-3. Find the point dividing $(0,0)$ and $(8,4)$ in ratio $3:1$.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. 10. 2. $(6,1)$. 3. $(6,3)$.
+#### Simple
+1. Find the midpoint of $(3,4)$ and $(9,-2)$.
+
+#### Medium
+2. Find the distance between $(0,-1)$ and $(6,7)$.
+
+#### Complex
+3. Find the point dividing the segment joining $(0,0)$ and $(8,4)$ internally in the ratio $3:1$.
+
+#### Answers / hints
+1. Average the x-coordinates and the y-coordinates separately.
+   The midpoint is $\mathbf{(6,1)}$.
+2. Use the distance formula: $\sqrt{(6-0)^2+(7+1)^2}$.
+   The distance is $\sqrt{100}=\mathbf{10}$.
+3. Apply the section formula with $m:n=3:1$.
+   The point is $\left(\frac{3(8)+1(0)}4,\frac{3(4)+1(0)}4\right)=\mathbf{(6,3)}$.

@@ -116,8 +116,21 @@ Standard form requires $a\ne0$. Discriminant $D=b^2-4ac$ classifies real roots. 
 - [ ] I can check contextual answers.
 
 ### I. Practice questions
-1. Solve $x^2-9x+20=0$.
-2. Solve $3x^2-2x-1=0$.
-3. For what $p$ does $x^2+px+9=0$ have equal roots?
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. 4, 5. 2. 1, $-1/3$. 3. $p=\pm6$.
+#### Simple
+1. Solve $x^2-9x+20=0$ by factorisation.
+
+#### Medium
+2. Solve $3x^2-2x-1=0$.
+
+#### Complex
+3. Find all values of $p$ for which $x^2+px+9=0$ has equal roots.
+
+#### Answers / hints
+1. Factor as $(x-4)(x-5)=0$.
+   Therefore, $x=4$ or $x=5$.
+2. Factor as $(3x+1)(x-1)=0$.
+   Therefore, $x=1$ or $x=-1/3$.
+3. Equal roots require discriminant $b^2-4ac=0$.
+   Thus $p^2-36=0$, so $p=6$ or $p=-6$.

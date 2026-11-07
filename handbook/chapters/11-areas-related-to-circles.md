@@ -112,8 +112,21 @@ Circle area is $\pi r^2$; circumference is $2\pi r$. Sector and arc are the corr
 - [ ] I can split composite shapes into familiar parts.
 
 ### I. Practice questions
-1. Find the circumference of a circle of radius 10 cm.
-2. Find the area of a $120^\circ$ sector of radius 6 cm.
-3. Find the arc length for a $60^\circ$ angle in a circle of radius 12 cm.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $20\pi$ cm. 2. $12\pi$ cm$^2$. 3. $4\pi$ cm.
+#### Simple
+1. Find the circumference of a circle of radius 10 cm.
+
+#### Medium
+2. Find the area of a $120^\circ$ sector of radius 6 cm.
+
+#### Complex
+3. A circular garden has radius 12 m. Find the length of a $60^\circ$ arc and the area of its sector.
+
+#### Answers / hints
+1. Use $C=2\pi r$.
+   The circumference is $\mathbf{20\pi\text{ cm}}$.
+2. Sector area $=\frac{120}{360}\pi(6)^2$.
+   The area is $\mathbf{12\pi\text{ cm}^2}$.
+3. Arc length $=\frac{60}{360}(2\pi\cdot12)$.
+   The arc is $4\pi$ m; sector area $=\frac{60}{360}\pi(12)^2=\mathbf{24\pi\text{ m}^2}$.

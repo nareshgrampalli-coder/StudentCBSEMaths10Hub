@@ -123,8 +123,21 @@ Intersecting lines give one solution; coincident lines infinitely many; distinct
 - [ ] I can translate a simple situation into two equations.
 
 ### I. Practice questions
-1. Solve $3x+2y=12$, $x-y=1$.
-2. Classify $x+2y=3$ and $2x+4y=8$.
-3. The sum of two numbers is 31 and their difference is 7. Find them.
+These are original questions based on recurring CBSE board-exam patterns; they are not reproduced from past papers.
 
-**Answers / hints:** 1. $x=2,y=3$. 2. No solution. 3. 19 and 12.
+#### Simple
+1. Classify the pair $x+2y=3$ and $2x+4y=8$ as consistent or inconsistent.
+
+#### Medium
+2. Solve $3x+2y=12$ and $x-y=1$.
+
+#### Complex
+3. The sum of two numbers is 31 and their difference is 7. Form a pair of equations and find the numbers.
+
+#### Answers / hints
+1. The coefficient ratios are $1/2=2/4$, while the constant ratio is $3/8$.
+   The pair is inconsistent; it has no solution.
+2. From $x-y=1$, get $x=y+1$.
+   Substitute to obtain $y=9/5$, $x=14/5$.
+3. Let the numbers be $x,y$: $x+y=31$, $x-y=7$.
+   Adding gives $2x=38$, so the numbers are **19 and 12**.
