@@ -14,20 +14,22 @@ The handbook is an original study resource. The official CBSE curriculum and not
 
 ## Contributing and validation
 
-The individual chapter pages in [`handbook/chapters/`](./handbook/chapters/) are the source for chapter content. After editing a chapter or the formula revision sheet, update the consolidated copy and run the checks:
+The individual chapter pages in [`handbook/chapters/`](./handbook/chapters/) and the pages in [`handbook/sections/`](./handbook/sections/) are canonical. The consolidated handbook (`CBSE_Class_10_Mathematics_Standard_2027_Handbook.md`) is generated from those pages; do not edit its copied sections directly. After editing canonical content, update the consolidated copy and run the checks:
 
 ```sh
 node scripts/sync-handbook.mjs
 node scripts/check-handbook.mjs
 ```
 
+After building the site, check its rendered output with `node scripts/check-rendered-site.mjs` (expected output: `Rendered site checks passed...`).
+
 The check verifies navigation order, page metadata, chapter and formula synchronization, assessment caveats, accessible graph descriptions, unit-summary essentials, and one-to-one practice question/answer identifiers. GitHub Actions runs it for pull requests and builds the published Jekyll site after changes reach `main`.
 
-To preview the site locally, install Ruby, then install the required gems and run Jekyll:
+To preview the site locally, install Ruby, install Jekyll and the relative-links plugin, then run Jekyll:
 
 ```sh
 gem install jekyll jekyll-relative-links
 jekyll serve
 ```
 
-Open the local URL printed by Jekyll. The deployed site is built with GitHub Pages' Jekyll builder.
+Open the local URL printed by Jekyll. GitHub Pages builds the deployed site with its Pages Jekyll builder; the commands above are a convenient preview, not a pinned reproduction of that hosted toolchain. The repository currently does not pin Ruby or gem versions, so local output can differ from CI.

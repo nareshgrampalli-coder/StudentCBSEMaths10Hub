@@ -42,8 +42,26 @@ for (let index = 0; index < navigationUrls.length; index += 1) {
   const expectedNext = navigationUrls[index + 1] ?? "";
   const previous = frontMatterValue(source, "previous_url").replace(/^["']|["']$/g, "");
   const next = frontMatterValue(source, "next_url").replace(/^["']|["']$/g, "");
+  const navigationItems = [...navigationSource.matchAll(/^- title:\s+(.+)\n\s+url:\s+([^\n]+)$/gm)];
+  const expectedTitle = navigationItems[index]?.[1].replace(/^(["'])(.*)\1$/, "$2").trim();
+  const title = frontMatterValue(source, "title").replace(/^(["'])(.*)\1$/, "$2").trim();
+  const previousTitle = frontMatterValue(source, "previous_title").replace(/^(["'])(.*)\1$/, "$2").trim();
+  const nextTitle = frontMatterValue(source, "next_title").replace(/^(["'])(.*)\1$/, "$2").trim();
+  assert(expectedTitle === title, `${file} title should match its navigation title (${expectedTitle}).`);
   assert(previous === expectedPrevious, `${file} previous_url should be ${expectedPrevious || "(unset)"}.`);
   assert(next === expectedNext, `${file} next_url should be ${expectedNext || "(unset)"}.`);
+  if (index > 0) {
+    const expectedPreviousTitle = navigationItems[index - 1]?.[1].replace(/^(["'])(.*)\1$/, "$2").trim();
+    assert(previousTitle === expectedPreviousTitle, `${file} previous_title should match the preceding navigation title.`);
+  } else {
+    assert(!previousTitle, `${file} must not define a previous_title for the first page.`);
+  }
+  if (index + 1 < navigationUrls.length) {
+    const expectedNextTitle = navigationItems[index + 1]?.[1].replace(/^(["'])(.*)\1$/, "$2").trim();
+    assert(nextTitle === expectedNextTitle, `${file} next_title should match the following navigation title.`);
+  } else {
+    assert(!nextTitle, `${file} must not define a next_title for the final page.`);
+  }
 }
 
 const chapterFiles = (await readdir(resolve(root, "handbook/chapters")))
@@ -92,6 +110,10 @@ for (const [file, altText] of [
 const formulaSheet = await text("handbook/sections/final-formula-revision-sheet.md");
 assert((formulaSheet.match(/^### \[/gm) ?? []).length === 14, "Formula revision sheet must link all 14 chapters.");
 assert(formulaSheet.includes("\\Delta=a_1b_2-a_2b_1") && formulaSheet.includes("where neither $(a_i,b_i)=(0,0)$") && formulaSheet.includes("These determinant conditions work even when one or more coefficients are zero."), "Linear-pair formula must define zero-safe conditions for genuine lines.");
+
+const blueprint = await text("handbook/sections/examination-blueprint.md");
+assert(blueprint.includes("**Source review:** 8 November 2026") && blueprint.includes("2027 board examination"), "Blueprint must show its source review date and applicable examination year.");
+assert(!/\|[^\n]*\|\s*\d+\s*\|/.test(blueprint) && !/\b\d+\s*%/.test(blueprint), "Blueprint must not publish unverified numeric assessment allocations.");
 
 for (let unit = 1; unit <= 7; unit += 1) {
   const prefix = ["i", "ii", "iii", "iv", "v", "vi", "vii"][unit - 1];

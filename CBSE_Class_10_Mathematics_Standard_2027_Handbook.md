@@ -42,33 +42,13 @@ permalink: /complete-handbook/
 
 ## Examination blueprint
 
-The requested blueprint is shown here as a planning aid. The official CBSE curriculum PDF link responds with a PDF, but its contents could not be text-extracted for verification in this environment; the linked marks-bifurcation circular returned HTTP 403. These figures are reproduced from the supplied planning blueprint and are not independently verified official allocations. Confirm current details with CBSE before relying on them.
+**Applicable examination:** CBSE Class 10 Mathematics Standard (041), 2027 board examination (academic year 2026–27).
 
-| Component | Marks | Duration |
-| --- | ---: | --- |
-| Written theory examination | 80 | 3 hours |
-| Internal assessment | 20 | — |
-| Total | 100 | — |
+**Source review:** 8 November 2026.
 
-| Unit | Unit name | Marks in supplied blueprint |
-| --- | --- | ---: |
-| I | Number Systems | 6 |
-| II | Algebra | 20 |
-| III | Coordinate Geometry | 6 |
-| IV | Geometry | 15 |
-| V | Trigonometry | 12 |
-| VI | Mensuration | 10 |
-| VII | Statistics and Probability | 11 |
-| **Total** |  | **80** |
+No numerical marks allocation or competency split is published here because the available primary CBSE documents could not be verified in this review. A linked curriculum PDF was available but could not be text-extracted, and the linked marks-bifurcation circular returned HTTP 403. Treat any allocation found elsewhere as unverified until checked against current CBSE documents.
 
-| Internal assessment component | Marks in supplied blueprint |
-| --- | ---: |
-| Pen-paper test and multiple assessment | 10 |
-| Portfolio | 5 |
-| Mathematics laboratory practicals | 5 |
-| **Total** | **20** |
-
-The supplied prompt also gives a competency split of Remembering/Understanding 43 (54%), Applying 19 (24%), and Analysing/Evaluating/Creating 18 (22%). This distribution has not been independently verified against the circular and is **not represented here as an official CBSE requirement**. Prepare for recall, applications, reasoning, interpretation, and unfamiliar problem situations. The unit table is not a prediction of chapter-wise marks.
+Use the current CBSE syllabus and sample question paper to confirm prescribed topics and assessment format. Prepare for recall, applications, reasoning, interpretation, and unfamiliar problem situations; do not infer chapter-wise marks or question counts from this handbook.
 
 ### Unit I: Number Systems
 **Chapters:** [Chapter 1: Real Numbers]({{ '/handbook/chapters/01-real-numbers/' | relative_url }})
