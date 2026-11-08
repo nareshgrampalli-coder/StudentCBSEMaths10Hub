@@ -1,4 +1,4 @@
-# StudentHub
+# StudentCBSE10Hub
 
 Collection of formulas and notes for students of various boards.
 
