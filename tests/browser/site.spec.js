@@ -51,8 +51,10 @@ test("formula revision sections use compact print layout and flow naturally", as
   await page.emulateMedia({ media: "print" });
 
   const content = page.locator(".book-content.compact-formula-print");
-  await expect(content.locator("h2:not(:first-child), h3").first()).toHaveCSS("break-before", "auto");
-  await expect(content.locator("h2:not(:first-child), h3").first()).toHaveCSS("font-size", "16px");
+  const sections = content.locator("h2:not(:first-child), h3");
+  await expect(content).not.toHaveClass(/sectioned-print/);
+  await expect(sections.nth(2)).toHaveCSS("break-before", "auto");
+  await expect(sections.first()).toHaveCSS("font-size", "16px");
   await expect(content.locator("table").first()).toHaveCSS("font-size", "12.48px");
 });
 

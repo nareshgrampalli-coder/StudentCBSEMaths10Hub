@@ -48,7 +48,7 @@
             <p class="eyebrow">{{ page.book_section | escape }}</p>
           {% endif %}
           <h1 class="page-title">{{ page.title | escape }}</h1>
-          <article class="book-content{% unless page.title == 'Complete Handbook' %} structured-headings{% endunless %}{% if page.book_section == 'Chapters' or page.title == 'Final formula revision sheet' %} sectioned-print{% endif %}{% if page.title == 'Final formula revision sheet' %} compact-formula-print{% endif %}">
+          <article class="book-content{% unless page.title == 'Complete Handbook' %} structured-headings{% endunless %}{% if page.book_section == 'Chapters' %} sectioned-print{% endif %}{% if page.title == 'Final formula revision sheet' %} compact-formula-print{% endif %}">
             {{ content }}
           </article>
 
