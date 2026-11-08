@@ -23,7 +23,7 @@ node scripts/check-handbook.mjs
 
 After building the site, check its rendered output with `node scripts/check-rendered-site.mjs` (expected output: `Rendered site checks passed...`).
 
-Run the browser, print-layout, and accessibility smoke tests with `npm ci`, `npx playwright install chromium`, and `npm run test:browser`.
+Run the browser, print-layout, and accessibility smoke tests with `npm ci`, `npx playwright install chromium`, and `npm run test:browser`. To use an already-installed Chrome or Edge instead, set `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` to its executable path before running `npm run test:browser`.
 
 The check verifies navigation order, page metadata, chapter and formula synchronization, assessment caveats, accessible graph descriptions, unit-summary essentials, and one-to-one practice question/answer identifiers. GitHub Actions runs it for pull requests and builds the published Jekyll site after changes reach `main`.
 
