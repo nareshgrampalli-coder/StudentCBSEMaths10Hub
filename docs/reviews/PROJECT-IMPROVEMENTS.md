@@ -1,4 +1,4 @@
-# StudentCBSE10Hub project improvement review
+# StudentCBSEMaths10Hub project improvement review
 
 **Review date:** 8 November 2026  
 **Reviewed revision:** `817e994`  

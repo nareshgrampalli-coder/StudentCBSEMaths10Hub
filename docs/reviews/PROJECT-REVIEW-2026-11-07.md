@@ -1,4 +1,4 @@
-# StudentCBSE10Hub project review
+# StudentCBSEMaths10Hub project review
 
 **Review date:** 7 November 2026  
 **Reviewed revision:** `fd6c022`  
@@ -6,11 +6,11 @@
 
 This document contains recommendations only. No handbook content, website behavior, or publishing configuration was changed as part of this review.
 
-**Implementation update (8 November 2026):** The unverified numerical allocations were removed from the blueprint and the consolidated copy. The handbook now states the applicable exam year and source-review date. See the [current online handbook](https://nareshgrampalli-coder.github.io/StudentCBSE10Hub/) and [contributor setup instructions](../../README.md#contributing-and-validation).
+**Implementation update (8 November 2026):** The unverified numerical allocations were removed from the blueprint and the consolidated copy. The handbook now states the applicable exam year and source-review date. See the [current online handbook](https://nareshgrampalli-coder.github.io/StudentCBSEMaths10Hub/) and [contributor setup instructions](../../README.md#contributing-and-validation).
 
 ## Summary
 
-StudentCBSE10Hub now has a substantial 14-chapter handbook, separate chapter and section pages, a consolidated edition, accessible SVG diagrams, responsive book navigation, and automated source and rendered-site checks. Stable S/M/C practice identifiers and keyed answers address several issues identified by the earlier review in [PROJECT-REVIEW.md](./PROJECT-REVIEW.md).
+StudentCBSEMaths10Hub now has a substantial 14-chapter handbook, separate chapter and section pages, a consolidated edition, accessible SVG diagrams, responsive book navigation, and automated source and rendered-site checks. Stable S/M/C practice identifiers and keyed answers address several issues identified by the earlier review in [PROJECT-REVIEW.md](./PROJECT-REVIEW.md).
 
 The strongest remaining opportunities are to verify curriculum claims against authoritative sources, broaden instructional and accessibility quality assurance, reduce maintenance friction from duplicated content, and provide a more reproducible local preview workflow.
 

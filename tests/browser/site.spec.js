@@ -9,7 +9,7 @@ test("desktop navigation and keyboard skip link work", async ({ page }) => {
   await expect(page.locator(".contents-disclosure")).toHaveJSProperty("open", true);
   await expect(page.getByRole("link", { name: /Next.*Chapter 2: Polynomials/ })).toHaveAttribute(
     "href",
-    "/StudentCBSE10Hub/handbook/chapters/02-polynomials/",
+    "/StudentCBSEMaths10Hub/handbook/chapters/02-polynomials/",
   );
 
   await page.keyboard.press("Tab");
@@ -18,7 +18,7 @@ test("desktop navigation and keyboard skip link work", async ({ page }) => {
 
 test("short mathematics URL redirects to the handbook", async ({ page }) => {
   await page.goto("maths/");
-  await expect(page).toHaveURL(/\/StudentCBSE10Hub\/$/);
+  await expect(page).toHaveURL(/\/StudentCBSEMaths10Hub\/$/);
   await expect(page.getByRole("heading", { name: "Contents" })).toBeVisible();
 });
 

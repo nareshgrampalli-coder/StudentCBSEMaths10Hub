@@ -5,7 +5,7 @@ export default defineConfig({
   fullyParallel: true,
   reporter: "list",
   use: {
-    baseURL: "http://127.0.0.1:4173/StudentCBSE10Hub/",
+    baseURL: "http://127.0.0.1:4173/StudentCBSEMaths10Hub/",
     trace: "retain-on-failure",
   },
   projects: [
@@ -21,7 +21,7 @@ export default defineConfig({
   ],
   webServer: {
     command: "node scripts/serve-rendered-site.mjs",
-    url: "http://127.0.0.1:4173/StudentCBSE10Hub/",
+    url: "http://127.0.0.1:4173/StudentCBSEMaths10Hub/",
     reuseExistingServer: !process.env.CI,
     timeout: 30_000,
   },

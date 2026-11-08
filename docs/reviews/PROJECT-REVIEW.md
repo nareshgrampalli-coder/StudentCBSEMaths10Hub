@@ -1,4 +1,4 @@
-# StudentCBSE10Hub project review and improvement suggestions
+# StudentCBSEMaths10Hub project review and improvement suggestions
 
 **Review date:** 7 November 2026  
 **Reviewed revision:** `eee2c9a`  
@@ -8,7 +8,7 @@ This is a recommendations document only. No handbook, website, or publishing cha
 
 ## Summary
 
-StudentCBSE10Hub already has a coherent book-like structure, 14 chapter pages, worked examples, practice questions, diagrams, a consolidated edition, and a substantial formula sheet. The site includes a skip link, current-page navigation, previous/next links, and responsive styles.
+StudentCBSEMaths10Hub already has a coherent book-like structure, 14 chapter pages, worked examples, practice questions, diagrams, a consolidated edition, and a substantial formula sheet. The site includes a skip link, current-page navigation, previous/next links, and responsive styles.
 
 The most important next steps are to improve the reliability of assessment information and diagrams, correct practice-question numbering in the published site, and introduce checks that prevent content and presentation regressions. The remaining suggestions improve learning depth and usability.
 

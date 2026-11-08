@@ -1,10 +1,10 @@
-# StudentCBSE10Hub
+# StudentCBSEMaths10Hub
 
 Collection of formulas and notes for students of various boards.
 
 ## CBSE Class 10 Mathematics Standard (041)
 
-**Read the handbook online:** [https://nareshgrampalli-coder.github.io/StudentCBSE10Hub/maths/](https://nareshgrampalli-coder.github.io/StudentCBSE10Hub/maths/)
+**Read the handbook online:** [https://nareshgrampalli-coder.github.io/StudentCBSEMaths10Hub/maths/](https://nareshgrampalli-coder.github.io/StudentCBSEMaths10Hub/maths/)
 
 The [2026–27 handbook for the 2027 board examination](./handbook/CBSE_Class_10_Mathematics_Standard_2027_Handbook.md) covers all 14 NCERT chapters with explanations, clearly organized formula and theorem sheets, illustrative diagrams, solved examples, practice questions, and revision checklists.
 
@@ -40,6 +40,6 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Open the local URL printed by Jekyll, usually `http://127.0.0.1:4000/StudentCBSE10Hub/`. The `Gemfile` and committed `Gemfile.lock` pin the GitHub Pages dependency set used by CI. Ruby 3.3 is required because Ruby 4 cannot resolve the current Pages dependencies. See the [Bundler documentation](https://bundler.io/) for usage and the [Jekyll installation guide](https://jekyllrb.com/docs/installation/) for platform-specific details.
+Open the local URL printed by Jekyll, usually `http://127.0.0.1:4000/StudentCBSEMaths10Hub/`. The `Gemfile` and committed `Gemfile.lock` pin the GitHub Pages dependency set used by CI. Ruby 3.3 is required because Ruby 4 cannot resolve the current Pages dependencies. See the [Bundler documentation](https://bundler.io/) for usage and the [Jekyll installation guide](https://jekyllrb.com/docs/installation/) for platform-specific details.
 
 GitHub Pages' current dependency versions are listed at [pages.github.com/versions](https://pages.github.com/versions/).
