@@ -484,6 +484,11 @@ summary:focus-visible,
 }
 
 @media print {
+  @page {
+    size: A4;
+    margin: 16mm 15mm;
+  }
+
   body {
     color: #000;
     background: #fff;
@@ -514,6 +519,41 @@ summary:focus-visible,
   .book-content table,
   .book-content pre {
     overflow: visible;
+  }
+
+  .book-content.sectioned-print > h3:not(:first-of-type) {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  .book-content h2,
+  .book-content h3,
+  .book-content h4 {
+    break-after: avoid-page;
+    page-break-after: avoid;
+  }
+
+  .book-content p,
+  .book-content li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .book-content blockquote,
+  .book-content img,
+  .book-content pre,
+  .book-content tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .book-content table {
+    display: table;
+    width: 100%;
+  }
+
+  .book-content thead {
+    display: table-header-group;
   }
 
   a {

@@ -48,7 +48,7 @@
             <p class="eyebrow">{{ page.book_section | escape }}</p>
           {% endif %}
           <h1 class="page-title">{{ page.title | escape }}</h1>
-          <article class="book-content">
+          <article class="book-content{% if page.book_section == 'Chapters' or page.title == 'Final formula revision sheet' %} sectioned-print{% endif %}">
             {{ content }}
           </article>
 

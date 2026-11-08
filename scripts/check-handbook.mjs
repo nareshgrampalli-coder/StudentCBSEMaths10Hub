@@ -170,6 +170,7 @@ assert(layout.includes("<details class=\"contents-disclosure\"") && layout.inclu
 assert(layout.includes("mathjax-status") && layout.includes("addEventListener(\"error\""), "Math rendering failure should expose a readable fallback notice.");
 assert(layout.includes("href=\"{{ site.url }}{{ site.baseurl }}/\">Website: {{ site.url }}{{ site.baseurl }}/"), "The site footer should link to the displayed canonical website URL.");
 assert(stylesheet.includes(":focus-visible") && stylesheet.includes("@media print"), "Keyboard focus and print styles are required.");
+assert(stylesheet.includes("size: A4") && stylesheet.includes(".book-content.sectioned-print > h3:not(:first-of-type)") && stylesheet.includes("break-before: page"), "A4 printing should begin major chapter and formula sections on fresh pages.");
 
 const sync = spawnSync(process.execPath, ["scripts/sync-handbook.mjs", "--check"], { cwd: root, encoding: "utf8" });
 assert(sync.status === 0, `Consolidated handbook is out of sync: ${(sync.stderr || sync.stdout).trim()}`);
