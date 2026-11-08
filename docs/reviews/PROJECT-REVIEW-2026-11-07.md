@@ -6,7 +6,7 @@
 
 This document contains recommendations only. No handbook content, website behavior, or publishing configuration was changed as part of this review.
 
-**Implementation update (8 November 2026):** The unverified numerical allocations were removed from the blueprint and the consolidated copy. The handbook now states the applicable exam year and source-review date. See the [current online handbook](https://nareshgrampalli-coder.github.io/StudentHub/) and [contributor setup instructions](./README.md#contributing-and-validation).
+**Implementation update (8 November 2026):** The unverified numerical allocations were removed from the blueprint and the consolidated copy. The handbook now states the applicable exam year and source-review date. See the [current online handbook](https://nareshgrampalli-coder.github.io/StudentHub/) and [contributor setup instructions](../../README.md#contributing-and-validation).
 
 ## Summary
 
@@ -18,7 +18,7 @@ The strongest remaining opportunities are to verify curriculum claims against au
 
 ### P0 — Establish authoritative and maintainable curriculum sourcing
 
-**Evidence:** The [examination blueprint](./handbook/sections/examination-blueprint.md) says its unit figures and competency split were supplied for planning and have not been independently verified against current CBSE documents. Chapter pages appropriately repeat that the figures are unverified and that unit marks are not chapter predictions.
+**Evidence:** The [examination blueprint](../../handbook/sections/examination-blueprint.md) says its unit figures and competency split were supplied for planning and have not been independently verified against current CBSE documents. Chapter pages appropriately repeat that the figures are unverified and that unit marks are not chapter predictions.
 
 **Why it matters:** Students may still rely on the displayed figures when planning revision. The qualification is clear, but the figures' accuracy and applicability to the 2027 examination remain uncertain.
 
@@ -33,7 +33,7 @@ The strongest remaining opportunities are to verify curriculum claims against au
 
 ### P1 — Add independent mathematics and pedagogy review
 
-**Evidence:** The [handbook check](./scripts/check-handbook.mjs) verifies structure, synchronization, practice identifiers, accessibility markers, and selected algebraic edge cases. It does not independently verify every worked solution, formula, diagram, difficulty label, or chapter's coverage of its objectives. The [practice sections](./handbook/chapters/01-real-numbers.md) are explicitly identified as original questions, but there is no documented teacher-review or answer-verification process.
+**Evidence:** The [handbook check](../../scripts/check-handbook.mjs) verifies structure, synchronization, practice identifiers, accessibility markers, and selected algebraic edge cases. It does not independently verify every worked solution, formula, diagram, difficulty label, or chapter's coverage of its objectives. The [practice sections](../../handbook/chapters/01-real-numbers.md) are explicitly identified as original questions, but there is no documented teacher-review or answer-verification process.
 
 **Why it matters:** Structural checks cannot determine whether a mathematical explanation is correct, pedagogically clear, or appropriately challenging. A wrong answer repeated in both chapter and consolidated copies could remain synchronized and still pass the current checks.
 
@@ -48,7 +48,7 @@ The strongest remaining opportunities are to verify curriculum claims against au
 
 ### P1 — Expand rendered and accessibility testing
 
-**Evidence:** The [Pages workflow](./.github/workflows/pages.yml) runs handbook checks, builds the site, and runs rendered-output checks before deployment. Those rendered checks sample three pages for semantic tables and navigation/fallback markers, and verify practice labels across all chapters. The [layout](./_layouts/book.html) uses responsive disclosure navigation, focusable tables, and a MathJax error notice; the [stylesheet](./assets/css/site.css) includes focus and print styles. No automated browser, accessibility, or visual regression tests are present in the repository.
+**Evidence:** The [Pages workflow](../../.github/workflows/pages.yml) runs handbook checks, builds the site, and runs rendered-output checks before deployment. Those rendered checks sample three pages for semantic tables and navigation/fallback markers, and verify practice labels across all chapters. The [layout](../../_layouts/book.html) uses responsive disclosure navigation, focusable tables, and a MathJax error notice; the [stylesheet](../../assets/css/site.css) includes focus and print styles. No automated browser, accessibility, or visual regression tests are present in the repository.
 
 **Why it matters:** Passing source and HTML string checks does not prove that controls work at different viewport sizes, focus remains visible, MathJax fallback is usable, or pages are readable with assistive technology and print settings.
 
@@ -63,7 +63,7 @@ The strongest remaining opportunities are to verify curriculum claims against au
 
 ### P1 — Make the local build reproducible
 
-**Evidence:** The [README](./README.md) documents installing Ruby gems with `gem install` and running `jekyll serve`, while CI uses GitHub's Jekyll Pages build action. The repository excludes `Gemfile` and `Gemfile.lock` from the generated site but does not contain a dependency manifest to pin the local Jekyll toolchain.
+**Evidence:** The [README](../../README.md) documents installing Ruby gems with `gem install` and running `jekyll serve`, while CI uses GitHub's Jekyll Pages build action. The repository excludes `Gemfile` and `Gemfile.lock` from the generated site but does not contain a dependency manifest to pin the local Jekyll toolchain.
 
 **Why it matters:** Contributors can get different local output from CI or from one another as Jekyll and plugin versions change. A successful local preview may therefore fail to reproduce the deployed Pages build.
 
@@ -78,7 +78,7 @@ The strongest remaining opportunities are to verify curriculum claims against au
 
 ### P2 — Reduce synchronization and navigation maintenance risk
 
-**Evidence:** Chapter and formula content is maintained in individual Markdown files and copied into the [consolidated handbook](./CBSE_Class_10_Mathematics_Standard_2027_Handbook.md) by [sync-handbook.mjs](./scripts/sync-handbook.mjs). Navigation order is in [_data/book.yml](./_data/book.yml), while previous/next metadata is also stored on individual pages.
+**Evidence:** Chapter and formula content is maintained in individual Markdown files and copied into the [consolidated handbook](../../handbook/CBSE_Class_10_Mathematics_Standard_2027_Handbook.md) by [sync-handbook.mjs](../../scripts/sync-handbook.mjs). Navigation order is in [_data/book.yml](../../_data/book.yml), while previous/next metadata is also stored on individual pages.
 
 **Why it matters:** Synchronization checks reduce the chance of stale copies, but duplicated authored content and navigation metadata still create extra steps and potential inconsistency when adding, reordering, or renaming pages.
 

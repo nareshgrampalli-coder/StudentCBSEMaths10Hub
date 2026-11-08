@@ -12,6 +12,7 @@ plugins:
   - jekyll-relative-links
 exclude:
   - .github
+  - docs
   - README.md
   - Gemfile
   - Gemfile.lock

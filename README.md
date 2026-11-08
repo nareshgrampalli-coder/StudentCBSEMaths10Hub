@@ -6,7 +6,7 @@ Collection of formulas and notes for students of various boards.
 
 **Read the handbook online:** [https://nareshgrampalli-coder.github.io/StudentHub/maths/](https://nareshgrampalli-coder.github.io/StudentHub/maths/)
 
-The [2026–27 handbook for the 2027 board examination](./CBSE_Class_10_Mathematics_Standard_2027_Handbook.md) covers all 14 NCERT chapters with explanations, clearly organized formula and theorem sheets, illustrative diagrams, solved examples, practice questions, and revision checklists.
+The [2026–27 handbook for the 2027 board examination](./handbook/CBSE_Class_10_Mathematics_Standard_2027_Handbook.md) covers all 14 NCERT chapters with explanations, clearly organized formula and theorem sheets, illustrative diagrams, solved examples, practice questions, and revision checklists.
 
 The online edition is organized as a book with a contents page, chapter sidebar, and previous/next navigation. Individual chapter files are in [`handbook/chapters/`](./handbook/chapters/), and the blueprint, unit summaries, and final revision sections are in [`handbook/sections/`](./handbook/sections/). The consolidated handbook remains the complete student-facing reference.
 
@@ -14,7 +14,7 @@ The handbook is an original study resource. The official CBSE curriculum and not
 
 ## Contributing and validation
 
-The individual chapter pages in [`handbook/chapters/`](./handbook/chapters/) and the pages in [`handbook/sections/`](./handbook/sections/) are canonical. The consolidated handbook (`CBSE_Class_10_Mathematics_Standard_2027_Handbook.md`) is generated from those pages; do not edit its copied sections directly. After editing canonical content, update the consolidated copy and run the checks:
+The individual chapter pages in [`handbook/chapters/`](./handbook/chapters/) and the pages in [`handbook/sections/`](./handbook/sections/) are canonical. The consolidated handbook (`handbook/CBSE_Class_10_Mathematics_Standard_2027_Handbook.md`) is generated from those pages; do not edit its copied sections directly. After editing canonical content, update the consolidated copy and run the checks:
 
 ```sh
 node scripts/sync-handbook.mjs
@@ -27,7 +27,7 @@ Run the browser, print-layout, and accessibility smoke tests with `npm ci`, `npx
 
 The check verifies navigation order, page metadata, chapter and formula synchronization, assessment caveats, accessible graph descriptions, unit-summary essentials, and one-to-one practice question/answer identifiers. GitHub Actions runs it for pull requests and builds the published Jekyll site after changes reach `main`.
 
-For mathematics and pedagogy review, follow [the educator review checklist](./EDUCATOR_REVIEW.md) and record findings in [the review log](./EDUCATOR_REVIEW_LOG.md). All chapters currently await independent educator review.
+For mathematics and pedagogy review, follow [the educator review checklist](./docs/educator-review/EDUCATOR_REVIEW.md) and record findings in [the review log](./docs/educator-review/EDUCATOR_REVIEW_LOG.md). All chapters currently await independent educator review. Project reviews and recommendations are kept in [`docs/reviews/`](./docs/reviews/).
 
 ### Windows setup
 

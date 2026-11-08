@@ -130,7 +130,7 @@ for (let unit = 1; unit <= 7; unit += 1) {
 const markdownPaths = [
   "README.md",
   "index.md",
-  "CBSE_Class_10_Mathematics_Standard_2027_Handbook.md",
+  "handbook/CBSE_Class_10_Mathematics_Standard_2027_Handbook.md",
   ...chapterFiles.map((name) => `handbook/chapters/${name}`),
   ...(await readdir(resolve(root, "handbook/sections")))
     .filter((name) => name.endsWith(".md"))
@@ -145,7 +145,7 @@ for (const file of markdownPaths) {
     } else if (route.startsWith("/assets/")) {
       assert(await readFile(resolve(root, route.slice(1))).then(() => true, () => false), `${file} links to missing asset ${route}.`);
     } else if (route === "/complete-handbook/") {
-      assert(await readFile(resolve(root, "CBSE_Class_10_Mathematics_Standard_2027_Handbook.md")).then(() => true, () => false), `${file} links to a missing consolidated handbook.`);
+      assert(await readFile(resolve(root, "handbook/CBSE_Class_10_Mathematics_Standard_2027_Handbook.md")).then(() => true, () => false), `${file} links to a missing consolidated handbook.`);
     } else {
       assert(navigationUrls.includes(route), `${file} links to an unknown page route ${route}.`);
     }

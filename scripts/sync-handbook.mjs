@@ -3,7 +3,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const handbookPath = resolve(root, "CBSE_Class_10_Mathematics_Standard_2027_Handbook.md");
+const handbookPath = resolve(root, "handbook/CBSE_Class_10_Mathematics_Standard_2027_Handbook.md");
 const checkOnly = process.argv.includes("--check");
 const handbookOriginal = await readFile(handbookPath, "utf8");
 const preserveCrLf = handbookOriginal.includes("\r\n");

@@ -16,7 +16,7 @@ The most important next steps are to improve the reliability of assessment infor
 
 ### P0 — Make exam-weightage guidance evidence-based
 
-**Evidence:** The [assessment note](CBSE_Class_10_Mathematics_Standard_2027_Handbook.md#L13) says the 2026–27 curriculum could not be text-extracted and the marks circular returned 403. The [blueprint page](handbook/sections/examination-blueprint.md) labels its figures unverified, while individual chapter overviews present numeric marks and question-count estimates, for example [Quadratic Equations](handbook/chapters/04-quadratic-equations.md#L19).
+**Evidence:** The [assessment note](../../handbook/CBSE_Class_10_Mathematics_Standard_2027_Handbook.md#L13) says the 2026–27 curriculum could not be text-extracted and the marks circular returned 403. The [blueprint page](../../handbook/sections/examination-blueprint.md) labels its figures unverified, while individual chapter overviews present numeric marks and question-count estimates, for example [Quadratic Equations](../../handbook/chapters/04-quadratic-equations.md#L19).
 
 **Why it matters:** Students may treat the repeated chapter ranges as reliable predictions despite the disclaimers. The repository does not document a past-paper sample or methodology supporting those ranges. The question-count figures also combine questions and subparts, which are different units of measurement.
 
@@ -31,7 +31,7 @@ The most important next steps are to improve the reliability of assessment infor
 
 ### P0 — Correct and verify instructional graphs
 
-**Evidence:** The [polynomials diagram](handbook/chapters/02-polynomials.md#L26) and [quadratics diagram](handbook/chapters/04-quadratic-equations.md#L25) depict the parabola above the x-axis without visibly meeting the marked intercepts. The quadratics caption calls its U-shaped curve “downward-opening.”
+**Evidence:** The [polynomials diagram](../../handbook/chapters/02-polynomials.md#L26) and [quadratics diagram](../../handbook/chapters/04-quadratic-equations.md#L25) depict the parabola above the x-axis without visibly meeting the marked intercepts. The quadratics caption calls its U-shaped curve “downward-opening.”
 
 **Why it matters:** The visual and explanation contradict the concept of zeros as intersections; the opening direction is also mislabeled. Students learning from the picture can acquire an incorrect model.
 
@@ -41,7 +41,7 @@ The most important next steps are to improve the reliability of assessment infor
 
 ### P1 — Fix practice numbering and answer presentation
 
-**Evidence:** [Chapter 4](handbook/chapters/04-quadratic-equations.md#L119) starts separate ordered lists with `1.`, `2.`, and `3.` under the three difficulty headings. On the published Chapter 4 page inspected during this review, all three rendered lists start at 1, while the combined answer list runs from 1 to 3. Within an answer, source line breaks are rendered as ordinary paragraph spaces rather than distinct working lines.
+**Evidence:** [Chapter 4](../../handbook/chapters/04-quadratic-equations.md#L119) starts separate ordered lists with `1.`, `2.`, and `3.` under the three difficulty headings. On the published Chapter 4 page inspected during this review, all three rendered lists start at 1, while the combined answer list runs from 1 to 3. Within an answer, source line breaks are rendered as ordinary paragraph spaces rather than distinct working lines.
 
 **Why it matters:** A student sees “1” in each category and cannot reliably match the medium and complex questions to answers 2 and 3. The working is also less readable than the source suggests.
 
@@ -51,7 +51,7 @@ The most important next steps are to improve the reliability of assessment infor
 
 ### P1 — Expand and calibrate practice
 
-**Evidence:** Each of the 14 chapters currently has one question per difficulty category, for 42 practice questions in total; see [Statistics](handbook/chapters/13-statistics.md#L119). Some “complex” examples are single-formula substitutions, such as the hemisphere question in [Surface Areas and Volumes](handbook/chapters/12-surface-areas-and-volumes.md#L130). Questions are explicitly labeled original rather than actual past-paper extracts.
+**Evidence:** Each of the 14 chapters currently has one question per difficulty category, for 42 practice questions in total; see [Statistics](../../handbook/chapters/13-statistics.md#L119). Some “complex” examples are single-formula substitutions, such as the hemisphere question in [Surface Areas and Volumes](../../handbook/chapters/12-surface-areas-and-volumes.md#L130). Questions are explicitly labeled original rather than actual past-paper extracts.
 
 **Why it matters:** One question per level offers little opportunity to practice a chapter's different concepts, and difficulty labels are not consistently tied to reasoning or number of steps. Board-style claims and actual past-paper provenance need to remain distinct.
 
@@ -61,7 +61,7 @@ The most important next steps are to improve the reliability of assessment infor
 
 ### P1 — Add mathematical and content quality checks
 
-**Evidence:** The project contains worked examples, answer keys, formula tables, and duplicate content in the [consolidated handbook](CBSE_Class_10_Mathematics_Standard_2027_Handbook.md) and [chapter pages](handbook/chapters/). No test files were found in the repository. The formula sheet's [linear-equation table](handbook/sections/final-formula-revision-sheet.md#L33) relies on ratios and advises cross-multiplication when denominators are zero without spelling out the full coefficient conditions.
+**Evidence:** The project contains worked examples, answer keys, formula tables, and duplicate content in the [consolidated handbook](../../handbook/CBSE_Class_10_Mathematics_Standard_2027_Handbook.md) and [chapter pages](../../handbook/chapters/). No test files were found in the repository. The formula sheet's [linear-equation table](../../handbook/sections/final-formula-revision-sheet.md#L33) relies on ratios and advises cross-multiplication when denominators are zero without spelling out the full coefficient conditions.
 
 **Why it matters:** A small answer-key, formula-condition, or copied-content error can be repeated across the site. Zero coefficients, undefined ratios, units, and geometry assumptions deserve explicit review.
 
@@ -71,7 +71,7 @@ The most important next steps are to improve the reliability of assessment infor
 
 ### P1 — Introduce pre-deployment checks and a local preview workflow
 
-**Evidence:** The [Pages workflow](.github/workflows/pages.yml#L1) builds and deploys on pushes to `main` or manual dispatch; it does not define a pull-request validation job. The [README](README.md) explains how to read the site but not how to build or test it locally.
+**Evidence:** The [Pages workflow](../../.github/workflows/pages.yml#L1) builds and deploys on pushes to `main` or manual dispatch; it does not define a pull-request validation job. The [README](../../README.md) explains how to read the site but not how to build or test it locally.
 
 **Why it matters:** The site can build successfully while still publishing broken navigation, raw Markdown, wrong numbering, or unsynchronized copies. Contributors also lack a documented way to reproduce the Pages build before publishing.
 
@@ -101,7 +101,7 @@ The most important next steps are to improve the reliability of assessment infor
 
 ### P2 — Make revision and unit pages more useful
 
-**Evidence:** Unit overview pages such as [Coordinate Geometry](handbook/sections/unit-iii-coordinate-geometry.md) contain little beyond the unit title. The expanded [formula sheet](handbook/sections/final-formula-revision-sheet.md) is detailed but does not link individual formulas back to examples or include a compact study route.
+**Evidence:** Unit overview pages such as [Coordinate Geometry](../../handbook/sections/unit-iii-coordinate-geometry.md) contain little beyond the unit title. The expanded [formula sheet](../../handbook/sections/final-formula-revision-sheet.md) is detailed but does not link individual formulas back to examples or include a compact study route.
 
 **Why it matters:** Students need help deciding what to revise next and how to move from a formula to an application, not only a list of topics.
 

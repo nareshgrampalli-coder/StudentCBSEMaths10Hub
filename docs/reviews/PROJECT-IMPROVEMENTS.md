@@ -14,7 +14,7 @@ The project has a clear canonical-content workflow, deterministic handbook synch
 
 ### P1 — Complete independent mathematics and pedagogy review
 
-**Evidence:** The [educator review log](EDUCATOR_REVIEW_LOG.md) marks all 14 chapters “Not reviewed.” The [review checklist](EDUCATOR_REVIEW.md) requires independent checking of definitions, formulas, worked examples, diagrams, practice answers, and objective coverage.
+**Evidence:** The [educator review log](../educator-review/EDUCATOR_REVIEW_LOG.md) marks all 14 chapters “Not reviewed.” The [review checklist](../educator-review/EDUCATOR_REVIEW.md) requires independent checking of definitions, formulas, worked examples, diagrams, practice answers, and objective coverage.
 
 **Recommendation:** Arrange qualified independent review in manageable chapter batches. Record findings against stable question IDs or headings, resolve them, and update the log only after each chapter has been reviewed.
 
@@ -44,7 +44,7 @@ The project has a clear canonical-content workflow, deterministic handbook synch
 
 ### P2 — Provide one documented validation entry point
 
-**Evidence:** The [README](README.md) lists separate commands for handbook checks, rendered checks, browser tests, and setup. The [package manifest](package.json) exposes only `test:browser`, while [CI](.github/workflows/pages.yml) invokes the other checks directly.
+**Evidence:** The [README](../../README.md) lists separate commands for handbook checks, rendered checks, browser tests, and setup. The [package manifest](../../package.json) exposes only `test:browser`, while [CI](../../.github/workflows/pages.yml) invokes the other checks directly.
 
 **Recommendation:** Consider adding a single documented local validation command that runs the source, rendered-output, and browser checks in the same order as CI, while retaining individual commands for focused work.
 
@@ -54,7 +54,7 @@ The project has a clear canonical-content workflow, deterministic handbook synch
 
 ### P2 — Reduce repeated browser setup in pull-request CI
 
-**Evidence:** The [Pages workflow](.github/workflows/pages.yml) installs npm dependencies and Chromium in the build job, which runs for both pull requests and pushes. The separate `validate` job checks handbook source but does not share the build job’s generated output or dependencies.
+**Evidence:** The [Pages workflow](../../.github/workflows/pages.yml) installs npm dependencies and Chromium in the build job, which runs for both pull requests and pushes. The separate `validate` job checks handbook source but does not share the build job’s generated output or dependencies.
 
 **Recommendation:** Measure workflow duration and consider caching dependencies/browser binaries or separating source-only validation from browser tests where the workflow can preserve equivalent pull-request coverage.
 
@@ -64,7 +64,7 @@ The project has a clear canonical-content workflow, deterministic handbook synch
 
 ## Existing strengths to preserve
 
-- Canonical chapter and section sources are distinguished from the generated consolidated handbook in the [README](README.md), and synchronization is checked.
+- Canonical chapter and section sources are distinguished from the generated consolidated handbook in the [README](../../README.md), and synchronization is checked.
 - Source checks validate navigation metadata, practice identifiers, selected mathematical edge cases, and required content.
 - Rendered checks inspect generated HTML rather than relying solely on Markdown-source patterns.
 - The browser suite covers the `/maths/` redirect, mobile contents disclosure, keyboard skip navigation, MathJax failure messaging, print styles, and an accessibility scan.
