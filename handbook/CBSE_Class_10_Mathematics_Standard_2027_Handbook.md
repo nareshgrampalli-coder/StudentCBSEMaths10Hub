@@ -12,7 +12,7 @@ permalink: /complete-handbook/
 
 > **Source and assessment note (checked 8 November 2026):** The linked CBSE curriculum PDF could not be text-extracted for verification, and the linked marks-bifurcation circular returned HTTP 403. Numerical assessment allocations and competency splits are therefore withheld until they can be verified against current primary CBSE documents. Do not infer chapter-wise marks or question counts from this handbook.
 
-**Read the online edition:** [https://nareshgrampalli-coder.github.io/StudentHub/](https://nareshgrampalli-coder.github.io/StudentHub/)
+**Read the online edition:** [https://nareshgrampalli-coder.github.io/StudentCBSE10Hub/](https://nareshgrampalli-coder.github.io/StudentCBSE10Hub/)
 
 ## Table of contents
 

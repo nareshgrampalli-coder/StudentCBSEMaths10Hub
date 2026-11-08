@@ -6,7 +6,7 @@
 
 This document contains recommendations only. No handbook content, website behavior, or publishing configuration was changed as part of this review.
 
-**Implementation update (8 November 2026):** The unverified numerical allocations were removed from the blueprint and the consolidated copy. The handbook now states the applicable exam year and source-review date. See the [current online handbook](https://nareshgrampalli-coder.github.io/StudentHub/) and [contributor setup instructions](../../README.md#contributing-and-validation).
+**Implementation update (8 November 2026):** The unverified numerical allocations were removed from the blueprint and the consolidated copy. The handbook now states the applicable exam year and source-review date. See the [current online handbook](https://nareshgrampalli-coder.github.io/StudentCBSE10Hub/) and [contributor setup instructions](../../README.md#contributing-and-validation).
 
 ## Summary
 

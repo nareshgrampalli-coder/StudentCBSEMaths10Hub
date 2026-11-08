@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { extname, resolve, sep } from "node:path";
 
 const root = resolve("_site");
-const basePath = "/StudentHub";
+const basePath = "/StudentCBSE10Hub";
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
   ".html": "text/html; charset=utf-8",
