@@ -16,6 +16,12 @@ test("desktop navigation and keyboard skip link work", async ({ page }) => {
   await expect(page.locator(".skip-link")).toBeFocused();
 });
 
+test("short mathematics URL redirects to the handbook", async ({ page }) => {
+  await page.goto("maths/");
+  await expect(page).toHaveURL(/\/StudentHub\/$/);
+  await expect(page.getByRole("heading", { name: "Contents" })).toBeVisible();
+});
+
 test("mobile contents disclosure and table overflow are usable", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("handbook/sections/final-formula-revision-sheet/");

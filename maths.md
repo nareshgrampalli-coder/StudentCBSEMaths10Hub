@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /maths/
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+    <link rel="canonical" href="{{ '/' | absolute_url }}">
+    <title>CBSE Class 10 Mathematics Standard</title>
+  </head>
+  <body>
+    <p>Redirecting to the <a href="{{ '/' | relative_url }}">StudentHub mathematics handbook</a>.</p>
+  </body>
+</html>

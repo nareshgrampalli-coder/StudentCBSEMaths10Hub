@@ -4,7 +4,7 @@ Collection of formulas and notes for students of various boards.
 
 ## CBSE Class 10 Mathematics Standard (041)
 
-**Read the handbook online:** [https://nareshgrampalli-coder.github.io/StudentHub/](https://nareshgrampalli-coder.github.io/StudentHub/)
+**Read the handbook online:** [https://nareshgrampalli-coder.github.io/StudentHub/maths/](https://nareshgrampalli-coder.github.io/StudentHub/maths/)
 
 The [2026–27 handbook for the 2027 board examination](./CBSE_Class_10_Mathematics_Standard_2027_Handbook.md) covers all 14 NCERT chapters with explanations, clearly organized formula and theorem sheets, illustrative diagrams, solved examples, practice questions, and revision checklists.
 
