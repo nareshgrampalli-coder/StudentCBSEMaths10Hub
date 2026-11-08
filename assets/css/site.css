@@ -521,7 +521,7 @@ summary:focus-visible,
     overflow: visible;
   }
 
-  .book-content.sectioned-print > h3:not(:first-of-type) {
+  .book-content.sectioned-print > h2:nth-of-type(n + 3) {
     break-before: page;
     page-break-before: always;
   }

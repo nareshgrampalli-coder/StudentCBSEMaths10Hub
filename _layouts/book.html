@@ -48,7 +48,7 @@
             <p class="eyebrow">{{ page.book_section | escape }}</p>
           {% endif %}
           <h1 class="page-title">{{ page.title | escape }}</h1>
-          <article class="book-content{% if page.book_section == 'Chapters' or page.title == 'Final formula revision sheet' %} sectioned-print{% endif %}">
+          <article class="book-content{% unless page.title == 'Complete Handbook' %} structured-headings{% endunless %}{% if page.book_section == 'Chapters' or page.title == 'Final formula revision sheet' %} sectioned-print{% endif %}">
             {{ content }}
           </article>
 
@@ -78,6 +78,7 @@
         </div>
       </main>
     </div>
+    <script id="mathjax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>
       window.MathJax = {
         tex: {
@@ -101,6 +102,25 @@
         table.setAttribute("tabindex", "0");
         table.setAttribute("aria-label", `Scrollable data table ${index + 1}`);
       });
+      document.querySelectorAll(".book-content pre").forEach((block, index) => {
+        block.setAttribute("tabindex", "0");
+        block.setAttribute("aria-label", `Scrollable worked example ${index + 1}`);
+      });
+      document.querySelectorAll(".task-list-item input[type=checkbox]").forEach((checkbox) => {
+        checkbox.setAttribute("aria-label", checkbox.parentElement.textContent.trim());
+      });
+      document.querySelectorAll(".book-content.structured-headings > h3").forEach((heading) => {
+        const sectionHeading = document.createElement("h2");
+        for (const attribute of heading.attributes) sectionHeading.setAttribute(attribute.name, attribute.value);
+        while (heading.firstChild) sectionHeading.append(heading.firstChild);
+        heading.replaceWith(sectionHeading);
+      });
+      document.querySelectorAll(".book-content.structured-headings h4").forEach((heading) => {
+        const subsectionHeading = document.createElement("h3");
+        for (const attribute of heading.attributes) subsectionHeading.setAttribute(attribute.name, attribute.value);
+        while (heading.firstChild) subsectionHeading.append(heading.firstChild);
+        heading.replaceWith(subsectionHeading);
+      });
       document.querySelector("#mathjax-script").addEventListener("error", () => {
         document.querySelector("#mathjax-status").hidden = false;
       });
@@ -108,6 +128,5 @@
     <noscript>
       <p class="mathjax-status">Mathematical expressions use readable TeX source notation when JavaScript is unavailable.</p>
     </noscript>
-    <script id="mathjax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </body>
 </html>

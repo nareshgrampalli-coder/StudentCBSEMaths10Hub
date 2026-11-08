@@ -23,19 +23,23 @@ node scripts/check-handbook.mjs
 
 After building the site, check its rendered output with `node scripts/check-rendered-site.mjs` (expected output: `Rendered site checks passed...`).
 
+Run the browser, print-layout, and accessibility smoke tests with `npm ci`, `npx playwright install chromium`, and `npm run test:browser`.
+
 The check verifies navigation order, page metadata, chapter and formula synchronization, assessment caveats, accessible graph descriptions, unit-summary essentials, and one-to-one practice question/answer identifiers. GitHub Actions runs it for pull requests and builds the published Jekyll site after changes reach `main`.
+
+For mathematics and pedagogy review, follow [the educator review checklist](./EDUCATOR_REVIEW.md) and record findings in [the review log](./EDUCATOR_REVIEW_LOG.md). All chapters currently await independent educator review.
 
 ### Windows setup
 
-1. Install the stable **Ruby+Devkit x64** release from [RubyInstaller for Windows](https://rubyinstaller.org/downloads/). Keep the option to add Ruby to `PATH` enabled and run the recommended MSYS2 toolchain setup when prompted.
-2. Open a new PowerShell window and verify `ruby --version` and `gem --version`. Bundler is normally included; if `bundle --version` fails, install it with `gem install bundler` and verify again.
-3. Install Jekyll and the plugin used by this site, then start the preview:
+1. Install **Ruby+Devkit 3.3.13 x64** from [RubyInstaller for Windows](https://rubyinstaller.org/downloads/). The GitHub Pages dependency bundle used here does not yet support Ruby 4. Keep the option to add Ruby to `PATH` enabled and run the recommended MSYS2 toolchain setup when prompted.
+2. Open a new PowerShell window and verify `ruby --version` reports Ruby 3.3.x. Bundler is normally included; if `bundle --version` fails, install it with `gem install bundler` and verify again.
+3. Install the pinned GitHub Pages dependency set and start the preview:
 
 ```powershell
-gem install jekyll jekyll-relative-links
-jekyll serve
+bundle install
+bundle exec jekyll serve
 ```
 
-Open the local URL printed by Jekyll, usually `http://127.0.0.1:4000/StudentHub/`. Bundler is not required by the current preview commands because this repository does not yet include a `Gemfile`. See the [Bundler documentation](https://bundler.io/) for usage and the [Jekyll installation guide](https://jekyllrb.com/docs/installation/) for platform-specific details.
+Open the local URL printed by Jekyll, usually `http://127.0.0.1:4000/StudentHub/`. The `Gemfile` and committed `Gemfile.lock` pin the GitHub Pages dependency set used by CI. Ruby 3.3 is required because Ruby 4 cannot resolve the current Pages dependencies. See the [Bundler documentation](https://bundler.io/) for usage and the [Jekyll installation guide](https://jekyllrb.com/docs/installation/) for platform-specific details.
 
-GitHub Pages builds the deployed site with its Pages Jekyll builder. These commands provide a convenient preview, not a pinned reproduction of that hosted toolchain; the repository currently does not pin Ruby or gem versions, so local output can differ from CI.
+GitHub Pages' current dependency versions are listed at [pages.github.com/versions](https://pages.github.com/versions/).
