@@ -46,6 +46,16 @@ test("major print sections start on fresh A4 pages", async ({ page }) => {
   await expect(sections.nth(1)).toHaveCSS("break-before", "auto");
 });
 
+test("formula revision sections use compact print layout and flow naturally", async ({ page }) => {
+  await page.goto("handbook/sections/final-formula-revision-sheet/");
+  await page.emulateMedia({ media: "print" });
+
+  const content = page.locator(".book-content.compact-formula-print");
+  await expect(content.locator("h2:not(:first-child), h3").first()).toHaveCSS("break-before", "auto");
+  await expect(content.locator("h2:not(:first-child), h3").first()).toHaveCSS("font-size", "16px");
+  await expect(content.locator("table").first()).toHaveCSS("font-size", "12.48px");
+});
+
 test("chapter page has no serious or critical accessibility violations", async ({ page }) => {
   await page.goto("handbook/chapters/01-real-numbers/");
   const results = await new AxeBuilder({ page }).analyze();

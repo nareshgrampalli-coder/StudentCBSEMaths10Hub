@@ -526,6 +526,31 @@ summary:focus-visible,
     page-break-before: always;
   }
 
+  .book-content.compact-formula-print {
+    font-size: .82rem;
+    line-height: 1.35;
+  }
+
+  .book-content.compact-formula-print h2:not(:first-child),
+  .book-content.compact-formula-print h3 {
+    margin-top: .75rem;
+    font-size: 1rem;
+  }
+
+  .book-content.compact-formula-print p {
+    margin-top: .35rem;
+    margin-bottom: .45rem;
+  }
+
+  .book-content.compact-formula-print table {
+    font-size: .78rem;
+  }
+
+  .book-content.compact-formula-print th,
+  .book-content.compact-formula-print td {
+    padding: .2rem .35rem;
+  }
+
   .book-content h2,
   .book-content h3,
   .book-content h4 {
