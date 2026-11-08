@@ -10,7 +10,9 @@ permalink: /complete-handbook/
 **Audience:** Class 10 students and teachers  
 **Scope:** CBSE/NCERT Mathematics Standard; not Maharashtra State Board
 
-> **Source and assessment note (checked 7 November 2026):** The official CBSE curriculum PDF link below responds with a PDF, but its contents could not be text-extracted for verification in this environment. The linked CBSE marks-bifurcation circular dated 6 November 2026 returned HTTP 403. Therefore, the 80-mark theory/20-mark internal structure, unit figures, and assessment-component figures below are reproduced from the supplied planning blueprint, not independently verified official allocations. Confirm them against current CBSE documents before relying on them. CBSE unit weightage must not be interpreted as guaranteed chapter-wise marks or question counts.
+> **Source and assessment note (checked 8 November 2026):** The linked CBSE curriculum PDF could not be text-extracted for verification, and the linked marks-bifurcation circular returned HTTP 403. Numerical assessment allocations and competency splits are therefore withheld until they can be verified against current primary CBSE documents. Do not infer chapter-wise marks or question counts from this handbook.
+
+**Read the online edition:** [https://nareshgrampalli-coder.github.io/StudentHub/](https://nareshgrampalli-coder.github.io/StudentHub/)
 
 ## Table of contents
 
@@ -165,7 +167,7 @@ Prime factorisation reveals the structure of whole numbers. Use it to compare di
 
 **Objectives:** apply the Fundamental Theorem of Arithmetic; find HCF/LCM; construct a contradiction proof of irrationality.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 - A prime has exactly two positive factors, 1 and itself. Every composite integer greater than 1 is a product of primes.
@@ -313,7 +315,7 @@ Polynomial zeros are the inputs where its value is zero. For a quadratic, they a
 
 **Objectives:** identify zeros from graphs or algebra; use and verify the zero-coefficient relationships; construct a quadratic from given zeros.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 - A zero of $p(x)$ is a value $r$ for which $p(r)=0$. Graphically it is an x-coordinate where the curve meets or touches the x-axis.
@@ -455,7 +457,7 @@ A pair of linear equations represents two lines. Their intersection, coincidence
 
 **Objectives:** classify pairs; solve graphically, by substitution, and by elimination; model simple situations.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 For $a_1x+b_1y+c_1=0$ and $a_2x+b_2y+c_2=0$:
@@ -612,7 +614,7 @@ A quadratic equation has degree two. Factorisation or the quadratic formula find
 
 **Objectives:** solve by prescribed methods; interpret the discriminant; model simple area or number situations.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 Standard form is $ax^2+bx+c=0$, $a\ne0$. Roots are values satisfying the equation. For discriminant $D=b^2-4ac$: $D>0$ gives two distinct real roots; $D=0$ gives equal real roots; $D<0$ gives no real roots.
@@ -758,7 +760,7 @@ An arithmetic progression (AP) adds the same common difference at each step. Its
 
 **Objectives:** identify an AP; find terms, number of terms, and sums; model repeated increases or decreases.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 An AP has terms $a,a+d,a+2d,\ldots$, where $a$ is first term and $d$ common difference. Subtract consecutive terms to test whether the difference is constant.
@@ -898,7 +900,7 @@ Similar triangles have the same shape: corresponding angles are equal and corres
 
 **Objectives:** apply similarity criteria; prove and use BPT and its converse; compare areas of similar triangles.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 - AA similarity: two corresponding angles equal. SSS: corresponding sides proportional. SAS: included angle equal and surrounding sides proportional.
@@ -1050,7 +1052,7 @@ Coordinate formulas turn geometric questions into calculations with ordered pair
 
 **Objectives:** calculate distances; find an internally dividing point; use the midpoint as a special case.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 The distance formula follows from Pythagoras: horizontal change is $x_2-x_1$, vertical change is $y_2-y_1$. Section formula uses a weighted average, with the nearer endpoint receiving the larger weight.
@@ -1190,7 +1192,7 @@ Trigonometric ratios compare sides of a right triangle relative to an acute angl
 
 **Objectives:** define six ratios; recall standard values; use reciprocal relationships and the fundamental identity.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 Relative to angle $A$, opposite, adjacent, and hypotenuse identify sides. $\sin A=O/H$, $\cos A=A/H$, $\tan A=O/A$; cosec, sec, and cot are reciprocals. Ratios depend on the angle, not the triangle's size.
@@ -1348,7 +1350,7 @@ Angles of elevation and depression connect a line of sight to a right-triangle m
 
 **Objectives:** draw a labelled diagram; choose a ratio; solve situations involving at most two right triangles.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 - The line of sight joins the observer's eye to the object.
@@ -1498,7 +1500,7 @@ Tangents touch a circle at one point. Their relation to radii gives useful perpe
 
 **Objectives:** state and prove the radius-tangent theorem; prove equal tangents from an external point; solve length problems.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 - A tangent meets a circle at exactly one point; that point is the point of contact.
@@ -1651,7 +1653,7 @@ Circle measures extend to sectors, arcs, segments, and composite shapes. A secto
 
 **Objectives:** calculate circumference, area, arc length, sector area, segment area, and composite perimeter.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 A sector is bounded by two radii and an arc. A segment is bounded by a chord and its corresponding arc. Segment area is sector area minus the triangle formed by the radii and chord.
@@ -1799,7 +1801,7 @@ Solid geometry measures exposed surfaces and capacity. For combined solids, coun
 
 **Objectives:** recall formulas; convert units; handle combinations of two prescribed solids and practical contexts.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 - Curved/lateral surface area excludes circular or polygonal ends; total surface area includes exposed faces.
@@ -1954,7 +1956,7 @@ Grouped data summarises many observations in intervals. Mean, median, and mode d
 
 **Objectives:** find class marks; calculate mean by three methods; identify median/modal classes; calculate grouped median and mode; interpret results.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 - Class mark $x_i=(\text{lower limit}+\text{upper limit})/2$.
@@ -2105,7 +2107,7 @@ Classical probability compares favourable equally likely outcomes with all possi
 
 **Objectives:** define experiments, outcomes, and events; calculate simple probabilities; use complements; check bounds.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 - A random experiment has an uncertain outcome from a known set of possibilities.

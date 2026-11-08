@@ -16,7 +16,7 @@ Classical probability compares favourable equally likely outcomes with all possi
 
 **Objectives:** define experiments, outcomes, and events; calculate simple probabilities; use complements; check bounds.
 
-**Assessment note:** CBSE publishes unit-level assessment information, not guaranteed chapter marks or question counts. The supplied unit figures are unverified planning information; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}) and confirm current details with CBSE.
+**Assessment note:** No assessment allocations are published here because current CBSE figures could not be verified. CBSE unit information does not guarantee chapter marks or question counts; see the [examination blueprint]({{ '/handbook/sections/examination-blueprint/' | relative_url }}).
 
 ### B. Important concepts and explanations
 - A random experiment has an uncertain outcome from a known set of possibilities.

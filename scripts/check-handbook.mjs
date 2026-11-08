@@ -77,6 +77,7 @@ for (const file of chapterFiles) {
   assert(practice.includes("original questions written for this handbook") && practice.includes("not copied from past papers"), `${file} must state practice-question provenance.`);
   assert(practice.includes("**Difficulty guide:**"), `${file} must define its simple/medium/complex rubric.`);
   assert(source.includes("**Assessment note:**") && !source.includes("Exam planning estimate"), `${file} must avoid unsupported chapter mark estimates.`);
+  assert(!source.includes("supplied unit figures are unverified planning information"), `${file} contains outdated assessment guidance.`);
 
   const questionIds = [];
   for (const [category, prefix] of [["Simple", "S"], ["Medium", "M"], ["Complex", "C"]]) {
@@ -167,6 +168,7 @@ const layout = await text("_layouts/book.html");
 const stylesheet = await text("assets/css/site.css");
 assert(layout.includes("<details class=\"contents-disclosure\"") && layout.includes("mobileContents"), "Book contents should have responsive, keyboard-operable disclosure navigation.");
 assert(layout.includes("mathjax-status") && layout.includes("addEventListener(\"error\""), "Math rendering failure should expose a readable fallback notice.");
+assert(layout.includes("href=\"{{ site.url }}{{ site.baseurl }}/\">Website: {{ site.url }}{{ site.baseurl }}/"), "The site footer should link to the displayed canonical website URL.");
 assert(stylesheet.includes(":focus-visible") && stylesheet.includes("@media print"), "Keyboard focus and print styles are required.");
 
 const sync = spawnSync(process.execPath, ["scripts/sync-handbook.mjs", "--check"], { cwd: root, encoding: "utf8" });
